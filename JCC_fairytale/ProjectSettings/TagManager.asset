@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - stone
   layers:
   - Default
   - TransparentFX
@@ -40,4 +41,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: InteractCanvas
+    uniqueID: 111088147
+    locked: 0
+  - name: Character
+    uniqueID: 3176093735
+    locked: 0
+  - name: Ground
+    uniqueID: 239040207
     locked: 0
