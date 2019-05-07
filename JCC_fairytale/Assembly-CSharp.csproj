@@ -73,6 +73,15 @@
     <Compile Include="Assets\Script\R_Script\ScoreManager.cs" />
     <Compile Include="Assets\Script\R_Script\ScoreText.cs" />
     <Compile Include="Assets\Script\R_Script\StartGame.cs" />
+    <Compile Include="Assets\Script\W_Script\Apple_Control.cs" />
+    <Compile Include="Assets\Script\W_Script\AppleGenerator.cs" />
+    <Compile Include="Assets\Script\W_Script\AppleGenerator2.cs" />
+    <Compile Include="Assets\Script\W_Script\AppleGenerator3.cs" />
+    <Compile Include="Assets\Script\W_Script\BakSul_Control.cs" />
+    <Compile Include="Assets\Script\W_Script\GameDirector.cs" />
+    <Compile Include="Assets\Script\W_Script\WhiteGameAgain.cs" />
+    <Compile Include="Assets\Script\W_Script\WhiteGameStart.cs" />
+    <Compile Include="Assets\Script\W_Script\WhiteGameWay.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Unity/JCC_fairytale/JCC_fairytale/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
