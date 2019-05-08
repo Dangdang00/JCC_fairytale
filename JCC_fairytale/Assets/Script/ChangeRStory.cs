@@ -6,6 +6,6 @@ public class ChangeRStory : MonoBehaviour
 {
     public void ChangeGameScene()
     {
-        SceneManager.LoadScene("R_Menu");
+        SceneManager.LoadScene("R_Story");
     }
 }
