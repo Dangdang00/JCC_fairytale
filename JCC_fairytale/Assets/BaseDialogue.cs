@@ -5,16 +5,16 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 [System.Serializable]
-public class BaseDialogue
+public class Dialogue1
 {
     [TextArea]
-    public string dialogue;
-    public Sprite CG;
-    public string name;
-    public Sprite Background;
+    public string[] sentences;
+    public string[] name;
+    public Sprite[] CG;
+    public Sprite[] Background;
 }
 
-public class changebasedialogue : MonoBehaviour
+public class BaseDialogue : MonoBehaviour
 {
     [SerializeField] private SpriteRenderer sprite_StandingCG;
     [SerializeField] private SpriteRenderer sprite_DialogueBox;
@@ -25,7 +25,7 @@ public class changebasedialogue : MonoBehaviour
     private bool isDialogue = false; //대화가 진행중인지
     private int count = 0; //얼마나 진행했는ㄷ지
 
-    [SerializeField] private BaseDialogue[] Basedialogue;
+    [SerializeField] private Dialogue1 dialogue;
 
     public void ShowDialogue()
     {
@@ -34,12 +34,13 @@ public class changebasedialogue : MonoBehaviour
         isDialogue = true;
     }
 
-    private void NextDialogue()
+    public void NextDialogue()
     {
-        txt_Dialogue.text = Basedialogue[count].dialogue;
-        txt_name.text = Basedialogue[count].name;
-        sprite_StandingCG.sprite = Basedialogue[count].CG;
-        sprite_Background.sprite = Basedialogue[count].Background;
+            
+        txt_Dialogue.text = dialogue.sentences[count];
+        txt_name.text = dialogue.name[count];
+        sprite_StandingCG.sprite = dialogue.CG[count];
+        sprite_Background.sprite = dialogue.Background[count];
         count++;
     }
 
@@ -52,6 +53,7 @@ public class changebasedialogue : MonoBehaviour
         txt_name.gameObject.SetActive(_flag);
         isDialogue = _flag;
     }
+
     void Start()
     {
         ShowDialogue();
@@ -60,13 +62,13 @@ public class changebasedialogue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         if (isDialogue)
         {
             if (Input.GetMouseButtonDown(0))
             {
-                if (count < Basedialogue.Length)
+                if (count < dialogue.sentences.Length)
                     NextDialogue();
+
                 else
                 {
                     SceneManager.LoadScene("Library");
