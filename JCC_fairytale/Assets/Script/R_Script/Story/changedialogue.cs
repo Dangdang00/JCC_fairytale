@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 [System.Serializable]
-public class Dialogue
+public class Dialogue_
 {
     [TextArea]
     public string dialogue;
@@ -27,7 +27,7 @@ public class changedialogue : MonoBehaviour
     private bool isDialogue = false; //대화가 진행중인지
     private int count = 0; //얼마나 진행했는ㄷ지
 
-    [SerializeField] private Dialogue[] dialogue;
+    [SerializeField] private Dialogue_[] dialogue;
 
     public void ShowDialogue()
     {

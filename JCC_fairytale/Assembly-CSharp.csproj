@@ -60,6 +60,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BaseDialogue.cs" />
+    <Compile Include="Assets\sc.cs" />
+    <Compile Include="Assets\Scenes\Base\Dialogue.cs" />
+    <Compile Include="Assets\Scenes\Base\DialogueManager.cs" />
+    <Compile Include="Assets\Scenes\Base\TestDialogue.cs" />
     <Compile Include="Assets\Script\ChangeRStory.cs" />
     <Compile Include="Assets\Script\Go_Library.cs" />
     <Compile Include="Assets\Script\R_Script\Button.cs" />
@@ -86,6 +91,21 @@
     <Compile Include="Assets\Script\W_Script\WhiteGameStart.cs" />
     <Compile Include="Assets\Script\W_Script\WhiteGameWay.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
+<<<<<<< HEAD
+      <HintPath>C:/JCC_fairytale/JCC_fairytale/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>C:/JCC_fairytale/JCC_fairytale/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>C:/JCC_fairytale/JCC_fairytale/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/JCC_fairytale/JCC_fairytale/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>C:/JCC_fairytale/JCC_fairytale/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+=======
       <HintPath>/Users/hwangdayoung/Desktop/JCC_fairytale/JCC_fairytale/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
@@ -99,6 +119,7 @@
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>/Users/hwangdayoung/Desktop/JCC_fairytale/JCC_fairytale/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+>>>>>>> bbd255052274e6a919a00907cd9e281231f34061
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -298,6 +319,9 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
     </Reference>
+    <Reference Include="Vuforia.UnityExtensions">
+      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.GoogleAudioSpatializer">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
     </Reference>
@@ -308,10 +332,20 @@
       <HintPath>/Users/hwangdayoung/Desktop/JCC_fairytale/JCC_fairytale/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
+<<<<<<< HEAD
+      <HintPath>C:/JCC_fairytale/JCC_fairytale/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>C:/JCC_fairytale/JCC_fairytale/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>C:/JCC_fairytale/JCC_fairytale/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+=======
       <HintPath>/Users/hwangdayoung/Desktop/JCC_fairytale/JCC_fairytale/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>/Users/hwangdayoung/Desktop/JCC_fairytale/JCC_fairytale/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+>>>>>>> bbd255052274e6a919a00907cd9e281231f34061
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
