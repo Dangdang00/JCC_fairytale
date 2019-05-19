@@ -3,11 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class Dialogue_
+public class Dialogue2
 {
-    [TextArea]
     public string[] sentences;
     public Sprite[] sprites;
     public Sprite[] dialogueWindows;
-    public Sprite[] background;
 }

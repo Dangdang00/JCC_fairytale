@@ -1,113 +1,116 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
-    public static DialogueManager instance;
 
-    [SerializeField] private SpriteRenderer sprite_Background;
+    public static DialogueManager instance;
 
     public Text text;
     public SpriteRenderer rendererSprite;
     public SpriteRenderer rendererDialogueWindow;
 
-    public List<string> listSentences;
-    public List<Sprite> listSprites;
-    public List<Sprite> listDialogueWindows;
+    private List<string> listSentences;
+    private List<Sprite> listSprites;
+    private List<Sprite> listDialogueWindows;
 
-    private int count; //대화 진행 상황 카운트
-    public bool talking; //말하는 중인지 아닌지?
+    private int count; // 대화 진행 상황 카운트.
 
-    private Dialogue_ dialogue;
+    private bool talking = false;
 
-    //public Animator falling;
-   // public Animator animSprite;
-    //public Animator animDialogueWindow;
-    // Start is called before the first frame update
+    #region Singleton
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            DontDestroyOnLoad(this.gameObject);
+            instance = this;
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
+    }
+    #endregion Singleton
 
+    // Use this for initialization
     void Start()
     {
         count = 0;
-        text.text = "";
+        text.text = " ";
         listSentences = new List<string>();
         listSprites = new List<Sprite>();
         listDialogueWindows = new List<Sprite>();
-        sprite_Background.gameObject.SetActive(true);
     }
 
-    public void ShowDialogue(Dialogue_ dialogue)
+    public void ShowDialogue(Dialogue2 dialogue)
     {
         talking = true;
-        sprite_Background.sprite = dialogue.background[count];
-
         for (int i = 0; i < dialogue.sentences.Length; i++)
         {
             listSentences.Add(dialogue.sentences[i]);
             listSprites.Add(dialogue.sprites[i]);
             listDialogueWindows.Add(dialogue.dialogueWindows[i]);
         }
-
-        StartCoroutine(StartDialogueCoroutine());
+        StartCoroutine(Start_DialogueCoroutine());
     }
 
     public void ExitDialogue()
     {
+        text.text = " ";
         count = 0;
-        text.text = "";
         listSentences.Clear();
         listSprites.Clear();
         listDialogueWindows.Clear();
-        sprite_Background.gameObject.SetActive(false);
         talking = false;
-        //falling.SetBool("Appear", true);
     }
 
-    private void NextDialogue(Dialogue_ dialogue)
-    {
-        sprite_Background.sprite = dialogue.background[count];
-      
-    }
 
-    IEnumerator StartDialogueCoroutine()
+    IEnumerator Start_DialogueCoroutine()
     {
         if (count > 0)
         {
+            if (listDialogueWindows[count] != listDialogueWindows[count - 1])
+            {
+                //yield return new WaitForSeconds(0.2f);
+                rendererDialogueWindow.GetComponent<SpriteRenderer>().sprite = listDialogueWindows[count];
+                rendererSprite.GetComponent<SpriteRenderer>().sprite = listSprites[count];
+            }
+            else
+            {
                 if (listSprites[count] != listSprites[count - 1])
                 {
-                    //animSprite.SetBool("Change", true);
-                    yield return new WaitForSeconds(0.1f);
+                    //yield return new WaitForSeconds(0.1f);
                     rendererSprite.GetComponent<SpriteRenderer>().sprite = listSprites[count];
-                    //animSprite.SetBool("Change", false);
                 }
             }
+        }
         else
         {
+            yield return new WaitForSeconds(0.05f);
             rendererDialogueWindow.GetComponent<SpriteRenderer>().sprite = listDialogueWindows[count];
             rendererSprite.GetComponent<SpriteRenderer>().sprite = listSprites[count];
         }
-        
+
         for (int i = 0; i < listSentences[count].Length; i++)
         {
-            text.text += listSentences[count][i]; // 한글자씩 나온다
-            yield return new WaitForSeconds(0.04f);
+            text.text += listSentences[count][i]; // 1글자씩 출력.
+            yield return new WaitForSeconds(0.01f);
         }
 
     }
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (talking)
         {
-            if (talking)
+            if (Input.GetMouseButtonDown(0))
             {
-                //if (count < listSentences.Count) 
-                  //NextDialogue(dialogue);
-
                 count++;
-                text.text = " ";
+                text.text =" ";
 
                 if (count == listSentences.Count)
                 {
@@ -118,7 +121,7 @@ public class DialogueManager : MonoBehaviour
                 else
                 {
                     StopAllCoroutines();
-                    StartCoroutine(StartDialogueCoroutine());
+                    StartCoroutine(Start_DialogueCoroutine());
                 }
             }
         }
