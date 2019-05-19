@@ -75,6 +75,7 @@
     <Compile Include="Assets\Script\R_Script\Story\changedialogue.cs" />
     <Compile Include="Assets\Script\R_Script\Story\changeRedHood.cs" />
     <Compile Include="Assets\Script\R_Script\Story\changeWhite.cs" />
+    <Compile Include="Assets\Script\textBlink.cs" />
     <Compile Include="Assets\Script\W_Script\Apple_Control.cs" />
     <Compile Include="Assets\Script\W_Script\AppleGenerator.cs" />
     <Compile Include="Assets\Script\W_Script\AppleGenerator2.cs" />
