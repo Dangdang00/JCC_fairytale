@@ -1,30 +1,17 @@
 ﻿<Properties StartupConfiguration="{16CC3DD8-BF8C-F6BF-0DC1-CD0981AC0A70}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Go_Library.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/R_Script/Jump.cs">
     <Files>
-      <File FileName="Assets/Script/R_Script/Story/changedialogue.cs" Line="23" Column="1" />
-      <File FileName="Assets/Script/Go_Library.cs" Line="1" Column="1" />
-      <File FileName="Assets/Script/R_Script/Exit.cs" Line="17" Column="1" />
+      <File FileName="Assets/Script/R_Script/ScoreText.cs" Line="22" Column="47" />
+      <File FileName="Assets/Script/R_Script/Story/changedialogue.cs" Line="23" Column="1" NotebookId="1" />
+      <File FileName="Assets/Script/Go_Library.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Assets/Script/R_Script/Character.cs" Line="31" Column="10" NotebookId="1" />
+      <File FileName="Assets/Script/R_Script/Jump.cs" Line="1" Column="2" NotebookId="1" />
+      <File FileName="Assets/Script/R_Script/GameManager.cs" Line="33" Column="6" NotebookId="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="JCC_fairytale" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Script" expanded="True">
-                <Node name="R_Script" expanded="True">
-                  <Node name="Story" expanded="True" />
-                </Node>
-                <Node name="Go_Library.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6e51e267-5c33-40bd-a2e7-0d5a99d199ec" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
