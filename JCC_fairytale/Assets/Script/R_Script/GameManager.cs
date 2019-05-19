@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
 public class GameManager : MonoBehaviour
 {
-    public int score = 0;
-
     public GameObject winPanelObj, losePanelObj;
 
     void Start()

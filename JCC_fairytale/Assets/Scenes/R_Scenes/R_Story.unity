@@ -185,8 +185,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 105702223}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.27, y: -1.29, z: 10}
-  m_LocalScale: {x: 1.267343, y: 1.1096201, z: 1}
+  m_LocalPosition: {x: 5.86, y: -1.392, z: 10}
+  m_LocalScale: {x: 1.1558168, y: 1.1351414, z: 1}
   m_Children: []
   m_Father: {fileID: 1201084574}
   m_RootOrder: 1
@@ -360,7 +360,7 @@ GameObject:
   - component: {fileID: 883837332}
   - component: {fileID: 883837333}
   m_Layer: 0
-  m_Name: grandmother
+  m_Name: Hunter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -374,8 +374,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 883837331}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.37, y: -1.83, z: 10}
-  m_LocalScale: {x: 1.8458966, y: 1.6445876, z: 1}
+  m_LocalPosition: {x: -5.6, y: -1.09, z: 10}
+  m_LocalScale: {x: 1.1094208, y: 1.0980008, z: 1}
   m_Children: []
   m_Father: {fileID: 1201084574}
   m_RootOrder: 2
@@ -416,8 +416,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0e1713957929e6d48aa2f55d67212d8b, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 6ccdfae2986e5499b8ef2dd82ac3e46a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -634,23 +634,23 @@ MonoBehaviour:
   dialogue:
   - dialogue: "\uC598\uC57C!"
     CG_R: {fileID: 21300000, guid: 0e7071fef5e167c459257086bbb372fd, type: 3}
-    CG_L: {fileID: 0}
+    CG_L: {fileID: 21300000, guid: 6ccdfae2986e5499b8ef2dd82ac3e46a, type: 3}
     name: "\uC0AC\uB0E5\uAFBC"
     Background: {fileID: 21300000, guid: a11647a0519d49f4ab3643de172f68b1, type: 3}
   - dialogue: "\uB124\uAC00 \uBE68\uAC04\uBAA8\uC790\uB2C8??"
     CG_R: {fileID: 21300000, guid: 1d3d6bec5bcdb804e81fe48a3315aa9d, type: 3}
-    CG_L: {fileID: 0}
+    CG_L: {fileID: 21300000, guid: 6ccdfae2986e5499b8ef2dd82ac3e46a, type: 3}
     name: "\uC0AC\uB0E5\uAFBC"
     Background: {fileID: 21300000, guid: a11647a0519d49f4ab3643de172f68b1, type: 3}
   - dialogue: "\uB124? \uC804\uB370\uC694... \uB204\uAD6C\uC138\uC694?"
     CG_R: {fileID: 21300000, guid: 21a8070b7d8ca1747bfc44b472900d07, type: 3}
-    CG_L: {fileID: 0}
+    CG_L: {fileID: 21300000, guid: 6ccdfae2986e5499b8ef2dd82ac3e46a, type: 3}
     name: "\uBE68\uAC04\uBAA8\uC790"
     Background: {fileID: 21300000, guid: a11647a0519d49f4ab3643de172f68b1, type: 3}
   - dialogue: "\uC9C0\uAE08 \uB124 \uD560\uBA38\uB2C8\uAC00 \uB291\uB300\uC5D0\uAC8C
       \uBA39\uD614\uB2E8\uB2E4!!"
-    CG_R: {fileID: 21300000, guid: 1d3d6bec5bcdb804e81fe48a3315aa9d, type: 3}
-    CG_L: {fileID: 0}
+    CG_R: {fileID: 21300000, guid: 21a8070b7d8ca1747bfc44b472900d07, type: 3}
+    CG_L: {fileID: 21300000, guid: 6ccdfae2986e5499b8ef2dd82ac3e46a, type: 3}
     name: "\uC0AC\uB0E5\uAFBC"
     Background: {fileID: 21300000, guid: a11647a0519d49f4ab3643de172f68b1, type: 3}
   - dialogue: "\uC5B4\uBA38\uB098 \uC138\uC0C1\uC5D0 \uC5B4\uB5A1\uD574!!"
@@ -661,17 +661,17 @@ MonoBehaviour:
   - dialogue: "\uB0B4\uAC00 \uB3C4\uC640\uC904\uD14C\uB2C8 \uAC71\uC815\uB9D0\uACE0,
       \uC77C\uB2E8 \uB3CC\uBA69\uC774 500\uAC1C\uB9CC \uC8FC\uC6CC\uC624\uB834."
     CG_R: {fileID: 21300000, guid: 1d3d6bec5bcdb804e81fe48a3315aa9d, type: 3}
-    CG_L: {fileID: 0}
+    CG_L: {fileID: 21300000, guid: 6ccdfae2986e5499b8ef2dd82ac3e46a, type: 3}
     name: "\uBE68\uAC04\uBAA8\uC790"
     Background: {fileID: 21300000, guid: a11647a0519d49f4ab3643de172f68b1, type: 3}
   - dialogue: "\uB124? 500\uAC1C\uC694? \uC81C\uAC00 \uC798\uBABB\uB4E4\uC740...."
     CG_R: {fileID: 21300000, guid: 1d3d6bec5bcdb804e81fe48a3315aa9d, type: 3}
-    CG_L: {fileID: 0}
+    CG_L: {fileID: 21300000, guid: 6ccdfae2986e5499b8ef2dd82ac3e46a, type: 3}
     name: "\uBE68\uAC04\uBAA8\uC790"
     Background: {fileID: 21300000, guid: a11647a0519d49f4ab3643de172f68b1, type: 3}
   - dialogue: "\uC5BC\uB978!!"
     CG_R: {fileID: 21300000, guid: eeb2ad33b052e9b41ba6e43dabce5dc8, type: 3}
-    CG_L: {fileID: 0}
+    CG_L: {fileID: 21300000, guid: 6ccdfae2986e5499b8ef2dd82ac3e46a, type: 3}
     name: "\uC0AC\uB0E5\uAFBC"
     Background: {fileID: 21300000, guid: a11647a0519d49f4ab3643de172f68b1, type: 3}
 --- !u!114 &1371846486

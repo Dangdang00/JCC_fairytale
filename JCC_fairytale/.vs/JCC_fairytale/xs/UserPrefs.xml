@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{16CC3DD8-BF8C-F6BF-0DC1-CD0981AC0A70}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/textBlink.cs">
+    <Files>
+      <File FileName="Assets/Script/R_Script/ScoreText.cs" Line="21" Column="10" />
+      <File FileName="Assets/Script/textBlink.cs" Line="24" Column="48" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
