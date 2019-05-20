@@ -11,17 +11,17 @@ public class DialogueManager : MonoBehaviour
 
     public Text text;
     public SpriteRenderer rendererSprite;
-    public SpriteRenderer rendererDialogueWindow;
+    public SpriteRenderer rendererBackground;
 
     private List<string> listSentences;
     private List<Sprite> listSprites;
-    private List<Sprite> listDialogueWindows;
+    private List<Sprite> listBackground;
 
     private int count; // 대화 진행 상황 카운트.
 
     private bool talking = false;
 
-    #region Singleton
+  /* #region Singleton
     private void Awake()
     {
         if (instance == null)
@@ -34,7 +34,7 @@ public class DialogueManager : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
-    #endregion Singleton
+    #endregion Singleton*/
 
     // Use this for initialization
     void Start()
@@ -43,7 +43,7 @@ public class DialogueManager : MonoBehaviour
         text.text = " ";
         listSentences = new List<string>();
         listSprites = new List<Sprite>();
-        listDialogueWindows = new List<Sprite>();
+        listBackground = new List<Sprite>();
     }
 
     public void ShowDialogue(Dialogue2 dialogue)
@@ -53,7 +53,7 @@ public class DialogueManager : MonoBehaviour
         {
             listSentences.Add(dialogue.sentences[i]);
             listSprites.Add(dialogue.sprites[i]);
-            listDialogueWindows.Add(dialogue.dialogueWindows[i]);
+            listBackground.Add(dialogue.background[i]);
         }
         StartCoroutine(Start_DialogueCoroutine());
     }
@@ -64,7 +64,7 @@ public class DialogueManager : MonoBehaviour
         count = 0;
         listSentences.Clear();
         listSprites.Clear();
-        listDialogueWindows.Clear();
+        listBackground.Clear();
         talking = false;
     }
 
@@ -73,10 +73,10 @@ public class DialogueManager : MonoBehaviour
     {
         if (count > 0)
         {
-            if (listDialogueWindows[count] != listDialogueWindows[count - 1])
+            if (listBackground[count] != listBackground[count - 1])
             {
                 //yield return new WaitForSeconds(0.2f);
-                rendererDialogueWindow.GetComponent<SpriteRenderer>().sprite = listDialogueWindows[count];
+                rendererBackground.GetComponent<SpriteRenderer>().sprite = listBackground[count];
                 rendererSprite.GetComponent<SpriteRenderer>().sprite = listSprites[count];
             }
             else
@@ -91,7 +91,7 @@ public class DialogueManager : MonoBehaviour
         else
         {
             yield return new WaitForSeconds(0.05f);
-            rendererDialogueWindow.GetComponent<SpriteRenderer>().sprite = listDialogueWindows[count];
+            rendererBackground.GetComponent<SpriteRenderer>().sprite = listBackground[count];
             rendererSprite.GetComponent<SpriteRenderer>().sprite = listSprites[count];
         }
 
