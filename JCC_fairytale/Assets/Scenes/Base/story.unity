@@ -368,8 +368,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -742414543
-  m_SortingLayer: 4
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 634725976e3227649827a363748f14fd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -614,7 +614,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 702899990}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.02, y: -0.013, z: 10}
+  m_LocalPosition: {x: 0.2, y: -14.4, z: 10}
   m_LocalScale: {x: 1.853, y: 1.875872, z: 1}
   m_Children: []
   m_Father: {fileID: 255539606}
@@ -750,7 +750,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC2EC\uC2EC\uD558\uB2E4"
+  m_Text: "\uC544 \uC2EC\uC2EC\uD558\uB2E4..."
 --- !u!222 &763119163
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -908,7 +908,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 763119162}
   rendererSprite: {fileID: 1868180376}
-  rendererDialogueWindow: {fileID: 516868592}
+  rendererBackground: {fileID: 516868592}
 --- !u!1 &1868180374
 GameObject:
   m_ObjectHideFlags: 0
@@ -1022,22 +1022,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - "\uC2EC\uC2EC\uD558\uB2E4.."
-    - "\uB3C4\uC11C\uAD00\uC774\uB098 \uAC00\uBCFC\uAE4C?"
-    - "\uC5ED\uC2DC \uAC00\uB054\uC529\uC740 \uCC45\uC744 \uC77D\uC5B4\uC918\uC57C\uC9C0\u314E\u314E"
-    - "\uADFC\uB370 \uCC45\uC774 \uB108\uBB34 \uB9CE\uC544\uC11C \uBABB \uACE0\uB974\uACA0\uB124.."
-    - "\uC624\uB79C\uB9CC\uC5D0 \uB3D9\uD654\uCC45?"
-    - "\uC544.. \uB3D9\uD654\uCC45\uB3C4 \uC5C4\uCCAD \uB9CE\uB2E4.."
-    - "\uBB34\uC2A8 \uB3D9\uD654\uB97C \uC77D\uC5B4\uBCFC\uAE4C?"
+    - "\uC2DC\uD5D8\uB3C4 \uB05D\uB0AC\uACE0.. \uD560 \uAC8C \uC5C6\uB124.."
+    - "..\uB3C4\uC11C\uAD00\uC774\uB098 \uAC08\uAE4C?"
+    - "\uAC00\uB054\uC740 \uCC45\uB3C4 \uC77D\uC5B4\uC918\uC57C \uD558\uB2C8\uAE4C\u314E\u314E"
+    - "\uD5D0, \uCC45 \uB418\uAC8C \uB9CE\uB2E4."
+    - "\uBB58 \uC77D\uC9C0?"
+    - "\uC544.. \uB3D9\uD654\uCC45\uB3C4 \uC5C4\uCCAD \uB9CE\uB124."
+    - "\uC624\uB79C\uB9CC\uC5D0 \uB3D9\uD654\uCC45\uC774\uB098 \uC77D\uC5B4\uBCFC\uAE4C?"
+    - "\uBB34\uC2A8 \uB3D9\uD654\uB97C \uC77D\uC744\uAE4C~"
     sprites:
     - {fileID: 21300000, guid: 6d2ffa0720011b949bbc7e8a8d5819f6, type: 3}
-    - {fileID: 21300000, guid: 619e5d34048208940bbd9f096bc33b20, type: 3}
-    - {fileID: 21300000, guid: 0e7071fef5e167c459257086bbb372fd, type: 3}
     - {fileID: 21300000, guid: 21a8070b7d8ca1747bfc44b472900d07, type: 3}
     - {fileID: 21300000, guid: 0e7071fef5e167c459257086bbb372fd, type: 3}
+    - {fileID: 21300000, guid: 1d3d6bec5bcdb804e81fe48a3315aa9d, type: 3}
     - {fileID: 21300000, guid: 21a8070b7d8ca1747bfc44b472900d07, type: 3}
-    - {fileID: 21300000, guid: 21a8070b7d8ca1747bfc44b472900d07, type: 3}
-    dialogueWindows:
+    - {fileID: 21300000, guid: 6d2ffa0720011b949bbc7e8a8d5819f6, type: 3}
+    - {fileID: 21300000, guid: 0e7071fef5e167c459257086bbb372fd, type: 3}
+    - {fileID: 21300000, guid: 0e7071fef5e167c459257086bbb372fd, type: 3}
+    background:
+    - {fileID: 21300000, guid: 634725976e3227649827a363748f14fd, type: 3}
     - {fileID: 21300000, guid: 634725976e3227649827a363748f14fd, type: 3}
     - {fileID: 21300000, guid: 634725976e3227649827a363748f14fd, type: 3}
     - {fileID: 21300000, guid: 730aa319cec87fe44b712b34be699a01, type: 3}
