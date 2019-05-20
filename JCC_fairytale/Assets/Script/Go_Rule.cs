@@ -3,14 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Go_Library : MonoBehaviour
+public class Go_Rule : MonoBehaviour
 {
     public void ChangeGameScene()
     {
-        SceneManager.LoadScene("Library");
+        SceneManager.LoadScene("Rule");
     }
-    /*public void Click()
-    {
-        Application.Quit();
-    }*/
 }

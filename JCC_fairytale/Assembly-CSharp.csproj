@@ -65,9 +65,12 @@
     <Compile Include="Assets\Scenes\Base\Dialogue.cs" />
     <Compile Include="Assets\Scenes\Base\DialogueManager.cs" />
     <Compile Include="Assets\Scenes\Base\TestDialogue.cs" />
+    <Compile Include="Assets\Script\ChangeBookCover.cs" />
     <Compile Include="Assets\Script\ChangeRStory.cs" />
-    <Compile Include="Assets\Script\Go_Library.cs" />
+    <Compile Include="Assets\Script\Go_Choice.cs" />
+    <Compile Include="Assets\Script\Go_Rule.cs" />
     <Compile Include="Assets\Script\Go_Story.cs" />
+    <Compile Include="Assets\Script\Go_Title.cs" />
     <Compile Include="Assets\Script\R_Script\Button.cs" />
     <Compile Include="Assets\Script\R_Script\ChangeMain.cs" />
     <Compile Include="Assets\Script\R_Script\ChangeRuleScene.cs" />
@@ -76,6 +79,7 @@
     <Compile Include="Assets\Script\R_Script\GameManager.cs" />
     <Compile Include="Assets\Script\R_Script\GetStone.cs" />
     <Compile Include="Assets\Script\R_Script\Jump.cs" />
+    <Compile Include="Assets\Script\R_Script\RGo_Library.cs" />
     <Compile Include="Assets\Script\R_Script\ScoreText.cs" />
     <Compile Include="Assets\Script\R_Script\StartGame.cs" />
     <Compile Include="Assets\Script\R_Script\Story\changedialogue.cs" />

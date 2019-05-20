@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 156130368}
   - component: {fileID: 156130367}
   - component: {fileID: 156130366}
+  - component: {fileID: 156130369}
   m_Layer: 5
   m_Name: Wbook
   m_TagString: Untagged
@@ -230,6 +231,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 156130364}
   m_CullTransparentMesh: 0
+--- !u!114 &156130369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156130364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 634db149ae35c4d578d8d719b1872ae2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RCover: 0
+  WCover: 0
 --- !u!1 &321677827
 GameObject:
   m_ObjectHideFlags: 0
@@ -401,6 +416,7 @@ GameObject:
   - component: {fileID: 880143656}
   - component: {fileID: 880143655}
   - component: {fileID: 880143658}
+  - component: {fileID: 880143659}
   m_Layer: 5
   m_Name: Rbook
   m_TagString: Untagged
@@ -530,6 +546,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8811cca402cd2e442ba8182c08de1840, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &880143659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880143653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 634db149ae35c4d578d8d719b1872ae2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RCover: 0
+  WCover: 0
 --- !u!1 &1104159969
 GameObject:
   m_ObjectHideFlags: 0
