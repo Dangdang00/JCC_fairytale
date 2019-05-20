@@ -1,10 +1,12 @@
 ﻿<Properties StartupConfiguration="{16CC3DD8-BF8C-F6BF-0DC1-CD0981AC0A70}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/R_Script/W_Script/Apple_time.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Go_Story.cs">
     <Files>
-      <File FileName="Assets/Script/R_Script/ScoreText.cs" Line="21" Column="10" />
-      <File FileName="Assets/Script/textBlink.cs" Line="24" Column="48" />
-      <File FileName="Assets/Scenes/Base/TestDialogue.cs" Line="1" Column="1" />
-      <File FileName="Assets/Script/R_Script/W_Script/Apple_time.cs" Line="19" Column="1" />
+      <File FileName="Assets/Script/Go_Library.cs" Line="17" Column="1" />
+      <File FileName="Assets/Script/R_Script/ScoreText.cs" Line="21" Column="10" NotebookId="1" />
+      <File FileName="Assets/Script/textBlink.cs" Line="24" Column="48" NotebookId="1" />
+      <File FileName="Assets/Scenes/Base/TestDialogue.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Assets/Script/R_Script/W_Script/Apple_time.cs" Line="6" Column="24" NotebookId="1" />
+      <File FileName="Assets/Script/Go_Story.cs" Line="6" Column="22" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

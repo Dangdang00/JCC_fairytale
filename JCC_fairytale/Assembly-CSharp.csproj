@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scenes\Base\TestDialogue.cs" />
     <Compile Include="Assets\Script\ChangeRStory.cs" />
     <Compile Include="Assets\Script\Go_Library.cs" />
+    <Compile Include="Assets\Script\Go_Story.cs" />
     <Compile Include="Assets\Script\R_Script\Button.cs" />
     <Compile Include="Assets\Script\R_Script\ChangeMain.cs" />
     <Compile Include="Assets\Script\R_Script\ChangeRuleScene.cs" />
