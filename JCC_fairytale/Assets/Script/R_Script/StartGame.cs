@@ -7,6 +7,6 @@ public class StartGame : MonoBehaviour
 {
     public void Startgame()
     {
-        SceneManager.LoadScene("R_Menu");
+        SceneManager.LoadScene("R_Ending");
     }
 }

@@ -36,6 +36,9 @@ EditorBuildSettings:
     path: Assets/Scenes/R_Scenes/R_Game.unity
     guid: 153ec5d6878db8c46ba46048e2b7d070
   - enabled: 1
+    path: Assets/Scenes/R_Scenes/R_Ending.unity
+    guid: 0ace1323c12980a40b950f58cffd7620
+  - enabled: 1
     path: Assets/Scenes/W_Scenes/WhiteSnowMain.unity
     guid: 968cdc769017ebe48b0687cd59228b89
   - enabled: 1
