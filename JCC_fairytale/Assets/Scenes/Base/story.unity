@@ -1030,6 +1030,7 @@ MonoBehaviour:
     - "\uC544.. \uB3D9\uD654\uCC45\uB3C4 \uC5C4\uCCAD \uB9CE\uB124."
     - "\uC624\uB79C\uB9CC\uC5D0 \uB3D9\uD654\uCC45\uC774\uB098 \uC77D\uC5B4\uBCFC\uAE4C?"
     - "\uBB34\uC2A8 \uB3D9\uD654\uB97C \uC77D\uC744\uAE4C~"
+    names: []
     sprites:
     - {fileID: 21300000, guid: 6d2ffa0720011b949bbc7e8a8d5819f6, type: 3}
     - {fileID: 21300000, guid: 21a8070b7d8ca1747bfc44b472900d07, type: 3}
