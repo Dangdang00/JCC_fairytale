@@ -7,12 +7,12 @@ using UnityEngine.SceneManagement;
 public class DialogueManager_W : MonoBehaviour
 {
 
-    public static DialogueManager_afterR instance;
+    public static DialogueManager_W instance;
 
     public Text text;
-    public Text name;
-    public SpriteRenderer rendererSprite_R;
+    public Text Name;
     public SpriteRenderer rendererSprite_L;
+    public SpriteRenderer rendererSprite_R;
     public SpriteRenderer rendererBackground;
 
     private List<string> listSentences;
@@ -25,27 +25,27 @@ public class DialogueManager_W : MonoBehaviour
 
     private bool talking = false;
 
-    #region Singleton
-    /* private void Awake()
-   {
-       if (instance == null)
-       {
-           DontDestroyOnLoad(this.gameObject);
-           instance = this;
-       }
-       else
-       {
-           Destroy(this.gameObject);
-       }
-   }*/
-    #endregion Singleton
+    /* #region Singleton
+      private void Awake()
+      {
+          if (instance == null)
+          {
+              DontDestroyOnLoad(this.gameObject);
+              instance = this;
+          }
+          else
+          {
+              Destroy(this.gameObject);
+          }
+      }
+      #endregion Singleton*/
 
     // Use this for initialization
-    public void Start()
+    void Start()
     {
         count = 0;
         //text.text = " ";
-        //name.text = " ";
+        //Name.text = " ";
         listSentences = new List<string>();
         listNames = new List<string>();
         listSprites_R = new List<Sprite>();
@@ -70,7 +70,7 @@ public class DialogueManager_W : MonoBehaviour
     public void ExitDialogue()
     {
         text.text = " ";
-        name.text = " ";
+        Name.text = " ";
         count = 0;
         listSentences.Clear();
         listNames.Clear();
@@ -89,22 +89,19 @@ public class DialogueManager_W : MonoBehaviour
             {
                 //yield return new WaitForSeconds(0.2f);
                 rendererBackground.GetComponent<SpriteRenderer>().sprite = listBackground[count];
-                rendererSprite_R.GetComponent<SpriteRenderer>().sprite = listSprites_R[count];
+
+            }
+
+            if (listSprites_L[count] != listSprites_L[count - 1])
+            {
+                //yield return new WaitForSeconds(0.1f);
                 rendererSprite_L.GetComponent<SpriteRenderer>().sprite = listSprites_L[count];
             }
-            else
-            {
-                if (listSprites_R[count] != listSprites_R[count - 1])
-                {
-                    //yield return new WaitForSeconds(0.1f);
-                    rendererSprite_R.GetComponent<SpriteRenderer>().sprite = listSprites_R[count];
-                }
 
-                else if (listSprites_L[count] != listSprites_L[count - 1])
-                {
-                    //yield return new WaitForSeconds(0.1f);
-                    rendererSprite_L.GetComponent<SpriteRenderer>().sprite = listSprites_L[count];
-                }
+            if (listSprites_R[count] != listSprites_R[count - 1])
+            {
+                //yield return new WaitForSeconds(0.1f);
+                rendererSprite_R.GetComponent<SpriteRenderer>().sprite = listSprites_R[count];
             }
         }
         else
@@ -114,8 +111,7 @@ public class DialogueManager_W : MonoBehaviour
             rendererSprite_R.GetComponent<SpriteRenderer>().sprite = listSprites_R[count];
             rendererSprite_L.GetComponent<SpriteRenderer>().sprite = listSprites_L[count];
         }
-
-        name.text += listNames[count];
+        Name.text += listNames[count];
         for (int i = 0; i < listSentences[count].Length; i++)
         {
             text.text += listSentences[count][i]; // 1글자씩 출력.
@@ -132,7 +128,7 @@ public class DialogueManager_W : MonoBehaviour
             {
                 count++;
                 text.text = " ";
-                name.text = " ";
+                Name.text = " ";
 
                 if (count == listSentences.Count)
                 {
