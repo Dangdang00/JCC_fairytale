@@ -14,8 +14,4 @@ public class TestDialogue_afterR : MonoBehaviour
         theDM_2 = FindObjectOfType<DialogueManager_afterR>();
         theDM_2.ShowDialogue(dialogue);
     }
-    void Update()
-    {
-    }
-
 }
