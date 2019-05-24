@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{16CC3DD8-BF8C-F6BF-0DC1-CD0981AC0A70}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Base/dialogue_ver2/W_story/DialogueManager_W.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/R_Script/W_Script/gold.cs">
     <Files>
       <File FileName="Assets/Script/ChangeBookCover.cs" Line="7" Column="2" />
       <File FileName="Assets/Script/Go_Story.cs" Line="4" Column="1" />
@@ -10,6 +10,8 @@
       <File FileName="Assets/Script/R_Script/W_Script/Go_firstStory.cs" Line="9" Column="40" />
       <File FileName="Assets/Script/R_Script/W_Script/Go_ending.cs" Line="5" Column="18" />
       <File FileName="Assets/Scenes/Base/dialogue_ver2/W_story/DialogueManager_W.cs" Line="61" Column="1" />
+      <File FileName="Assets/Script/R_Script/W_Script/AppleGenerator.cs" Line="20" Column="1" />
+      <File FileName="Assets/Script/R_Script/W_Script/gold.cs" Line="13" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
