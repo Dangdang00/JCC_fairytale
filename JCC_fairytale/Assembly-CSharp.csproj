@@ -74,10 +74,6 @@
     <Compile Include="Assets\Scenes\Base\dialogue_ver2\W_story\TestDialogue_W.cs" />
     <Compile Include="Assets\Script\ChangeBookCover.cs" />
     <Compile Include="Assets\Script\ChangeRStory.cs" />
-    <Compile Include="Assets\Script\Go_Choice.cs" />
-    <Compile Include="Assets\Script\Go_Rule.cs" />
-    <Compile Include="Assets\Script\Go_Story.cs" />
-    <Compile Include="Assets\Script\Go_Title.cs" />
     <Compile Include="Assets\Script\R_Script\Button.cs" />
     <Compile Include="Assets\Script\R_Script\ChangeMain.cs" />
     <Compile Include="Assets\Script\R_Script\ChangeRuleScene.cs" />
@@ -106,6 +102,7 @@
     <Compile Include="Assets\Script\R_Script\W_Script\WhiteGameStart.cs" />
     <Compile Include="Assets\Script\R_Script\W_Script\WhiteGameWay.cs" />
     <Compile Include="Assets\Script\textBlink.cs" />
+    <Compile Include="Assets\Script\TitleScene_Change.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/hwangdayoung/Desktop/JCC_fairytale/JCC_fairytale/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

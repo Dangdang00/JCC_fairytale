@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿// 글씨 깜빡거리는 효
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;

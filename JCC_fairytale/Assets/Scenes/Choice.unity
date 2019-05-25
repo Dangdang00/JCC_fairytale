@@ -259,7 +259,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 377034269}
-        m_MethodName: ChangeGameScene
+        m_MethodName: ChangeLibraryScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -317,7 +317,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 377034264}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68160da91a24047f389025290665996f, type: 3}
+  m_Script: {fileID: 11500000, guid: 1c0bf5e1ab00a418a9f2bdce45e9c2b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &457560562
@@ -401,7 +401,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 457560567}
-        m_MethodName: ChangeGameScene
+        m_MethodName: ChangeStoryScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -459,7 +459,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 457560562}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fb52d724f83e4b999d074c286595d02, type: 3}
+  m_Script: {fileID: 11500000, guid: 1c0bf5e1ab00a418a9f2bdce45e9c2b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &666697589

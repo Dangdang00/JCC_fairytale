@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
 
     public void Win()
     {
-        winPanelObj.SetActive(true);
+        winPanelObj.SetActive(true);    // 오브젝트 활성화
         Debug.Log("Win!");
         Time.timeScale = 0f;
     }

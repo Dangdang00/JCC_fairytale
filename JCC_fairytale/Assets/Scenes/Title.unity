@@ -272,7 +272,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 465163746}
-        m_MethodName: ChangeGameScene
+        m_MethodName: ChangeRuleScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -330,7 +330,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 465163741}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df0d38cbfc65648ce9834934f5b5bb71, type: 3}
+  m_Script: {fileID: 11500000, guid: 1c0bf5e1ab00a418a9f2bdce45e9c2b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &692867255
@@ -820,7 +820,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1704448921}
-        m_MethodName: ChangeGameScene
+        m_MethodName: ChangeChoiceScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -878,7 +878,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1704448916}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14502cb3f253e4f7998a346828864bb8, type: 3}
+  m_Script: {fileID: 11500000, guid: 1c0bf5e1ab00a418a9f2bdce45e9c2b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2033457724
