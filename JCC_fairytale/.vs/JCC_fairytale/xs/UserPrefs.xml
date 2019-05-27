@@ -1,8 +1,10 @@
 ﻿<Properties StartupConfiguration="{16CC3DD8-BF8C-F6BF-0DC1-CD0981AC0A70}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/TitleScene_Change.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/R_Script/W_Script/gold.cs">
     <Files>
-      <File FileName="Assets/Script/ChangeBookCover.cs" Line="32" Column="14" />
-      <File FileName="Assets/Script/TitleScene_Change.cs" Line="13" Column="11" />
+      <File FileName="Assets/Script/R_Script/W_Script/gold.cs" Line="23" Column="1" />
+      <File FileName="Assets/Script/R_Script/W_Script/GameDirector.cs" Line="23" Column="1" />
+      <File FileName="Assets/Script/R_Script/W_Script/Apple_Control.cs" Line="33" Column="2" />
+      <File FileName="Assets/Script/R_Script/W_Script/GoldApple.cs" Line="31" Column="33" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
