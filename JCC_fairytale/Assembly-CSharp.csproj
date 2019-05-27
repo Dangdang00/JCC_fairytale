@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scenes\Base\dialogue_ver2\W_story\DialogueManager_W.cs" />
     <Compile Include="Assets\Scenes\Base\dialogue_ver2\W_story\TestDialogue_afterW.cs" />
     <Compile Include="Assets\Scenes\Base\dialogue_ver2\W_story\TestDialogue_W.cs" />
+    <Compile Include="Assets\Script\AudioManager.cs" />
     <Compile Include="Assets\Script\ChangeBookCover.cs" />
     <Compile Include="Assets\Script\ChangeRStory.cs" />
     <Compile Include="Assets\Script\R_Script\Button.cs" />
@@ -102,6 +103,7 @@
     <Compile Include="Assets\Script\R_Script\W_Script\WhiteGameAgain.cs" />
     <Compile Include="Assets\Script\R_Script\W_Script\WhiteGameStart.cs" />
     <Compile Include="Assets\Script\R_Script\W_Script\WhiteGameWay.cs" />
+    <Compile Include="Assets\Script\Sound.cs" />
     <Compile Include="Assets\Script\textBlink.cs" />
     <Compile Include="Assets\Script\TitleScene_Change.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
