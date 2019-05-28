@@ -6,9 +6,12 @@ using UnityEngine.UI;
 
 public class ChangeBookCover : MonoBehaviour
 {
-    public bool RCover;
+    public bool RCover = true;
     public bool WCover;
-    public GameObject btn;
+    //public GameObject btn;
+
+    public GameObject imageObj;
+    public Image myImage;
 
     void Start()
     {
@@ -16,6 +19,9 @@ public class ChangeBookCover : MonoBehaviour
         WCover = false;
         //btn = GameObject.Find("rstone1");
         // 버튼이 안보이게 함
+        imageObj = GameObject.FindGameObjectWithTag("Rbook");
+        myImage = imageObj.GetComponent<Image>();
+
     }
 
     void Update()
@@ -23,8 +29,13 @@ public class ChangeBookCover : MonoBehaviour
        //if (RCover == true && WCover == true)
         //{
             // 버튼이 보이도록 함
-            btn.SetActive(true);
+           //btn.SetActive(true);
         //}
+
+        if(RCover == true)
+        {
+            myImage.sprite = Resources.Load<Sprite>("RbookClear");
+        }
     }
 
     public void Change_Cover()

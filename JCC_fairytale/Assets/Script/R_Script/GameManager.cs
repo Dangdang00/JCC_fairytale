@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
         Debug.Log("Win!");
         Time.timeScale = 0f;
     }
-    
+
     public void Lose()
     {
         losePanelObj.SetActive(true);

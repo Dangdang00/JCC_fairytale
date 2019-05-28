@@ -6,6 +6,8 @@ TagManager:
   tags:
   - stone
   - rstone
+  - Rbook
+  - Wbook
   layers:
   - Default
   - TransparentFX

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class gold : MonoBehaviour
 {
-    public GameObject DApple_white_Prefab;
+    public GameObject DApple_white2_prefab;
     float span = 1.0f;
     float delta = 0;
 
@@ -14,9 +14,9 @@ public class gold : MonoBehaviour
         if (this.delta > this.span)
         {
             this.delta = 0;
-            GameObject go = Instantiate(DApple_white_Prefab) as GameObject;
+            GameObject go = Instantiate(DApple_white2_prefab) as GameObject;
             int px = Random.Range(-10, 10);
-            go.transform.position = new Vector3(px, 8, 0); //가운데 숫자가 y좌표
+            go.transform.position = new Vector3(px, 11, 0);
         }
     }
 }
