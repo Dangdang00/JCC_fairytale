@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
-
     public static DialogueManager instance;
 
     public Text text;
