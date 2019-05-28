@@ -5,10 +5,11 @@ using UnityEngine;
 [System.Serializable]
 public class Dialogue_22
 {
-    [TextArea]
+      [TextArea]
     public string[] sentences;
     public string[] names;
     public Sprite[] sprites_R;
     public Sprite[] sprites_L;
     public Sprite[] background;
+   
 }
