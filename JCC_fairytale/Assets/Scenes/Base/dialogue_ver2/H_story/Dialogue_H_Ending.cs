@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class Dialogue_H_Ending : MonoBehaviour
 {
     public static Dialogue_H_Ending instance;
-
+    public Dialogue_22 dialogue;
     public Text text;
     public Text Name;
     public SpriteRenderer rendererSprite_L;
@@ -49,11 +49,13 @@ public class Dialogue_H_Ending : MonoBehaviour
         listSprites_R = new List<Sprite>();
         listSprites_L = new List<Sprite>();
         listBackground = new List<Sprite>();
+        talking = true;
+        //ShowDialogue();
     }
 
-    public void ShowDialogue(Dialogue_22 dialogue)
+    public void ShowDialogue()
     {
-        talking = true;
+        //talking = true;
         for (int i = 0; i < dialogue.sentences.Length; i++)
         {
             listBackground.Add(dialogue.background[i]);
@@ -122,13 +124,16 @@ public class Dialogue_H_Ending : MonoBehaviour
     {
         if (talking)
         {
+            
             if (Input.GetMouseButtonDown(0))
             {
+        
+                ShowDialogue();
                 count++;
                 text.text = " ";
                 Name.text = " ";
 
-                if (count == listSentences.Count)
+                if (count >= 6)
                 {
                     StopAllCoroutines();
                     ExitDialogue();

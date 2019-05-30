@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class Dialogue_H : MonoBehaviour
 {
-
     public static Dialogue_H instance;
+    public Dialogue_22 dialogue;
 
     public Text text;
     public Text Name;
@@ -22,7 +22,6 @@ public class Dialogue_H : MonoBehaviour
     private List<Sprite> listBackground;
 
     private int count; // 대화 진행 상황 카운트.
-
     private bool talking = false;
 
     /* #region Singleton
@@ -41,9 +40,9 @@ public class Dialogue_H : MonoBehaviour
       #endregion Singleton*/
 
     // Use this for initialization
-    void Start()
+    public void Start()
     {
-        count = 0;
+        count = -1;
         //text.text = " ";
         //Name.text = " ";
         listSentences = new List<string>();
@@ -51,15 +50,16 @@ public class Dialogue_H : MonoBehaviour
         listSprites_R = new List<Sprite>();
         listSprites_L = new List<Sprite>();
         listBackground = new List<Sprite>();
+        talking = true;
     }
 
-    public void ShowDialogue(Dialogue_22 dialogue)
+    public void ShowDialogue()
     {
-        talking = true;
+        //talking = true;
         for (int i = 0; i < dialogue.sentences.Length; i++)
         {
-            listSprites_R.Add(dialogue.sprites_R[i]);
             listBackground.Add(dialogue.background[i]);
+            listSprites_R.Add(dialogue.sprites_R[i]);
             listSprites_L.Add(dialogue.sprites_L[i]);
             listSentences.Add(dialogue.sentences[i]);
             listNames.Add(dialogue.names[i]);
@@ -124,17 +124,19 @@ public class Dialogue_H : MonoBehaviour
     {
         if (talking)
         {
+
             if (Input.GetMouseButtonDown(0))
             {
+                ShowDialogue();
                 count++;
                 text.text = " ";
                 Name.text = " ";
 
-                if (count == listSentences.Count)
+                if (count >= 9)
                 {
                     StopAllCoroutines();
                     ExitDialogue();
-                    SceneManager.LoadScene("Library");
+                    SceneManager.LoadScene("H_Ending");
                 }
                 else
                 {

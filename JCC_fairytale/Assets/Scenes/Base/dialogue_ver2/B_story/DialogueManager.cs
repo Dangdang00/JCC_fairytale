@@ -7,13 +7,16 @@ using UnityEngine.SceneManagement;
 public class DialogueManager : MonoBehaviour
 {
     public static DialogueManager instance;
+    public Dialogue2 dialogue;
 
     public Text text;
+    public Text Name;
     public SpriteRenderer rendererSprite;
     public SpriteRenderer rendererBackground;
 
     private List<string> listSentences;
     private List<Sprite> listSprites;
+    private List<string> listNames;
     private List<Sprite> listBackground;
 
     private int count; // 대화 진행 상황 카운트.
@@ -38,21 +41,23 @@ public class DialogueManager : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        count = 0;
-        text.text = " ";
+        count = -1;
         listSentences = new List<string>();
+        listNames = new List<string>();
         listSprites = new List<Sprite>();
         listBackground = new List<Sprite>();
+        talking = true;
     }
 
-    public void ShowDialogue(Dialogue2 dialogue)
+    public void ShowDialogue()
     {
-        talking = true;
+        //talking = true;
         for (int i = 0; i < dialogue.sentences.Length; i++)
         {
             listSentences.Add(dialogue.sentences[i]);
             listSprites.Add(dialogue.sprites[i]);
             listBackground.Add(dialogue.background[i]);
+            listNames.Add(dialogue.names[i]);
         }
         StartCoroutine(Start_DialogueCoroutine());
     }
@@ -60,6 +65,7 @@ public class DialogueManager : MonoBehaviour
     public void ExitDialogue()
     {
         text.text = " ";
+        Name.text = " ";
         count = 0;
         listSentences.Clear();
         listSprites.Clear();
@@ -92,6 +98,7 @@ public class DialogueManager : MonoBehaviour
             rendererSprite.GetComponent<SpriteRenderer>().sprite = listSprites[count];
         }
 
+        Name.text += listNames[count];
         for (int i = 0; i < listSentences[count].Length; i++)
         {
             text.text += listSentences[count][i]; // 1글자씩 출력.
@@ -106,10 +113,12 @@ public class DialogueManager : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
+                ShowDialogue();
                 count++;
                 text.text =" ";
+                Name.text = " ";
 
-                if (count == listSentences.Count)
+                if (count >= 10)
                 {
                     StopAllCoroutines();
                     ExitDialogue();

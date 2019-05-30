@@ -242,7 +242,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: "\uD06C\uC544\uC545"
 --- !u!222 &243769055
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -363,10 +363,9 @@ GameObject:
   - component: {fileID: 328739006}
   - component: {fileID: 328739004}
   - component: {fileID: 328739003}
-  - component: {fileID: 328739005}
-  - component: {fileID: 328739010}
+  - component: {fileID: 328739011}
   m_Layer: 5
-  m_Name: Dialogue_H
+  m_Name: Dialogue_HEnding
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -482,58 +481,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sfx: {fileID: 8300000, guid: 2a97c04f788527b44b698080eda708f5, type: 3}
   audioSource: {fileID: 328739003}
---- !u!114 &328739005
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 328739002}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: defd616f8f3b6e24692678fef1f7bdde, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue:
-    sentences:
-    - "\uC640 \uB0B4\uAC00 \uC774\uACBC\uC5B4 \uD5E8\uC824!!"
-    - "\uC5ED\uC2DC \uB124\uAC00 \uC774\uAE38\uC904 \uC54C\uC558\uC5B4.\n\uB9C8\uB140\uAC00
-      \uAE30\uC808\uD55C \uD2C8\uC744 \uD0C0 \uB3C4\uB9DD\uAC00\uC790 \uADF8\uB808\uD154."
-    - "\uADFC\uB370 \uB9C8\uB140\uB791 \uC2F8\uC6E0\uB354\uB2C8..\n\uBC30\uAC00 \uC880
-      \uACE0\uD508\uB370..."
-    - "\uBC30 \uB9CE\uC774 \uACE0\uD30C \uADF8\uB808\uD154??\n\uC774 \uC9D1 \uACFC\uC790\uB85C
-      \uB418\uC5B4\uC788\uB358\uB370 \uC870\uAE08 \uB72F\uC744\uAE4C?"
-    - "\uC644\uC804 \uC88B\uC740\uB370 \uD5E8\uC824!\n\uCD5C\uB300\uD55C \uB9CE\uC774
-      \uB72F\uC5B4\uAC00\uC790\u314E\u314E"
-    - "\uADF8\uB798. \uC9D1\uC5D0\uAC00\uC11C \uC6B0\uC720\uB791 \uBA39\uC790."
-    names:
-    - "\uADF8\uB808\uD154"
-    - "\uD5E8\uC824"
-    - "\uADF8\uB808\uD154"
-    - "\uD5E8\uC824"
-    - "\uADF8\uB808\uD154"
-    - "\uD5E8\uC824"
-    sprites_R:
-    - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
-    - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
-    - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
-    - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
-    - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
-    - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
-    sprites_L:
-    - {fileID: 21300000, guid: 532eaad61030f8b43ab4d21824b350ec, type: 3}
-    - {fileID: 21300000, guid: 532eaad61030f8b43ab4d21824b350ec, type: 3}
-    - {fileID: 21300000, guid: 532eaad61030f8b43ab4d21824b350ec, type: 3}
-    - {fileID: 21300000, guid: 532eaad61030f8b43ab4d21824b350ec, type: 3}
-    - {fileID: 21300000, guid: 532eaad61030f8b43ab4d21824b350ec, type: 3}
-    - {fileID: 21300000, guid: 532eaad61030f8b43ab4d21824b350ec, type: 3}
-    background:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
 --- !u!114 &328739006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -616,7 +563,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &328739010
+--- !u!114 &328739011
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -628,6 +575,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13344e90ed6b4024a9e56d8d6d084c30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - "\uC640 \uB0B4\uAC00 \uC774\uACBC\uC5B4 \uD5E8\uC824!!"
+    - "\uC5ED\uC2DC \uB124\uAC00 \uC774\uAE38\uC904 \uC54C\uC558\uC5B4.\n\uB9C8\uB140\uAC00
+      \uAE30\uC808\uD55C \uD2C8\uC744 \uD0C0 \uB3C4\uB9DD\uAC00\uC790 \uADF8\uB808\uD154."
+    - "\uADFC\uB370 \uB9C8\uB140\uB791 \uC2F8\uC6E0\uB354\uB2C8..\n\uBC30\uAC00 \uC880
+      \uACE0\uD508\uB370..."
+    - "\uBC30 \uB9CE\uC774 \uACE0\uD30C \uADF8\uB808\uD154??\n\uC774 \uC9D1 \uACFC\uC790\uB85C
+      \uB418\uC5B4\uC788\uB358\uB370 \uC870\uAE08 \uB72F\uC744\uAE4C?"
+    - "\uC644\uC804 \uC88B\uC740\uB370 \uD5E8\uC824!\n\uCD5C\uB300\uD55C \uB9CE\uC774
+      \uB72F\uC5B4\uAC00\uC790\u314E\u314E"
+    - "\uADF8\uB798. \uC9D1\uC5D0\uAC00\uC11C \uC6B0\uC720\uB791 \uBA39\uC790."
+    names:
+    - "\uADF8\uB808\uD154"
+    - "\uD5E8\uC824"
+    - "\uADF8\uB808\uD154"
+    - "\uD5E8\uC824"
+    - "\uADF8\uB808\uD154"
+    - "\uD5E8\uC824"
+    sprites_R:
+    - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
+    - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
+    - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
+    - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
+    - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
+    - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
+    sprites_L:
+    - {fileID: 21300000, guid: 532eaad61030f8b43ab4d21824b350ec, type: 3}
+    - {fileID: 21300000, guid: 532eaad61030f8b43ab4d21824b350ec, type: 3}
+    - {fileID: 21300000, guid: 532eaad61030f8b43ab4d21824b350ec, type: 3}
+    - {fileID: 21300000, guid: 532eaad61030f8b43ab4d21824b350ec, type: 3}
+    - {fileID: 21300000, guid: 532eaad61030f8b43ab4d21824b350ec, type: 3}
+    - {fileID: 21300000, guid: 532eaad61030f8b43ab4d21824b350ec, type: 3}
+    background:
+    - {fileID: 21300000, guid: 84ab6ed0a0956cf4296f3caf267bfb5a, type: 3}
+    - {fileID: 21300000, guid: 84ab6ed0a0956cf4296f3caf267bfb5a, type: 3}
+    - {fileID: 21300000, guid: 84ab6ed0a0956cf4296f3caf267bfb5a, type: 3}
+    - {fileID: 21300000, guid: 84ab6ed0a0956cf4296f3caf267bfb5a, type: 3}
+    - {fileID: 21300000, guid: 84ab6ed0a0956cf4296f3caf267bfb5a, type: 3}
+    - {fileID: 21300000, guid: 84ab6ed0a0956cf4296f3caf267bfb5a, type: 3}
   text: {fileID: 243769054}
   Name: {fileID: 982297590}
   rendererSprite_L: {fileID: 1336363281}
@@ -931,7 +918,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: "\uB9C8\uB140"
 --- !u!222 &982297591
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1026,7 +1013,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 532eaad61030f8b43ab4d21824b350ec, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1271,7 +1258,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2102507824}
-  - component: {fileID: 2102507825}
   m_Layer: 5
   m_Name: DialogueManager
   m_TagString: Untagged
@@ -1298,20 +1284,3 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2102507825
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2102507823}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13344e90ed6b4024a9e56d8d6d084c30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  text: {fileID: 243769054}
-  Name: {fileID: 982297590}
-  rendererSprite_L: {fileID: 1336363281}
-  rendererSprite_R: {fileID: 777822773}
-  rendererBackground: {fileID: 278851437}

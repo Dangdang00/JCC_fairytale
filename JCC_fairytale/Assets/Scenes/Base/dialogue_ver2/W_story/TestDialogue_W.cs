@@ -12,6 +12,6 @@ public class TestDialogue_W : MonoBehaviour
     void Start()
     {
         theDM_3 = FindObjectOfType<DialogueManager_W>();
-        theDM_3.ShowDialogue(dialogue);
+        //theDM_3.ShowDialogue(dialogue);
     }
 }

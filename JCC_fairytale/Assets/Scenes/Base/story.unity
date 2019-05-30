@@ -750,7 +750,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: "\uC544 \uC2EC\uC2EC\uD558\uB2E4..\n\uC2EC\uC2EC\uD55C\uB370 \uCC45\uC774\uB098
+    \uC77D\uC73C\uB7EC \uAC00\uBCFC\uAE4C?"
 --- !u!222 &763119163
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -867,7 +868,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1358633129}
-  - component: {fileID: 1358633130}
   m_Layer: 5
   m_Name: dialogueManager
   m_TagString: Untagged
@@ -894,21 +894,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1358633130
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1358633128}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24aafa97df6d86f44834a27f0216e928, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  text: {fileID: 763119162}
-  rendererSprite: {fileID: 1868180376}
-  rendererBackground: {fileID: 516868592}
 --- !u!1 &1868180374
 GameObject:
   m_ObjectHideFlags: 0
@@ -1001,6 +986,7 @@ GameObject:
   - component: {fileID: 1986180667}
   - component: {fileID: 1986180666}
   - component: {fileID: 1986180665}
+  - component: {fileID: 1986180672}
   - component: {fileID: 1986180671}
   - component: {fileID: 1986180670}
   m_Layer: 5
@@ -1017,7 +1003,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1986180664}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e7e1609b31e2254c9166b889f769f1e, type: 3}
   m_Name: 
@@ -1246,3 +1232,67 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sfx: {fileID: 8300000, guid: 548cad5f4991f68438c9a8dc76163aba, type: 3}
   audioSource: {fileID: 1986180670}
+--- !u!114 &1986180672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986180664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24aafa97df6d86f44834a27f0216e928, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - "\uBBF8\uB9BC\uC778\uC774\uBA74 \uAC00\uB054 \uCC45 \uC815\uB3C4\uB294 \uC77D\uC5B4\uC918\uC57C\uC9C0\u314E\u314E"
+    - "[\uB3C4\uC11C\uAD00]"
+    - "\uC640 \uB3C4\uC11C\uAD00 \uC9C4\uC9DC \uC624\uB79C\uB9CC\uC5D0 \uC628\uB2E4.\n\uCC45
+      \uC5C4\uCCAD \uB9CE\uC544\uC84C\uB124!"
+    - "\uBB58 \uC77D\uC5B4\uBCFC\uAE4C?\n\uB9CC\uD654\uCC45? \uB3D9\uD654\uCC45?"
+    - "\uC5B4! \uC774 \uCC45 \uC7AC\uBC0C\uC5B4\uBCF4\uC774\uB294\uB370,\n\uC774\uAC70
+      \uC77D\uC5B4\uC57C\uACA0\uB2E4."
+    - "\uADF8\uB7F0\uB370 \uC774\uAC74 \uBB34\uC2A8 \uCC45\uC774\uC9C0?\n\uB3D9\uD654\uCC45\uC778\uAC00?"
+    - "\uC5B4...?"
+    - "\uC73C\uC544\uC544\uC544!!"
+    - "[\uB3D9\uD654 \uC18D\uC73C\uB85C \uBE68\uB824\uB4E4\uC5B4\uAC00 \uBC84\uB838\uC5B4\uC694!]"
+    - "[\uB2E4\uC2DC \uD604\uC2E4\uB85C \uB3CC\uC544\uC624\uAE30 \uC704\uD574\n \uB3D9\uD654
+      \uC18D \uC544\uC774\uD15C 3\uAC00\uC9C0\uB97C \uBAA8\uB450 \uBAA8\uC544\uBD05\uC2DC\uB2E4!]"
+    names:
+    - "\uBBF8\uB9BC\uC774"
+    - 
+    - "\uBBF8\uB9BC\uC774"
+    - "\uBBF8\uB9BC\uC774"
+    - "\uBBF8\uB9BC\uC774"
+    - "\uBBF8\uB9BC\uC774"
+    - "\uBBF8\uB9BC\uC774"
+    - "\uBBF8\uB9BC\uC774"
+    - 
+    - 
+    sprites:
+    - {fileID: 21300000, guid: f5c388021d7b52d42bb451e54a3044e0, type: 3}
+    - {fileID: 0}
+    - {fileID: 21300000, guid: 98aa1fff0fcf61a46885c4728680de80, type: 3}
+    - {fileID: 21300000, guid: 18a7913cf7e600041b64dedc92291389, type: 3}
+    - {fileID: 21300000, guid: f5c388021d7b52d42bb451e54a3044e0, type: 3}
+    - {fileID: 21300000, guid: 18a7913cf7e600041b64dedc92291389, type: 3}
+    - {fileID: 21300000, guid: 98aa1fff0fcf61a46885c4728680de80, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    background:
+    - {fileID: 21300000, guid: 601efaeb44972b342aa0af95ead3fa14, type: 3}
+    - {fileID: 21300000, guid: 5438b5cd990e630449cf6a1b327f56ea, type: 3}
+    - {fileID: 21300000, guid: 5438b5cd990e630449cf6a1b327f56ea, type: 3}
+    - {fileID: 21300000, guid: 5438b5cd990e630449cf6a1b327f56ea, type: 3}
+    - {fileID: 21300000, guid: 5438b5cd990e630449cf6a1b327f56ea, type: 3}
+    - {fileID: 21300000, guid: 5438b5cd990e630449cf6a1b327f56ea, type: 3}
+    - {fileID: 21300000, guid: 5438b5cd990e630449cf6a1b327f56ea, type: 3}
+    - {fileID: 21300000, guid: 558a42357f20df34297032be970bf04e, type: 3}
+    - {fileID: 21300000, guid: a7e23a6b2ca4c4141bec3bbaf22b7e32, type: 3}
+    - {fileID: 21300000, guid: 558a42357f20df34297032be970bf04e, type: 3}
+  text: {fileID: 763119162}
+  Name: {fileID: 606352993}
+  rendererSprite: {fileID: 1868180376}
+  rendererBackground: {fileID: 516868592}

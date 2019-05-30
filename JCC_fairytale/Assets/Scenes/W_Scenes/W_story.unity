@@ -121,7 +121,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 214818}
-  - component: {fileID: 214819}
   m_Layer: 5
   m_Name: Manager
   m_TagString: Untagged
@@ -148,23 +147,6 @@ RectTransform:
   m_AnchoredPosition: {x: -528, y: -311}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &214819
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 214817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 944e843aff0593241a28d64fb179bcfc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  text: {fileID: 1774751068}
-  Name: {fileID: 721933034}
-  rendererSprite_L: {fileID: 1046636263}
-  rendererSprite_R: {fileID: 64930704}
-  rendererBackground: {fileID: 1927017138}
 --- !u!1 &64930702
 GameObject:
   m_ObjectHideFlags: 0
@@ -232,8 +214,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 0e7071fef5e167c459257086bbb372fd, type: 3}
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 21300000, guid: 18a7913cf7e600041b64dedc92291389, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -257,6 +239,7 @@ GameObject:
   - component: {fileID: 117897908}
   - component: {fileID: 117897907}
   - component: {fileID: 117897911}
+  - component: {fileID: 117897914}
   - component: {fileID: 117897913}
   - component: {fileID: 117897912}
   m_Layer: 5
@@ -355,31 +338,22 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 117897906}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c52a79c5255253a46aad162b7f864de9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - "\uBC30\uAC00 \uB108\uBB34 \uACE0\uD30C\uC11C \uC544\uBB34\uAC83\uB3C4 \uBABB\uD558\uACA0\uC5B4..
-      \uBB50 \uBA39\uC744\uAC70 \uC5C6\uB098??"
-    - "\uB9DB\uC788\uB294 \uC0AC\uACFC \uD558\uB098 \uC0AC\uC138\uC694~ \n\uAFC0\uC0AC\uACFC\uAC00
-      \uB2E8\uB3C8 \uC0BC\uCC9C\uC6D0~!"
-    - "\uC640.. \uC0AC\uACFC \uB9DB\uC788\uACA0\uB2E4.. \uADFC\uB370 \uC0BC\uCC9C\uC6D0\uC774\uB77C\uB2C8,
-      \uB3C8\uC774 \uC5C6\uB294 \uB098\uD55C\uD14C\uB294 \uB108\uBB34 \uBE44\uC2FC\uAC78.."
-    - "\uAC70\uAE30 \uC608\uC05C \uACF5\uC8FC\uB2D8, \uC0AC\uACFC \uD558\uB098 \uB4DC\uC154\uBCF4\uC2DC\uC9C0
-      \uC54A\uACA0\uC5B4\uC694? \n\uD2B9\uBCC4\uD788 \uD560\uC778\uD574\uB4DC\uB9AC\uC9C0\uC694!"
-    - "\uD5C9 \uACF5\uC9DC\uB85C \uC8FC\uC2DC\uB294\uAC70\uC5D0\uC694? \uB300\uBC15
-      \uC644\uC804 \uC88B\uC544\uC694!"
-    - "\uD560\uC778\uB9CC \uD574\uB4DC\uB9B0\uB2E4\uB2C8\uAE4C\uC694 \uACF5\uC8FC\uB2D8.
-      \uB2F9\uC5F0\uD788 \uB3C8\uC740 \uB0B4\uC154\uC57C\uC8E0? \uC0BC\uCC9C\uC6D0\uC785\uB2C8\uB2E4~"
-    - "\uC544.. \uADFC\uB370 \uC81C\uAC00.. \uC9C0\uAE08 \uB3C8\uC740 \uBB3C\uB860
-      \uAC00\uC9C4\uAC8C \uC544\uBB34\uAC83\uB3C4 \uC5C6\uC5B4\uC11C.. \n\uC678\uC0C1\uC740
-      \uC548 \uB418\uACA0\uC8E0? "
-    - "\uBB50? \uC9C0\uAE08 \uB3C8\uB3C4 \uC5C6\uB294\uB370 \uAC10\uD788 \uB0B4 \uC0AC\uACFC\uB97C
-      \uBA39\uC73C\uB824 \uD55C\uAC70\uC57C?? \uC774\uB188\uC774!!"
-    - "\uC73C\uC545!"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
     names:
     - "\uBC31\uC124\uACF5\uC8FC"
     - "\uB9C8\uB140"
@@ -530,6 +504,77 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sfx: {fileID: 8300000, guid: aa1389be5fbc9ac4ebbdd59b64aad397, type: 3}
   audioSource: {fileID: 117897912}
+--- !u!114 &117897914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117897906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 944e843aff0593241a28d64fb179bcfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - "\uB9DB\uC788\uB294 \uC0AC\uACFC \uD558\uB098 \uC0AC\uC138\uC694~ \n\uAFC0\uC0AC\uACFC\uAC00
+      \uB2E8\uB3C8 \uAD6C\uCC9C \uAD6C\uBC31\uC6D0~!"
+    - "\uC640.. \uC0AC\uACFC \uB9DB\uC788\uACA0\uB2E4.. \uADFC\uB370 \uB3C8\uC774
+      \uC5C6\uB124.."
+    - "\uAC70\uAE30 \uC608\uC05C \uACF5\uC8FC\uB2D8, \uC0AC\uACFC \uD558\uB098 \uB4DC\uC154\uBCF4\uC2DC\uC9C0
+      \uC54A\uACA0\uC5B4\uC694? \n\uD2B9\uBCC4\uD788 \uD560\uC778\uD574\uB4DC\uB9AC\uC9C0\uC694!"
+    - "\uD5C9 \uACF5\uC9DC\uB85C \uC8FC\uC2DC\uB294\uAC70\uC5D0\uC694? \uB300\uBC15
+      \uC644\uC804 \uC88B\uC544\uC694!"
+    - "\uD560\uC778\uB9CC \uD574\uB4DC\uB9B0\uB2E4\uB2C8\uAE4C\uC694 \uACF5\uC8FC\uB2D8.
+      \uB2F9\uC5F0\uD788 \uB3C8\uC740 \uB0B4\uC154\uC57C\uC8E0? \uC0BC\uCC9C\uC6D0\uC785\uB2C8\uB2E4~"
+    - "\uC544.. \uADFC\uB370 \uC81C\uAC00.. \uC9C0\uAE08 \uB3C8\uC740 \uBB3C\uB860
+      \uAC00\uC9C4\uAC8C \uC544\uBB34\uAC83\uB3C4 \uC5C6\uC5B4\uC11C.. \n\uC678\uC0C1\uC740
+      \uC548 \uB418\uACA0\uC8E0? "
+    - "\uBB50? \uC9C0\uAE08 \uB3C8\uB3C4 \uC5C6\uB294\uB370 \uAC10\uD788 \uB0B4 \uC0AC\uACFC\uB97C
+      \uBA39\uC73C\uB824 \uD55C\uAC70\uC57C?? \uC774\uB188\uC774!!"
+    - "\uC73C\uC545!"
+    names:
+    - "\uB9C8\uB140"
+    - "\uBC31\uC124\uACF5\uC8FC"
+    - "\uB9C8\uB140"
+    - "\uBC31\uC124\uACF5\uC8FC"
+    - "\uB9C8\uB140"
+    - "\uBC31\uC124\uACF5\uC8FC"
+    - "\uB9C8\uB140"
+    - "\uBC31\uC124\uACF5\uC8FC"
+    sprites_R:
+    - {fileID: 21300000, guid: 98aa1fff0fcf61a46885c4728680de80, type: 3}
+    - {fileID: 21300000, guid: af2634ea2861d914aa480b41b78d6e19, type: 3}
+    - {fileID: 21300000, guid: f5c388021d7b52d42bb451e54a3044e0, type: 3}
+    - {fileID: 21300000, guid: 98aa1fff0fcf61a46885c4728680de80, type: 3}
+    - {fileID: 21300000, guid: 98aa1fff0fcf61a46885c4728680de80, type: 3}
+    - {fileID: 21300000, guid: 374f72a449e3fb24190ba5de7dbdedf4, type: 3}
+    - {fileID: 21300000, guid: 98aa1fff0fcf61a46885c4728680de80, type: 3}
+    - {fileID: 21300000, guid: 2010c857ed2db6f4db386854ac58f614, type: 3}
+    sprites_L:
+    - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
+    - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
+    - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
+    - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
+    - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
+    - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
+    - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
+    - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
+    background:
+    - {fileID: 21300000, guid: 4df2dda6b48884a7ca813b303f8511c4, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  text: {fileID: 1774751068}
+  Name: {fileID: 721933034}
+  rendererSprite_L: {fileID: 1046636263}
+  rendererSprite_R: {fileID: 64930704}
+  rendererBackground: {fileID: 1927017138}
 --- !u!1 &160336884
 GameObject:
   m_ObjectHideFlags: 0
@@ -597,7 +642,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 390f48005b79d0d4abed003687bc763e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -677,7 +722,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: ef55a2a1f266c6a43ab8ec0d0c9e493f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -906,7 +951,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: "\uBC31\uC124\uACF5\uC8FC"
 --- !u!222 &721933035
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1130,7 +1175,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: "\uBC30\uAC00 \uB108\uBB34 \uACE0\uD30C\uC11C \uC544\uBB34\uAC83\uB3C4 \uBABB\uD558\uACA0\uC5B4..
+    \n\uBB50 \uBA39\uC744\uAC70 \uC5C6\uB098??"
 --- !u!222 &1774751069
 CanvasRenderer:
   m_ObjectHideFlags: 0

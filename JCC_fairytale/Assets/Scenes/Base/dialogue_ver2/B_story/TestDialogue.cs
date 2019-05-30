@@ -13,7 +13,7 @@ public class TestDialogue : MonoBehaviour
     void Start()
     {
         theDM = FindObjectOfType<DialogueManager>();
-        theDM.ShowDialogue(dialogue);
+        //theDM.ShowDialogue(dialogue);
     }
 
 }

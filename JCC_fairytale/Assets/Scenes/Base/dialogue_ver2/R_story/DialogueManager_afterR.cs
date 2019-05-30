@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class DialogueManager_afterR : MonoBehaviour
 {
-
     public static DialogueManager_afterR instance;
+    public Dialogue_22 dialogue;
 
     public Text text;
     public Text Name;
@@ -22,7 +22,6 @@ public class DialogueManager_afterR : MonoBehaviour
     private List<Sprite> listBackground;
 
     private int count; // 대화 진행 상황 카운트.
-
     private bool talking = false;
 
     /* #region Singleton
@@ -41,9 +40,9 @@ public class DialogueManager_afterR : MonoBehaviour
       #endregion Singleton*/
 
     // Use this for initialization
-    void Start()
+    public void Start()
     {
-        count = 0;
+        count = -1;
         //text.text = " ";
         //Name.text = " ";
         listSentences = new List<string>();
@@ -51,11 +50,12 @@ public class DialogueManager_afterR : MonoBehaviour
         listSprites_R = new List<Sprite>();
         listSprites_L = new List<Sprite>();
         listBackground = new List<Sprite>();
+        talking = true;
     }
 
-    public void ShowDialogue(Dialogue_22 dialogue)
+    public void ShowDialogue()
     {
-        talking = true;
+        //talking = true;
         for (int i = 0; i < dialogue.sentences.Length; i++)
         {
             listBackground.Add(dialogue.background[i]);
@@ -124,13 +124,15 @@ public class DialogueManager_afterR : MonoBehaviour
     {
         if (talking)
         {
+
             if (Input.GetMouseButtonDown(0))
             {
+                ShowDialogue();
                 count++;
                 text.text = " ";
                 Name.text = " ";
 
-                if (count == listSentences.Count)
+                if (count >= 11)
                 {
                     StopAllCoroutines();
                     ExitDialogue();

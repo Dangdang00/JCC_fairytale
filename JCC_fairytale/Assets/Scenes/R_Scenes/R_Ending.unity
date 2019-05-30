@@ -346,7 +346,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 921728955}
-  - component: {fileID: 921728956}
   m_Layer: 5
   m_Name: DialogueManager
   m_TagString: Untagged
@@ -373,23 +372,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &921728956
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 921728954}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7774ad74ecc9e74299a458c270f9b9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  text: {fileID: 2078312287}
-  Name: {fileID: 955551248}
-  rendererSprite_L: {fileID: 1397815621}
-  rendererSprite_R: {fileID: 1674649865}
-  rendererBackground: {fileID: 121441929}
 --- !u!1 &955551247
 GameObject:
   m_ObjectHideFlags: 0
@@ -441,7 +423,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: "\uBE68\uAC04\uBAA8\uC790"
 --- !u!222 &955551249
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -764,88 +746,81 @@ MonoBehaviour:
   m_GameObject: {fileID: 1064399418}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd9d995dd5fc32149bd910bfe5f8ed2d, type: 3}
+  m_Script: {fileID: 11500000, guid: d7774ad74ecc9e74299a458c270f9b9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - "\uD5C9..\uD5C8\uC5B5.. \uC544\uC800\uC528.. \uB3CC\uBA69\uC774 \uAC00\uC838\uC654\uC5B4\uC694..!!"
-    - "\uC624! \uAD49\uC7A5\uD788 \uB9CE\uC774 \uAC00\uC838\uC654\uB294\uAC78? \n\uC774\uC815\uB3C4\uBA74
-      \uCDA9\uBD84\uD788 \uB291\uB300\uB97C \uCAD3\uC544\uB0BC \uC218 \uC788\uC744\uAC8C\uB2E4."
-    - "\uADF8\uB7F0\uB370 \uC774\uB7F0 \uB3CC\uBA69\uC774\uB4E4\uB85C \uC5B4\uB5BB\uAC8C
-      \uD560\uBA38\uB2C8\uB97C \uAD6C\uD558\uC8E0?? \n\uB291\uB300\uB294 \uC5C4\uCCAD
-      \uC704\uD5D8\uD558\uB2E4\uBA74\uC11C\uC694."
-    - "\uBB58 \uC5B4\uB5A1\uD558\uAE30\uB294, \uB358\uC838\uC57C\uC9C0! "
-    - "\uC73C\uC544\uC544\uC544\uC544"
-    - "\uD734. \uB2E4\uD589\uD788 \uB291\uB300\uAC00 \uB3C4\uB9DD\uAC04 \uAC83 \uAC19\uAD6C\uB098.
-      \n\uB3CC\uC744 \uB9CE\uC774 \uB9DE\uC558\uC73C\uB2C8 \uB2E4\uC2DC\uB294 \uC5EC\uAE30\uB97C
-      \uB178\uB9AC\uC9C0 \uC54A\uC744\uAC70\uC57C."
-    - "\uC815\uB9D0 \uAC10\uC0AC\uD574\uC694 \uC544\uC800\uC528.. \uC544\uC800\uC528
-      \uB355\uBD84\uC5D0 \uD560\uBA38\uB2C8\uAC00 \uBB34\uC0AC\uD558\uC2E4 \uC218
-      \uC788\uC5C8\uC5B4\uC694."
-    - "\uC544\uC774\uACE0, \uACE0\uB9C8\uC6CC\uC11C \uC5B4\uCA4C\uB098.. \n\uBCC4\uAC70
-      \uC544\uB2C8\uC9C0\uB9CC \uB0B4\uAC00 \uB9CC\uB4E0 \uD30C\uC774 \uD558\uB098\uB77C\uB3C4
-      \uAC00\uC838\uAC00!"
-    - "\uC544, \uAD1C\uCC2E\uC2B5\uB2C8\uB2E4. \uC800\uB294 \uB2F9\uC5F0\uD788 \uD574\uC57C\uD560
-      \uC77C\uC744 \uD55C \uAC83 \uBFD0\uC778\uB370\uC694 \uBB58.. \n\uD639\uC2DC
-      \uB098\uC911\uC5D0 \uB291\uB300\uB97C \uBCF4\uAC8C\uB41C\uB2E4\uBA74 \uC81C\uAC8C
-      \uB9D0\uD574\uC8FC\uC138\uC694!"
-    - "\uADF8\uB798. \uBAB8\uC870\uC2EC \uD558\uACE0~!"
-    - "..\uC800 \uCCAD\uB144 \uACB0\uAD6D \uD30C\uC774\uB294 \uC548 \uAC00\uC838\uAC14\uB124..
-      \uBE68\uAC04\uBAA8\uC790\uC57C. \uD30C\uC774 \uC904\uAE4C?"
-    - "\uC624, \uC800 \uC8FC\uC138\uC694!!"
+    - "\uC624! \uADF8\uC815\uB3C4\uBA74 \uB291\uB300\uB97C \uCAD3\uC544\uB0B4\uAE30\uC5D0\n\uCDA9\uBD84\uD55C
+      \uAC83 \uAC19\uAD6C\uB098."
+    - "\uADF8\uB7F0\uB370 \uC774 \uB3CC\uB4E4\uB85C\n\uC5B4\uB5BB\uAC8C \uB291\uB300\uB97C
+      \uCAD3\uC544\uB0B4\uC8E0?"
+    - "\uB2F9\uC5F0\uD788 \uB358\uC838\uC57C\uC9C0,\n\uB108\uB3C4 \uC5BC\uB978 \uB358\uC9C0\uB834!"
+    - "\uB124????"
+    - "\uD06C\uC544\uC545"
+    - "\uD6C4, \uBB34\uC0AC\uD788 \uB291\uB300\uB97C \uCAD3\uC544\uB0B8 \uAC83 \uAC19\uC73C\uB2C8\n\uB09C
+      \uC774\uB9CC \uAC00\uBCFC\uAC8C. \uC55E\uC73C\uB85C\uB3C4 \uC870\uC2EC\uD558\uACE0!"
+    - "\uC557. \uACE0\uB9D9\uB2E4\uB294 \uB9D0\uB3C4 \uBABB\uD588\uB294\uB370,\n\uBC8C\uC368
+      \uAC00\uBC84\uB838\uB124.."
+    - "\uBE68\uAC04\uBAA8\uC790\uC57C \uADF8 \uC0AC\uB0E5\uAFBC\uC740 \uC5B4\uB514\uAC14\uB2C8?\n\uAC10\uC0AC\uC758
+      \uC758\uBBF8\uB85C \uAD6C\uC6CC\uB193\uC740 \uD30C\uC774 \uC880 \uC8FC\uB824\uACE0
+      \uD588\uB294\uB370.."
+    - "\uD560\uBA38\uB2C8! \uC544\uC800\uC528\uB294 \uC544\uAE4C \uAC14\uC5B4\uC694. "
+    - "\uADF8\uB798? \uADF8\uB7FC \uC774 \uD30C\uC774\uB97C \uC5B4\uCA50\uB2F4.."
+    - "\uC81C\uAC00 \uBA39\uC744\uAC8C\uC694!\n\uC800 \uC8FC\uC138\uC694!"
     names:
-    - "\uBE68\uAC04\uBAA8\uC790"
     - "\uC0AC\uB0E5\uAFBC"
     - "\uBE68\uAC04\uBAA8\uC790"
     - "\uC0AC\uB0E5\uAFBC"
+    - "\uBE68\uAC04\uBAA8\uC790"
     - "\uB291\uB300"
     - "\uC0AC\uB0E5\uAFBC"
     - "\uBE68\uAC04\uBAA8\uC790"
     - "\uD560\uBA38\uB2C8"
-    - "\uC0AC\uB0E5\uAFBC"
-    - "\uD560\uBA38\uB2C8"
-    - "\uD560\uBA38\uB2C8"
     - "\uBE68\uAC04\uBAA8\uC790"
+    - "\uD560\uBA38\uB2C8"
+    - "\uBE68\uAC04\uBAA8"
     sprites_R:
     - {fileID: 21300000, guid: eeb2ad33b052e9b41ba6e43dabce5dc8, type: 3}
-    - {fileID: 21300000, guid: eeb2ad33b052e9b41ba6e43dabce5dc8, type: 3}
+    - {fileID: 21300000, guid: 1d3d6bec5bcdb804e81fe48a3315aa9d, type: 3}
+    - {fileID: 21300000, guid: 1d3d6bec5bcdb804e81fe48a3315aa9d, type: 3}
+    - {fileID: 21300000, guid: 1d3d6bec5bcdb804e81fe48a3315aa9d, type: 3}
     - {fileID: 21300000, guid: 21a8070b7d8ca1747bfc44b472900d07, type: 3}
-    - {fileID: 21300000, guid: 1d3d6bec5bcdb804e81fe48a3315aa9d, type: 3}
-    - {fileID: 0}
-    - {fileID: 21300000, guid: 1d3d6bec5bcdb804e81fe48a3315aa9d, type: 3}
-    - {fileID: 21300000, guid: 0e7071fef5e167c459257086bbb372fd, type: 3}
-    - {fileID: 21300000, guid: da79f52d0f567c64ebc2eaf95cb406c4, type: 3}
-    - {fileID: 21300000, guid: da79f52d0f567c64ebc2eaf95cb406c4, type: 3}
-    - {fileID: 21300000, guid: da79f52d0f567c64ebc2eaf95cb406c4, type: 3}
-    - {fileID: 21300000, guid: da79f52d0f567c64ebc2eaf95cb406c4, type: 3}
-    - {fileID: 21300000, guid: da79f52d0f567c64ebc2eaf95cb406c4, type: 3}
+    - {fileID: 21300000, guid: 619e5d34048208940bbd9f096bc33b20, type: 3}
+    - {fileID: 21300000, guid: 619e5d34048208940bbd9f096bc33b20, type: 3}
+    - {fileID: 21300000, guid: 619e5d34048208940bbd9f096bc33b20, type: 3}
+    - {fileID: 21300000, guid: 619e5d34048208940bbd9f096bc33b20, type: 3}
+    - {fileID: 21300000, guid: 619e5d34048208940bbd9f096bc33b20, type: 3}
+    - {fileID: 21300000, guid: 619e5d34048208940bbd9f096bc33b20, type: 3}
     sprites_L:
     - {fileID: 21300000, guid: 6f30a50328c2b6047b64f1fbffa065d0, type: 3}
     - {fileID: 21300000, guid: 6f30a50328c2b6047b64f1fbffa065d0, type: 3}
     - {fileID: 21300000, guid: 6f30a50328c2b6047b64f1fbffa065d0, type: 3}
     - {fileID: 21300000, guid: 6f30a50328c2b6047b64f1fbffa065d0, type: 3}
+    - {fileID: 21300000, guid: 6f30a50328c2b6047b64f1fbffa065d0, type: 3}
+    - {fileID: 21300000, guid: 6f30a50328c2b6047b64f1fbffa065d0, type: 3}
     - {fileID: 0}
-    - {fileID: 21300000, guid: 6f30a50328c2b6047b64f1fbffa065d0, type: 3}
-    - {fileID: 21300000, guid: 6f30a50328c2b6047b64f1fbffa065d0, type: 3}
-    - {fileID: 21300000, guid: 6f30a50328c2b6047b64f1fbffa065d0, type: 3}
-    - {fileID: 21300000, guid: 6f30a50328c2b6047b64f1fbffa065d0, type: 3}
-    - {fileID: 21300000, guid: af2634ea2861d914aa480b41b78d6e19, type: 3}
-    - {fileID: 21300000, guid: 18a7913cf7e600041b64dedc92291389, type: 3}
-    - {fileID: 21300000, guid: f5c388021d7b52d42bb451e54a3044e0, type: 3}
+    - {fileID: 21300000, guid: da79f52d0f567c64ebc2eaf95cb406c4, type: 3}
+    - {fileID: 21300000, guid: da79f52d0f567c64ebc2eaf95cb406c4, type: 3}
+    - {fileID: 21300000, guid: da79f52d0f567c64ebc2eaf95cb406c4, type: 3}
+    - {fileID: 21300000, guid: da79f52d0f567c64ebc2eaf95cb406c4, type: 3}
     background:
-    - {fileID: 21300000, guid: 66116186eaf98034cb882bdf2ebe87a1, type: 3}
-    - {fileID: 21300000, guid: 66116186eaf98034cb882bdf2ebe87a1, type: 3}
-    - {fileID: 21300000, guid: 66116186eaf98034cb882bdf2ebe87a1, type: 3}
-    - {fileID: 21300000, guid: 66116186eaf98034cb882bdf2ebe87a1, type: 3}
-    - {fileID: 21300000, guid: 66116186eaf98034cb882bdf2ebe87a1, type: 3}
-    - {fileID: 21300000, guid: 66116186eaf98034cb882bdf2ebe87a1, type: 3}
-    - {fileID: 21300000, guid: 66116186eaf98034cb882bdf2ebe87a1, type: 3}
-    - {fileID: 21300000, guid: 66116186eaf98034cb882bdf2ebe87a1, type: 3}
-    - {fileID: 21300000, guid: 66116186eaf98034cb882bdf2ebe87a1, type: 3}
-    - {fileID: 21300000, guid: 66116186eaf98034cb882bdf2ebe87a1, type: 3}
-    - {fileID: 21300000, guid: 66116186eaf98034cb882bdf2ebe87a1, type: 3}
-    - {fileID: 21300000, guid: 66116186eaf98034cb882bdf2ebe87a1, type: 3}
+    - {fileID: 21300000, guid: a11647a0519d49f4ab3643de172f68b1, type: 3}
+    - {fileID: 21300000, guid: a11647a0519d49f4ab3643de172f68b1, type: 3}
+    - {fileID: 21300000, guid: a11647a0519d49f4ab3643de172f68b1, type: 3}
+    - {fileID: 21300000, guid: a11647a0519d49f4ab3643de172f68b1, type: 3}
+    - {fileID: 21300000, guid: a11647a0519d49f4ab3643de172f68b1, type: 3}
+    - {fileID: 21300000, guid: a11647a0519d49f4ab3643de172f68b1, type: 3}
+    - {fileID: 21300000, guid: a11647a0519d49f4ab3643de172f68b1, type: 3}
+    - {fileID: 21300000, guid: a11647a0519d49f4ab3643de172f68b1, type: 3}
+    - {fileID: 21300000, guid: a11647a0519d49f4ab3643de172f68b1, type: 3}
+    - {fileID: 21300000, guid: a11647a0519d49f4ab3643de172f68b1, type: 3}
+    - {fileID: 21300000, guid: a11647a0519d49f4ab3643de172f68b1, type: 3}
+  text: {fileID: 2078312287}
+  Name: {fileID: 955551248}
+  rendererSprite_L: {fileID: 1397815621}
+  rendererSprite_R: {fileID: 1674649865}
+  rendererBackground: {fileID: 121441929}
 --- !u!114 &1064399425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1148,7 +1123,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: "\uD5C9..\uD5C8\uC5B5..\uC544\uC800\uC528.. \uB3CC 500\uAC1C \uAC00\uC838\uC654\uC5B4\uC694..!"
 --- !u!222 &2078312288
 CanvasRenderer:
   m_ObjectHideFlags: 0
