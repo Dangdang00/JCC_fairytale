@@ -47,4 +47,9 @@ public class TitleScene_Change : MonoBehaviour
        // audioSource.Play();
         SceneManager.LoadScene("people");
     }
+
+    public void ChangeTreasureScene()
+    {
+        SceneManager.LoadScene("treasure");
+    }
 }

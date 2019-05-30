@@ -6,19 +6,19 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject winPanelObj, losePanelObj, ScorePanelObj;
+    public GameObject losePanelObj;
 
     void Start()
     {
         Time.timeScale = 1f;
     }
 
-    public void Win()
+    /*public void Win()
     {
         winPanelObj.SetActive(true);    // 오브젝트 활성화
         Debug.Log("Win!");
         Time.timeScale = 0f;
-    }
+    }*/
 
     public void Lose()
     {

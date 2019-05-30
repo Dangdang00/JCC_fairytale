@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/R_Scenes/R_Game.unity
-=======
-- path: Assets/Scenes/W_Scenes/WhiteSnowGame.unity
->>>>>>> babef1a1f203ef7598faebfab8f82cfc2b734526
+- path: Assets/Scenes/treasure.unity
   isLoaded: 1
   isActive: 1

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Character : MonoBehaviour {
     public float moveSpeed = 0.08f;
@@ -24,8 +25,9 @@ public class Character : MonoBehaviour {
         if(col.transform.name == "WinCollider")
         {
             Time.timeScale = 0f;
-            //gameManager.showScore();
-            gameManager.Win();
+            Debug.Log("Win!");
+            SceneManager.LoadScene("R_Win");
+            //gameManager.Win();
         }
         else if(col.transform.name == "LoseCollider")
         {
