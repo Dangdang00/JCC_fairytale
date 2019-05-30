@@ -15,27 +15,12 @@ public class ChangeBookCover : MonoBehaviour
 
     void Start()
     {
-        RCover = false;
-        WCover = false;
-        //btn = GameObject.Find("rstone1");
-        // 버튼이 안보이게 함
-        imageObj = GameObject.FindGameObjectWithTag("Rbook");
-        myImage = imageObj.GetComponent<Image>();
 
     }
 
     void Update()
     {
-       //if (RCover == true && WCover == true)
-        //{
-            // 버튼이 보이도록 함
-           //btn.SetActive(true);
-        //}
 
-        if(RCover == true)
-        {
-            myImage.sprite = Resources.Load<Sprite>("RbookClear");
-        }
     }
 
     public void Change_Cover()

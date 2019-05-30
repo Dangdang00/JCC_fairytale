@@ -111,6 +111,7 @@
     <Compile Include="Assets\Script\Sound.cs" />
     <Compile Include="Assets\Script\textBlink.cs" />
     <Compile Include="Assets\Script\TitleScene_Change.cs" />
+    <Compile Include="Assets\Script\Treasure.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/hwangdayoung/Desktop/JCC_fairytale/JCC_fairytale/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
