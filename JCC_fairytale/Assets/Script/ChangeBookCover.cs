@@ -6,33 +6,19 @@ using UnityEngine.UI;
 
 public class ChangeBookCover : MonoBehaviour
 {
-    public bool RCover = true;
-    public bool WCover;
-    //public GameObject btn;
-
-    public GameObject imageObj;
-    public Image myImage;
-
-    void Start()
-    {
-
-    }
+    public GameObject Rbook;
+    public GameObject Wbook;
+    public GameObject Rbook_Clear;
+    public GameObject Wbook_Clear;
 
     void Update()
     {
-
-    }
-
-    public void Change_Cover()
-    {
-        if (RCover == true)
+        // 빨간모자 미니게임 성공시 책 이미지 변
+        if(Go_Ending.Rbook)
         {
-            // 이미지 변경
+            Rbook.SetActive(false);
+            Rbook_Clear.SetActive(true);
         }
 
-        if (WCover == true)
-        {
-            // 이미지 변경
-        }
     }
 }

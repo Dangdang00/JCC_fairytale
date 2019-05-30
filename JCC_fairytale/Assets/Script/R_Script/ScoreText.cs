@@ -29,6 +29,12 @@ public class ScoreText : MonoBehaviour
         Destroy(col.gameObject, 0f);
 
         // 스코어 출력
+        //scoreText.text = score.ToString();
+        Print();
+    }
+
+    public void Print()
+    {
         scoreText.text = score.ToString();
     }
 }
