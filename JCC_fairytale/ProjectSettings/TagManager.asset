@@ -8,6 +8,7 @@ TagManager:
   - rstone
   - Rbook
   - Wbook
+  - GApple
   layers:
   - Default
   - TransparentFX

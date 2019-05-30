@@ -5559,7 +5559,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0036913538, y: -0.015821017}
+  m_Offset: {x: -0.003691353, y: -0.026273433}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5570,7 +5570,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.06633212, y: 0.11153193}
+  m_Size: {x: 0.06633212, y: 0.0906271}
   m_EdgeRadius: 0
 --- !u!212 &593621799
 SpriteRenderer:
@@ -12582,9 +12582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89b74bf28400bf64884f8700766ae8f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  winPanelObj: {fileID: 41976333}
   losePanelObj: {fileID: 912074820}
-  ScorePanelObj: {fileID: 0}
 --- !u!4 &1078600924
 Transform:
   m_ObjectHideFlags: 0
@@ -13021,7 +13019,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08142136b69e6294882bf152ebe05442, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
   scoreText: {fileID: 2016049744}
 --- !u!82 &1101799769
 AudioSource:
@@ -19566,7 +19563,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08142136b69e6294882bf152ebe05442, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
   scoreText: {fileID: 1759965253}
 --- !u!114 &1759965253
 MonoBehaviour:
@@ -23057,7 +23053,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08142136b69e6294882bf152ebe05442, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
   scoreText: {fileID: 2016049744}
 --- !u!114 &2016049744
 MonoBehaviour:

@@ -11,7 +11,7 @@ public class ScoreText : MonoBehaviour
 
     public Text scoreText;
 
-    private void OnTriggerEnter2D(Collider2D col)
+    void OnTriggerEnter2D(Collider2D col)
     {
         if(col.gameObject.tag == "stone")
         {
@@ -29,12 +29,11 @@ public class ScoreText : MonoBehaviour
         Destroy(col.gameObject, 0f);
 
         // 스코어 출력
-        //scoreText.text = score.ToString();
-        Print();
+        scoreText.text = score.ToString();
     }
 
-    public void Print()
+    public int GetScore()
     {
-        scoreText.text = score.ToString();
+        return score;
     }
 }
