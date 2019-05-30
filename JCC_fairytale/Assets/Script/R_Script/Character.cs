@@ -23,6 +23,8 @@ public class Character : MonoBehaviour {
     {
         if(col.transform.name == "WinCollider")
         {
+            Time.timeScale = 0f;
+            //gameManager.showScore();
             gameManager.Win();
         }
         else if(col.transform.name == "LoseCollider")

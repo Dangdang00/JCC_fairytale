@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ScoreText : MonoBehaviour
 {
-    int score = 0;
+    public int score = 0;
     int stone = 5;
     int rstone = 10;
 

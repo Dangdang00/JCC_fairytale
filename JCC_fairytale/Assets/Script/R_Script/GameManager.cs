@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject winPanelObj, losePanelObj;
+    public GameObject winPanelObj, losePanelObj, ScorePanelObj;
 
     void Start()
     {
@@ -26,6 +26,13 @@ public class GameManager : MonoBehaviour
         Debug.Log("Lose!");
         Time.timeScale = 0f;
     }
+     
+  /*  public void showScore()
+    {
+        ScorePanelObj.SetActive(true);
+        Debug.Log("Score");
+        Time.timeScale = 0f;
+    }*/
 
     public void Replay()
     {

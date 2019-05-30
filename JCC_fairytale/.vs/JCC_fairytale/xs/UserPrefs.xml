@@ -1,12 +1,10 @@
 ﻿<Properties StartupConfiguration="{16CC3DD8-BF8C-F6BF-0DC1-CD0981AC0A70}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/AudioManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Base/dialogue_ver2/H_story/Dialogue_H.cs">
     <Files>
-      <File FileName="Assets/Script/R_Script/ChangeScene.cs" Line="16" Column="1" />
-      <File FileName="Assets/Script/R_Script/GameManager.cs" Line="16" Column="16" NotebookId="1" />
-      <File FileName="Assets/Script/R_Script/GetStone.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Assets/Script/R_Script/ChangeMain.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Assets/Script/AudioManager.cs" Line="8" Column="80" NotebookId="1" />
-      <File FileName="Assets/Script/Sound.cs" Line="14" Column="22" NotebookId="1" />
+      <File FileName="Assets/Script/R_Script/Character.cs" Line="27" Column="15" />
+      <File FileName="Assets/Script/R_Script/GameManager.cs" Line="35" Column="8" />
+      <File FileName="Assets/Script/R_Script/ScoreText.cs" Line="8" Column="10" />
+      <File FileName="Assets/Scenes/Base/dialogue_ver2/H_story/Dialogue_H.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
