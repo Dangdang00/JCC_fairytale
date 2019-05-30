@@ -1,12 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/Title.unity
-=======
-<<<<<<< HEAD
-- path: Assets/Scenes/H_Scenes/H_story.unity
-=======
-- path: Assets/Scenes/Choice.unity
->>>>>>> 7035b53d822d26ecf6c381522709483f377174f6
->>>>>>> c4a8bd300ba5d94730f169db2b6d4effddb26972
+- path: Assets/Scenes/W_Scenes/WhiteSnowGame.unity
   isLoaded: 1
   isActive: 1
