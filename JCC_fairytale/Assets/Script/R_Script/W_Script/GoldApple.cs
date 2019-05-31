@@ -32,6 +32,7 @@ public class GoldApple : MonoBehaviour
 
         if (d < r1 + r2)
         {
+            Score.count += 10;
             Destroy(gameObject);
         }
     }
