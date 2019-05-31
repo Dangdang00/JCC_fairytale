@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/W_Scenes/WhiteSnowLose.unity
+- path: Assets/Scenes/W_Scenes/WhiteSnowGame.unity
   isLoaded: 1
   isActive: 1

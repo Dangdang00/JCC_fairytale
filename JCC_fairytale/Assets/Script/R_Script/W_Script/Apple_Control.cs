@@ -2,17 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Apple_Control : MonoBehaviour {
+public class Apple_Control : MonoBehaviour
+{
     GameObject player;
 
-    void Start() {
+    void Start()
+    {
         this.player = GameObject.Find("BackSul2");
     }
 
     void Update()
     {
         transform.Translate(0, -0.1f, 0); // 0.2f의 속도만큼 낙하
-        if (transform.position.y < -5.0f) {
+        if (transform.position.y < -5.0f)
+        {
             Destroy(gameObject);
         }
 
@@ -23,9 +26,9 @@ public class Apple_Control : MonoBehaviour {
         float r1 = 0.5f;
         float r2 = 1.0f;
 
-        if(d < r1 + r2) {
+        if (d < r1 + r2)
+        {
             Destroy(gameObject);
-
             GameObject GameDirector = GameObject.Find("GameDirector");
             GameDirector.GetComponent<GameDirector>().DecreaseHP();
         }

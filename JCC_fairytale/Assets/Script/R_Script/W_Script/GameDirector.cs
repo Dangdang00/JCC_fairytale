@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class GameDirector : MonoBehaviour {
     GameObject hpGage;
-    public Text scoreText;
+    AudioSource audioSource;
+    /*public Text scoreText;
     int score = 0;
     public static GameDirector instance;
 
@@ -15,10 +16,11 @@ public class GameDirector : MonoBehaviour {
         score += enemyScore;
         scoreText.text = "Score:" + score; //스코어에 올립니다.
     }
-
+    */
 
     void Start() {
         this.hpGage = GameObject.Find("HPImage");
+        audioSource.Play();
         Invoke("WhiteGameWin", 30.0f);
     }
 
@@ -31,5 +33,9 @@ public class GameDirector : MonoBehaviour {
 
     public void WhiteGameWin() {
         SceneManager.LoadScene("WhiteSnowWin");
+    }
+    void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
     }
 }
