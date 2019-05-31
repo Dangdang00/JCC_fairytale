@@ -9,6 +9,7 @@ TagManager:
   - Rbook
   - Wbook
   - GApple
+  - GoldApple
   layers:
   - Default
   - TransparentFX

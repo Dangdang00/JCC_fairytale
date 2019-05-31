@@ -105,6 +105,7 @@
     <Compile Include="Assets\Script\R_Script\W_Script\Go_firstStory.cs" />
     <Compile Include="Assets\Script\R_Script\W_Script\gold.cs" />
     <Compile Include="Assets\Script\R_Script\W_Script\GoldApple.cs" />
+    <Compile Include="Assets\Script\R_Script\W_Script\Score.cs" />
     <Compile Include="Assets\Script\R_Script\W_Script\WhiteGameAgain.cs" />
     <Compile Include="Assets\Script\R_Script\W_Script\WhiteGameStart.cs" />
     <Compile Include="Assets\Script\R_Script\W_Script\WhiteGameWay.cs" />
