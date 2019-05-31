@@ -4,38 +4,43 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class GameDirector : MonoBehaviour {
-    GameObject hpGage;
-    AudioSource audioSource;
-    /*public Text scoreText;
-    int score = 0;
-    public static GameDirector instance;
+public class GameDirector : MonoBehaviour
+{
+    int count = 0;
 
-    public void AddScore(int enemyScore)
+    GameObject hpGage1;
+    GameObject hpGage2;
+    GameObject hpGage3;
+    void Start()
     {
-        score += enemyScore;
-        scoreText.text = "Score:" + score; //스코어에 올립니다.
-    }
-    */
-
-    void Start() {
-        this.hpGage = GameObject.Find("HPImage");
-        audioSource.Play();
+        this.hpGage1 = GameObject.Find("HPImage");
+        this.hpGage2 = GameObject.Find("HPImage1");
+        this.hpGage3 = GameObject.Find("HPImage2");
         Invoke("WhiteGameWin", 30.0f);
     }
-
-    public void DecreaseHP() {
-        this.hpGage.GetComponent<Image>().fillAmount -= 0.2f;
+    public void DecreaseHP()
+    {
+        /*this.hpGage.GetComponent<Image>().fillAmount -= 0.2f;
         if (this.hpGage.GetComponent<Image>().fillAmount == 0f) {
+            audioSource.Play();
+            SceneManager.LoadScene("WhiteSnowLose");
+        }*/
+        count++;
+        if (count == 1)
+        {
+            Destroy(hpGage3);
+        }
+        if (count == 2)
+        {
+            Destroy(hpGage2);
+        }
+        if (count == 3)
+        {
             SceneManager.LoadScene("WhiteSnowLose");
         }
     }
-
-    public void WhiteGameWin() {
-        SceneManager.LoadScene("WhiteSnowWin");
-    }
-    void Awake()
+    public void WhiteGameWin()
     {
-        audioSource = GetComponent<AudioSource>();
+        SceneManager.LoadScene("WhiteSnowWin");
     }
 }
