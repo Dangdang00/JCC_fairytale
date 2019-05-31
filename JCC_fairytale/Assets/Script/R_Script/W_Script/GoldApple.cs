@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GoldApple : MonoBehaviour
 {
     GameObject player;
+    //int AppleScore = 10;
 
     void Start()
     {
@@ -18,6 +20,8 @@ public class GoldApple : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+       // GameDirector.instance.AddScore(AppleScore);
 
         Vector2 p1 = transform.position; //사과의 중심좌표
         Vector2 p2 = this.player.transform.position; // 캐릭터의 중심좌표
