@@ -10,6 +10,7 @@ TagManager:
   - Wbook
   - GApple
   - GoldApple
+  - Ground
   layers:
   - Default
   - TransparentFX
