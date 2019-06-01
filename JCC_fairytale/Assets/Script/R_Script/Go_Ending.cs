@@ -7,6 +7,6 @@ public class Go_Ending : MonoBehaviour
 {
     public void ChangeScene()
     {
-        SceneManager.LoadScene("R_Ending");
+        SceneManager.LoadScene("New");
     }
 }

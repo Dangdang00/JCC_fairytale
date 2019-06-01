@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Base/story.unity
     guid: 4125ecc126735a1409e936f1a99522cf
   - enabled: 1
+    path: Assets/Scenes/Base/test/New.unity
+    guid: 5e00be7beafb5d54980d755958cfccce
+  - enabled: 1
     path: Assets/Scenes/Library.unity
     guid: ba00c9e4eb0f2e642af6285e025e54ad
   - enabled: 1

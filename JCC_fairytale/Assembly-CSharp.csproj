@@ -67,15 +67,10 @@
     <Compile Include="Assets\Scenes\Base\dialogue_ver2\Dialogue_2.cs" />
     <Compile Include="Assets\Scenes\Base\dialogue_ver2\H_story\Dialogue_H.cs" />
     <Compile Include="Assets\Scenes\Base\dialogue_ver2\H_story\Dialogue_H_Ending.cs" />
-    <Compile Include="Assets\Scenes\Base\dialogue_ver2\H_story\TestDialogue_Ending.cs" />
-    <Compile Include="Assets\Scenes\Base\dialogue_ver2\H_story\TestDialogue_H.cs" />
     <Compile Include="Assets\Scenes\Base\dialogue_ver2\R_story\DialogueManager_afterR.cs" />
     <Compile Include="Assets\Scenes\Base\dialogue_ver2\R_story\DialogueManager_R.cs" />
-    <Compile Include="Assets\Scenes\Base\dialogue_ver2\R_story\TestDialogue_R.cs" />
     <Compile Include="Assets\Scenes\Base\dialogue_ver2\W_story\DialogueManager_afterW.cs" />
     <Compile Include="Assets\Scenes\Base\dialogue_ver2\W_story\DialogueManager_W.cs" />
-    <Compile Include="Assets\Scenes\Base\dialogue_ver2\W_story\TestDialogue_afterW.cs" />
-    <Compile Include="Assets\Scenes\Base\dialogue_ver2\W_story\TestDialogue_W.cs" />
     <Compile Include="Assets\Script\AudioManager.cs" />
     <Compile Include="Assets\Script\ChangeBookCover.cs" />
     <Compile Include="Assets\Script\ChangeRStory.cs" />
