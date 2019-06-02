@@ -6,48 +6,26 @@ using UnityEngine.UI;
 
 public class ChangeBookCover : MonoBehaviour
 {
-    public bool RCover = true;
-    public bool WCover;
-    //public GameObject btn;
-
-    public GameObject imageObj;
-    public Image myImage;
-
-    void Start()
-    {
-        RCover = false;
-        WCover = false;
-        //btn = GameObject.Find("rstone1");
-        // 버튼이 안보이게 함
-        imageObj = GameObject.FindGameObjectWithTag("Rbook");
-        myImage = imageObj.GetComponent<Image>();
-
-    }
+    public GameObject Rbook;
+    public GameObject Wbook;
+    public GameObject Rbook_Clear;
+    public GameObject Wbook_Clear;
 
     void Update()
     {
-       //if (RCover == true && WCover == true)
-        //{
-            // 버튼이 보이도록 함
-           //btn.SetActive(true);
-        //}
-
-        if(RCover == true)
+        // 빨간모자 미니게임 성공시 책 이미지 변경
+        if (Go_Ending.Rbook)
         {
-            myImage.sprite = Resources.Load<Sprite>("RbookClear");
-        }
-    }
-
-    public void Change_Cover()
-    {
-        if (RCover == true)
-        {
-            // 이미지 변경
+            Rbook.SetActive(false);
+            Rbook_Clear.SetActive(true);
         }
 
-        if (WCover == true)
+        // 백설공주 미니게임 성공시 책 이미지 변경
+        if (Go_ending.Wbook)
         {
-            // 이미지 변경
+            Wbook.SetActive(false);
+            Wbook_Clear.SetActive(true);
         }
+
     }
 }

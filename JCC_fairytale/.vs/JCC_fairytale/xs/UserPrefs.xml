@@ -1,12 +1,13 @@
 ﻿<Properties StartupConfiguration="{16CC3DD8-BF8C-F6BF-0DC1-CD0981AC0A70}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/AudioManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/R_Script/Pause_Click.cs">
     <Files>
-      <File FileName="Assets/Script/R_Script/ChangeScene.cs" Line="16" Column="1" />
-      <File FileName="Assets/Script/R_Script/GameManager.cs" Line="16" Column="16" NotebookId="1" />
-      <File FileName="Assets/Script/R_Script/GetStone.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Assets/Script/R_Script/ChangeMain.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Assets/Script/AudioManager.cs" Line="8" Column="80" NotebookId="1" />
-      <File FileName="Assets/Script/Sound.cs" Line="14" Column="22" NotebookId="1" />
+      <File FileName="Assets/Script/ChangeBookCover.cs" Line="21" Column="10" />
+      <File FileName="Assets/Script/R_Script/W_Script/Go_ending.cs" Line="10" Column="6" />
+      <File FileName="Assets/Script/R_Script/Go_Ending.cs" Line="8" Column="30" />
+      <File FileName="Assets/Script/Treasure.cs" Line="28" Column="40" />
+      <File FileName="Assets/Script/Pause.cs" Line="12" Column="1" />
+      <File FileName="Assets/Script/R_Script/RGo_Library.cs" Line="15" Column="31" />
+      <File FileName="Assets/Script/R_Script/Pause_Click.cs" Line="20" Column="41" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

@@ -1,15 +1,27 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
 public class BakSul_Control : MonoBehaviour
 {
     int speed = 6; //스피드 
+    int count = 0;
+
     float xMove;
+
     GameObject left;
     GameObject right;
-    void Start() {
+
+    public GameObject GA;
+
+    void Start()
+    {
         this.left = GameObject.Find("Walking_Left");
         this.right = GameObject.Find("Walking_Right");
     }
+
+
     void Update()
     {
         xMove = 0;
@@ -26,5 +38,23 @@ public class BakSul_Control : MonoBehaviour
         if (worldpos.y > 1f) worldpos.y = 1f;
         this.transform.position = Camera.main.ViewportToWorldPoint(worldpos);
     }
-}
 
+    void OnTriggerEnter(Collider collision)
+    {
+        Debug.Log("collision");
+
+        if (collision.transform == GA.transform)
+        {
+            Debug.Log("collision");
+
+            count += 10;
+
+            Destroy(GA);
+
+
+        }
+
+
+    }
+
+}

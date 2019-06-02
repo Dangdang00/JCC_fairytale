@@ -5,35 +5,35 @@ using UnityEngine.SceneManagement;
 
 public class TitleScene_Change : MonoBehaviour
 {
-    AudioSource audioSource;
+   /* AudioSource audioSource;
 
     void Awake()
     {
         audioSource = GetComponent<AudioSource>();
         //DontDestroyOnLoad(gameObject);
     }
-
+    */
     public void ChangeTitleScene()
     {
-        audioSource.Play();
+        //audioSource.Play();
         SceneManager.LoadScene("Title");
     }
 
     public void ChangeStoryScene()
     {
-        audioSource.Play();
+       // audioSource.Play();
         SceneManager.LoadScene("story");
     }
 
     public void ChangeRuleScene()
     {
-        audioSource.Play();
+        //audioSource.Play();
         SceneManager.LoadScene("Rule");
     }
 
     public void ChangeChoiceScene()
     {
-        audioSource.Play();
+        //audioSource.Play();
         SceneManager.LoadScene("Choice");
     }
 
@@ -44,7 +44,12 @@ public class TitleScene_Change : MonoBehaviour
 
     public void ChangePeopleScene()
     {
-        audioSource.Play();
+       // audioSource.Play();
         SceneManager.LoadScene("people");
+    }
+
+    public void ChangeTreasureScene()
+    {
+        SceneManager.LoadScene("treasure");
     }
 }

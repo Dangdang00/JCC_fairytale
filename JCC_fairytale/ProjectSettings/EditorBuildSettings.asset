@@ -30,6 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Library.unity
     guid: ba00c9e4eb0f2e642af6285e025e54ad
   - enabled: 1
+    path: Assets/Scenes/treasure.unity
+    guid: f33114729ceec4208a42dce99cdb3cdb
+  - enabled: 1
     path: Assets/Scenes/R_Scenes/R_Story.unity
     guid: 3c0c57db20cb7314ab49aa63b927d763
   - enabled: 1
@@ -41,6 +44,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/R_Scenes/R_Game.unity
     guid: 153ec5d6878db8c46ba46048e2b7d070
+  - enabled: 1
+    path: Assets/Scenes/R_Scenes/R_Win.unity
+    guid: 09b0e2ff1abea4041b82956ec89465a8
   - enabled: 1
     path: Assets/Scenes/R_Scenes/R_Ending.unity
     guid: 0ace1323c12980a40b950f58cffd7620

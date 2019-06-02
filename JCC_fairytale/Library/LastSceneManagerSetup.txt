@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/W_Scenes/W_story.unity
+=======
+- path: Assets/Scenes/Choice.unity
+>>>>>>> fa25c9009618773d3ebc0edf089ed138f15c6391
   isLoaded: 1
   isActive: 1

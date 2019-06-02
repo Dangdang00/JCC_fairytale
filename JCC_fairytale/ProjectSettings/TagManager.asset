@@ -8,6 +8,9 @@ TagManager:
   - rstone
   - Rbook
   - Wbook
+  - GApple
+  - GoldApple
+  - Ground
   layers:
   - Default
   - TransparentFX

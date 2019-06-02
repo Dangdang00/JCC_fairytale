@@ -5,13 +5,13 @@ using UnityEngine.UI;
 
 public class ScoreText : MonoBehaviour
 {
-    int score = 0;
+    public int score = 0;
     int stone = 5;
     int rstone = 10;
 
     public Text scoreText;
 
-    private void OnTriggerEnter2D(Collider2D col)
+    void OnTriggerEnter2D(Collider2D col)
     {
         if(col.gameObject.tag == "stone")
         {
@@ -30,5 +30,10 @@ public class ScoreText : MonoBehaviour
 
         // 스코어 출력
         scoreText.text = score.ToString();
+    }
+
+    public int GetScore()
+    {
+        return score;
     }
 }
