@@ -80,6 +80,7 @@
     <Compile Include="Assets\Script\AudioManager.cs" />
     <Compile Include="Assets\Script\ChangeBookCover.cs" />
     <Compile Include="Assets\Script\ChangeRStory.cs" />
+    <Compile Include="Assets\Script\Pause.cs" />
     <Compile Include="Assets\Script\R_Script\ChangeMain.cs" />
     <Compile Include="Assets\Script\R_Script\ChangeRuleScene.cs" />
     <Compile Include="Assets\Script\R_Script\ChangeScene.cs" />
@@ -88,6 +89,7 @@
     <Compile Include="Assets\Script\R_Script\GetStone.cs" />
     <Compile Include="Assets\Script\R_Script\Go_Ending.cs" />
     <Compile Include="Assets\Script\R_Script\Jump.cs" />
+    <Compile Include="Assets\Script\R_Script\Pause_Click.cs" />
     <Compile Include="Assets\Script\R_Script\ResultText.cs" />
     <Compile Include="Assets\Script\R_Script\RGo_Library.cs" />
     <Compile Include="Assets\Script\R_Script\ScoreText.cs" />
