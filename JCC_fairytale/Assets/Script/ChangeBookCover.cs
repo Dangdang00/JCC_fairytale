@@ -13,11 +13,18 @@ public class ChangeBookCover : MonoBehaviour
 
     void Update()
     {
-        // 빨간모자 미니게임 성공시 책 이미지 변
-        if(Go_Ending.Rbook)
+        // 빨간모자 미니게임 성공시 책 이미지 변경
+        if (Go_Ending.Rbook)
         {
             Rbook.SetActive(false);
             Rbook_Clear.SetActive(true);
+        }
+
+        // 백설공주 미니게임 성공시 책 이미지 변경
+        if (Go_ending.Wbook)
+        {
+            Wbook.SetActive(false);
+            Wbook_Clear.SetActive(true);
         }
 
     }

@@ -9,7 +9,7 @@ public class Go_Ending : MonoBehaviour
 
     public void ChangeScene()
     {
-        Rbook = true;   // Treasure.cs와 연결된 변
+        Rbook = true;   // Treasure.cs와 연결된 변수
         SceneManager.LoadScene("R_Ending");
     }
 }

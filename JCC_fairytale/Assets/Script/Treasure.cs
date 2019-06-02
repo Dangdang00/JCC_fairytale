@@ -20,5 +20,12 @@ public class Treasure : MonoBehaviour
             pie_s.SetActive(false);
             pie.SetActive(true);
         }
+
+        // 백설공주 미니게임 승리 시 아이템 이미지 변경
+        if(Go_ending.Wbook)
+        {
+            gold_apple_s.SetActive(false);
+            gold_apple.SetActive(true);
+        }
     }
 }
