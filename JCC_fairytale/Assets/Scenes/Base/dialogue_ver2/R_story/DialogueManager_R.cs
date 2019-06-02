@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class DialogueManager_R : MonoBehaviour
 {
-
     public static DialogueManager_R instance;
+    public Dialogue_22 dialogue;
 
     public Text text;
     public Text Name;
@@ -22,7 +22,6 @@ public class DialogueManager_R : MonoBehaviour
     private List<Sprite> listBackground;
 
     private int count; // 대화 진행 상황 카운트.
-
     private bool talking = false;
 
     /* #region Singleton
@@ -41,7 +40,7 @@ public class DialogueManager_R : MonoBehaviour
       #endregion Singleton*/
 
     // Use this for initialization
-    void Start()
+    public void Start()
     {
         count = 0;
         //text.text = " ";
@@ -51,11 +50,12 @@ public class DialogueManager_R : MonoBehaviour
         listSprites_R = new List<Sprite>();
         listSprites_L = new List<Sprite>();
         listBackground = new List<Sprite>();
+        talking = true;
     }
 
-    public void ShowDialogue(Dialogue_22 dialogue)
+    public void ShowDialogue()
     {
-        talking = true;
+        //talking = true;
         for (int i = 0; i < dialogue.sentences.Length; i++)
         {
             listBackground.Add(dialogue.background[i]);
@@ -89,7 +89,7 @@ public class DialogueManager_R : MonoBehaviour
             {
                 //yield return new WaitForSeconds(0.2f);
                 rendererBackground.GetComponent<SpriteRenderer>().sprite = listBackground[count];
-        
+
             }
 
             if (listSprites_L[count] != listSprites_L[count - 1])
@@ -98,7 +98,7 @@ public class DialogueManager_R : MonoBehaviour
                 rendererSprite_L.GetComponent<SpriteRenderer>().sprite = listSprites_L[count];
             }
 
-            if(listSprites_R[count] != listSprites_R[count - 1])
+            if (listSprites_R[count] != listSprites_R[count - 1])
             {
                 //yield return new WaitForSeconds(0.1f);
                 rendererSprite_R.GetComponent<SpriteRenderer>().sprite = listSprites_R[count];
@@ -124,13 +124,15 @@ public class DialogueManager_R : MonoBehaviour
     {
         if (talking)
         {
+
             if (Input.GetMouseButtonDown(0))
             {
+                ShowDialogue();
                 count++;
                 text.text = " ";
                 Name.text = " ";
 
-                if (count == listSentences.Count)
+                if (count >= 7)
                 {
                     StopAllCoroutines();
                     ExitDialogue();

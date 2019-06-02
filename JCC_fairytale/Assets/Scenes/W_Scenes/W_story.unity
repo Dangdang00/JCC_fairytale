@@ -112,41 +112,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &214817
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 214818}
-  m_Layer: 5
-  m_Name: Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &214818
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 214817}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 117897910}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -528, y: -311}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &64930702
 GameObject:
   m_ObjectHideFlags: 0
@@ -238,7 +203,6 @@ GameObject:
   - component: {fileID: 117897909}
   - component: {fileID: 117897908}
   - component: {fileID: 117897907}
-  - component: {fileID: 117897911}
   - component: {fileID: 117897914}
   - component: {fileID: 117897913}
   - component: {fileID: 117897912}
@@ -322,7 +286,6 @@ RectTransform:
   m_Children:
   - {fileID: 721933036}
   - {fileID: 1774751070}
-  - {fileID: 214818}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -331,69 +294,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &117897911
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 117897906}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c52a79c5255253a46aad162b7f864de9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue:
-    sentences:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    names:
-    - "\uBC31\uC124\uACF5\uC8FC"
-    - "\uB9C8\uB140"
-    - "\uBC31\uC124\uACF5\uC8FC"
-    - "\uB9C8\uB140"
-    - "\uBC31\uC124\uACF5\uC8FC"
-    - "\uB9C8\uB140"
-    - "\uBC31\uC124\uACF5\uC8FC"
-    - "\uB9C8\uB140"
-    - "\uBC31\uC124\uACF5\uC8FC"
-    sprites_R:
-    - {fileID: 21300000, guid: 6d2ffa0720011b949bbc7e8a8d5819f6, type: 3}
-    - {fileID: 21300000, guid: 1d3d6bec5bcdb804e81fe48a3315aa9d, type: 3}
-    - {fileID: 21300000, guid: 619e5d34048208940bbd9f096bc33b20, type: 3}
-    - {fileID: 21300000, guid: 0e7071fef5e167c459257086bbb372fd, type: 3}
-    - {fileID: 21300000, guid: 1d3d6bec5bcdb804e81fe48a3315aa9d, type: 3}
-    - {fileID: 21300000, guid: 1d3d6bec5bcdb804e81fe48a3315aa9d, type: 3}
-    - {fileID: 21300000, guid: 21a8070b7d8ca1747bfc44b472900d07, type: 3}
-    - {fileID: 21300000, guid: 98aa1fff0fcf61a46885c4728680de80, type: 3}
-    - {fileID: 21300000, guid: eeb2ad33b052e9b41ba6e43dabce5dc8, type: 3}
-    sprites_L:
-    - {fileID: 0}
-    - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
-    - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
-    - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
-    - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
-    - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
-    - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
-    - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
-    - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
-    background:
-    - {fileID: 21300000, guid: 4df2dda6b48884a7ca813b303f8511c4, type: 3}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
 --- !u!82 &117897912
 AudioSource:
   m_ObjectHideFlags: 0
@@ -527,12 +427,11 @@ MonoBehaviour:
     - "\uD5C9 \uACF5\uC9DC\uB85C \uC8FC\uC2DC\uB294\uAC70\uC5D0\uC694? \uB300\uBC15
       \uC644\uC804 \uC88B\uC544\uC694!"
     - "\uD560\uC778\uB9CC \uD574\uB4DC\uB9B0\uB2E4\uB2C8\uAE4C\uC694 \uACF5\uC8FC\uB2D8.
-      \uB2F9\uC5F0\uD788 \uB3C8\uC740 \uB0B4\uC154\uC57C\uC8E0? \uC0BC\uCC9C\uC6D0\uC785\uB2C8\uB2E4~"
-    - "\uC544.. \uADFC\uB370 \uC81C\uAC00.. \uC9C0\uAE08 \uB3C8\uC740 \uBB3C\uB860
-      \uAC00\uC9C4\uAC8C \uC544\uBB34\uAC83\uB3C4 \uC5C6\uC5B4\uC11C.. \n\uC678\uC0C1\uC740
-      \uC548 \uB418\uACA0\uC8E0? "
-    - "\uBB50? \uC9C0\uAE08 \uB3C8\uB3C4 \uC5C6\uB294\uB370 \uAC10\uD788 \uB0B4 \uC0AC\uACFC\uB97C
-      \uBA39\uC73C\uB824 \uD55C\uAC70\uC57C?? \uC774\uB188\uC774!!"
+      \n\uB2F9\uC5F0\uD788 \uB3C8\uC740 \uB0B4\uC154\uC57C\uC8E0\u314E\u314E"
+    - "\uC544.. \uADFC\uB370 \uC81C\uAC00.. \uC9C0\uAE08 \uB3C8\uC774 \uC5C6\uC5B4\uC11C..
+      \n\uC678\uC0C1\uC740 \uC548 \uB418\uACA0\uC8E0? "
+    - "\uBB50? \uAC10\uD788 \uB3C8\uB3C4 \uC5C6\uB294 \uB188\uC774!!\n\uB0B4 \uC0AC\uACFC\uB098
+      \uBC1B\uC544\uB77C!"
     - "\uC73C\uC545!"
     names:
     - "\uB9C8\uB140"
@@ -1112,7 +1011,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
