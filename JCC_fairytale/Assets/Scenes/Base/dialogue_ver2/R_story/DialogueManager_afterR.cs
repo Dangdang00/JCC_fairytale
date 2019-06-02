@@ -42,7 +42,7 @@ public class DialogueManager_afterR : MonoBehaviour
     // Use this for initialization
     public void Start()
     {
-        count = 0;
+        count = -1;
         //text.text = " ";
         //Name.text = " ";
         listSentences = new List<string>();
@@ -106,7 +106,7 @@ public class DialogueManager_afterR : MonoBehaviour
         }
         else
         {
-           // yield return new WaitForSeconds(0.05f);
+            yield return new WaitForSeconds(0.05f);
             rendererBackground.GetComponent<SpriteRenderer>().sprite = listBackground[count];
             rendererSprite_R.GetComponent<SpriteRenderer>().sprite = listSprites_R[count];
             rendererSprite_L.GetComponent<SpriteRenderer>().sprite = listSprites_L[count];
@@ -132,7 +132,7 @@ public class DialogueManager_afterR : MonoBehaviour
                 text.text = " ";
                 Name.text = " ";
 
-                if (count >= 11)
+                if (count >= 9)
                 {
                     StopAllCoroutines();
                     ExitDialogue();
