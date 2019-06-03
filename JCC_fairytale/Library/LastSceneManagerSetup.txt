@@ -1,4 +1,12 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Library.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/R_Scenes/R_Menu.unity
+=======
+- path: Assets/Scenes/R_Scenes/R_Game.unity
+>>>>>>> cd9bbb90864f6f1130e4a4d88af91de767ccdd5c
+>>>>>>> 244761b9ec83ef49bf3ca8f7a2eedaa06f0c3cd1
   isLoaded: 1
   isActive: 1

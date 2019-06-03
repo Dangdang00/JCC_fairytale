@@ -255,7 +255,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &650468828
 GameObject:
@@ -413,8 +413,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -528, y: -311}
-  m_SizeDelta: {x: 746.6, y: 145}
+  m_AnchoredPosition: {x: -528, y: -286.63}
+  m_SizeDelta: {x: 746.6, y: 96.255}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &987250823
 GameObject:
@@ -518,7 +518,7 @@ GameObject:
   - component: {fileID: 1064399425}
   - component: {fileID: 1064399419}
   m_Layer: 5
-  m_Name: Dialogue_2
+  m_Name: Dialogue_RR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -694,7 +694,7 @@ RectTransform:
   - {fileID: 955551250}
   - {fileID: 2078312289}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -715,23 +715,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - "\uC624! \uADF8\uC815\uB3C4\uBA74 \uB291\uB300\uB97C \uCAD3\uC544\uB0B4\uAE30\uC5D0\n\uCDA9\uBD84\uD55C
-      \uAC83 \uAC19\uAD6C\uB098."
-    - "\uADF8\uB7F0\uB370 \uC774 \uB3CC\uB4E4\uB85C\n\uC5B4\uB5BB\uAC8C \uB291\uB300\uB97C
-      \uCAD3\uC544\uB0B4\uC8E0?"
-    - "\uB2F9\uC5F0\uD788 \uB358\uC838\uC57C\uC9C0,\n\uB108\uB3C4 \uC5BC\uB978 \uB358\uC9C0\uB834!"
+    - "\uC624! \uADF8\uC815\uB3C4\uBA74 \uCDA9\uBD84\uD574! \uC798\uD588\uC5B4!"
+    - "\uC774\uAC78\uB85C \uC5B4\uB5BB\uAC8C \uB291\uB300\uB97C \uCAD3\uC544\uB0B8\uB2E4\uB294
+      \uAC70\uC8E0?"
+    - "\uBB50\uAE30\uB294, \uB358\uC838\uC57C\uC9C0.\n\uC790, \uB108\uB3C4 \uB358\uC9C0\uB834!"
     - "\uB124????"
-    - "\uD06C\uC544\uC545"
-    - "\uD6C4, \uBB34\uC0AC\uD788 \uB291\uB300\uB97C \uCAD3\uC544\uB0B8 \uAC83 \uAC19\uC73C\uB2C8\n\uB09C
+    - "\uD06C\uC544\uC545..."
+    - "\uD6C4, \uBA40\uB9AC \uB3C4\uB9DD\uAC04 \uAC83 \uAC19\uC73C\uB2C8 \n\uB09C
       \uC774\uB9CC \uAC00\uBCFC\uAC8C. \uC55E\uC73C\uB85C\uB3C4 \uC870\uC2EC\uD558\uACE0!"
-    - "\uC557. \uACE0\uB9D9\uB2E4\uB294 \uB9D0\uB3C4 \uBABB\uD588\uB294\uB370,\n\uBC8C\uC368
-      \uAC00\uBC84\uB838\uB124.."
-    - "\uBE68\uAC04\uBAA8\uC790\uC57C \uADF8 \uC0AC\uB0E5\uAFBC\uC740 \uC5B4\uB514\uAC14\uB2C8?\n\uAC10\uC0AC\uC758
-      \uC758\uBBF8\uB85C \uAD6C\uC6CC\uB193\uC740 \uD30C\uC774 \uC880 \uC8FC\uB824\uACE0
-      \uD588\uB294\uB370.."
-    - "\uD560\uBA38\uB2C8! \uC544\uC800\uC528\uB294 \uC544\uAE4C \uAC14\uC5B4\uC694. "
-    - "\uADF8\uB798? \uADF8\uB7FC \uC774 \uD30C\uC774\uB97C \uC5B4\uCA50\uB2F4.."
-    - "\uC81C\uAC00 \uBA39\uC744\uAC8C\uC694!\n\uC800 \uC8FC\uC138\uC694!"
+    - "\uC557. \uACE0\uB9D9\uB2E4\uB294 \uB9D0\uB3C4 \uBABB\uD588\uB294\uB370..."
+    - "\uBC8C\uC368 \uAC14\uC5B4? \uAC10\uC0AC\uC758 \uC758\uBBF8\uB85C\n\uD30C\uC774
+      \uC880 \uAC00\uC838\uC654\uB354\uB2C8.."
+    - "\uC5B4, \uADF8\uB7FC \uC81C\uAC00 \uBA39\uC744\uAC8C\uC694! \uC800 \uC8FC\uC138\uC694!!"
     names:
     - "\uC0AC\uB0E5\uAFBC"
     - "\uBE68\uAC04\uBAA8\uC790"
@@ -742,16 +737,12 @@ MonoBehaviour:
     - "\uBE68\uAC04\uBAA8\uC790"
     - "\uD560\uBA38\uB2C8"
     - "\uBE68\uAC04\uBAA8\uC790"
-    - "\uD560\uBA38\uB2C8"
-    - "\uBE68\uAC04\uBAA8"
     sprites_R:
     - {fileID: 21300000, guid: eeb2ad33b052e9b41ba6e43dabce5dc8, type: 3}
     - {fileID: 21300000, guid: 1d3d6bec5bcdb804e81fe48a3315aa9d, type: 3}
     - {fileID: 21300000, guid: 1d3d6bec5bcdb804e81fe48a3315aa9d, type: 3}
     - {fileID: 21300000, guid: 1d3d6bec5bcdb804e81fe48a3315aa9d, type: 3}
     - {fileID: 21300000, guid: 21a8070b7d8ca1747bfc44b472900d07, type: 3}
-    - {fileID: 21300000, guid: 619e5d34048208940bbd9f096bc33b20, type: 3}
-    - {fileID: 21300000, guid: 619e5d34048208940bbd9f096bc33b20, type: 3}
     - {fileID: 21300000, guid: 619e5d34048208940bbd9f096bc33b20, type: 3}
     - {fileID: 21300000, guid: 619e5d34048208940bbd9f096bc33b20, type: 3}
     - {fileID: 21300000, guid: 619e5d34048208940bbd9f096bc33b20, type: 3}
@@ -766,11 +757,7 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 21300000, guid: da79f52d0f567c64ebc2eaf95cb406c4, type: 3}
     - {fileID: 21300000, guid: da79f52d0f567c64ebc2eaf95cb406c4, type: 3}
-    - {fileID: 21300000, guid: da79f52d0f567c64ebc2eaf95cb406c4, type: 3}
-    - {fileID: 21300000, guid: da79f52d0f567c64ebc2eaf95cb406c4, type: 3}
     background:
-    - {fileID: 21300000, guid: a11647a0519d49f4ab3643de172f68b1, type: 3}
-    - {fileID: 21300000, guid: a11647a0519d49f4ab3643de172f68b1, type: 3}
     - {fileID: 21300000, guid: a11647a0519d49f4ab3643de172f68b1, type: 3}
     - {fileID: 21300000, guid: a11647a0519d49f4ab3643de172f68b1, type: 3}
     - {fileID: 21300000, guid: a11647a0519d49f4ab3643de172f68b1, type: 3}
@@ -1083,8 +1070,8 @@ MonoBehaviour:
     m_MaxSize: 70
     m_Alignment: 0
     m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_RichText: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\uD5C9..\uD5C8\uC5B5..\uC544\uC800\uC528.. \uB3CC 500\uAC1C \uAC00\uC838\uC654\uC5B4\uC694..!"
@@ -1112,6 +1099,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.4000244, y: -424.5}
-  m_SizeDelta: {x: 1795.7, y: 179.5}
+  m_AnchoredPosition: {x: -3.4000244, y: -437.38}
+  m_SizeDelta: {x: 1795.7, y: 205.25}
   m_Pivot: {x: 0.5, y: 0.5}

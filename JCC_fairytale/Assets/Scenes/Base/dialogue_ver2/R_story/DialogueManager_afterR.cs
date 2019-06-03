@@ -42,7 +42,7 @@ public class DialogueManager_afterR : MonoBehaviour
     // Use this for initialization
     public void Start()
     {
-        count = 0;
+        count = -1;
         //text.text = " ";
         //Name.text = " ";
         listSentences = new List<string>();
@@ -85,6 +85,8 @@ public class DialogueManager_afterR : MonoBehaviour
     {
         if (count > 0)
         {
+            Name.text += listNames[count];
+            text.text += listSentences[count];
             if (listBackground[count] != listBackground[count - 1])
             {
                 //yield return new WaitForSeconds(0.2f);
@@ -106,17 +108,13 @@ public class DialogueManager_afterR : MonoBehaviour
         }
         else
         {
-           // yield return new WaitForSeconds(0.05f);
+            yield return new WaitForSeconds(0.05f);
             rendererBackground.GetComponent<SpriteRenderer>().sprite = listBackground[count];
             rendererSprite_R.GetComponent<SpriteRenderer>().sprite = listSprites_R[count];
             rendererSprite_L.GetComponent<SpriteRenderer>().sprite = listSprites_L[count];
         }
-        Name.text += listNames[count];
-        for (int i = 0; i < listSentences[count].Length; i++)
-        {
-            text.text += listSentences[count][i]; // 1글자씩 출력.
-            yield return new WaitForSeconds(0.01f);
-        }
+// 1글자씩 출력.
+        //yield return new WaitForSeconds(0.01f);
 
     }
     // Update is called once per frame
@@ -132,7 +130,7 @@ public class DialogueManager_afterR : MonoBehaviour
                 text.text = " ";
                 Name.text = " ";
 
-                if (count >= 11)
+                if (count >= 10)
                 {
                     StopAllCoroutines();
                     ExitDialogue();
