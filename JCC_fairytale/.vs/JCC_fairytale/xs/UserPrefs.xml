@@ -1,13 +1,8 @@
 ﻿<Properties StartupConfiguration="{16CC3DD8-BF8C-F6BF-0DC1-CD0981AC0A70}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Base/dialogue_ver2/H_story/Dialogue_H_Ending.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/ChangeBookCover.cs">
     <Files>
-      <File FileName="Assets/Script/R_Script/Character.cs" Line="16" Column="24" />
-      <File FileName="Assets/Script/R_Script/GameManager.cs" Line="13" Column="25" />
-      <File FileName="Assets/Script/R_Script/Jump.cs" Line="8" Column="1" />
-      <File FileName="Assets/Script/R_Script/ResultText.cs" Line="14" Column="18" />
-      <File FileName="Assets/Script/R_Script/ScoreText.cs" Line="10" Column="12" />
-      <File FileName="Assets/Script/H_Script/GoEnd.cs" Line="8" Column="33" />
-      <File FileName="Assets/Scenes/Base/dialogue_ver2/H_story/Dialogue_H_Ending.cs" Line="134" Column="33" />
+      <File FileName="Assets/Script/Treasure.cs" Line="35" Column="36" />
+      <File FileName="Assets/Script/ChangeBookCover.cs" Line="29" Column="16" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

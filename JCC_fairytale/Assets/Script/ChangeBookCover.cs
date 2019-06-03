@@ -8,8 +8,10 @@ public class ChangeBookCover : MonoBehaviour
 {
     public GameObject Rbook;
     public GameObject Wbook;
+    public GameObject Hbook;
     public GameObject Rbook_Clear;
     public GameObject Wbook_Clear;
+    public GameObject Hbook_Clear;
 
     void Update()
     {
@@ -25,6 +27,13 @@ public class ChangeBookCover : MonoBehaviour
         {
             Wbook.SetActive(false);
             Wbook_Clear.SetActive(true);
+        }
+
+        // 헨젤과 그레텔 성공시 책 이미지 변경
+        if (GoEnd.Hbook)
+        {
+            Hbook.SetActive(false);
+            Hbook_Clear.SetActive(true);
         }
 
     }

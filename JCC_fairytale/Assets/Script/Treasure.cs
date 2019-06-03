@@ -27,5 +27,12 @@ public class Treasure : MonoBehaviour
             gold_apple_s.SetActive(false);
             gold_apple.SetActive(true);
         }
+
+        // 헨젤과그레텔 미니게임 승리 시 아이템 이비지 변경
+        if(GoEnd.Hbook)
+        {
+            cookie_s.SetActive(false);
+            cookie.SetActive(true);
+        }
     }
 }
