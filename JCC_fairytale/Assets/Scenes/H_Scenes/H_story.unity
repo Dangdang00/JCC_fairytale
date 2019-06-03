@@ -462,68 +462,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da8a16a4acaec9b44808170858f83c0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-    sentences:
-    - "\uB9C8\uB140\uAC00 \uD5E8\uC824\uC744 \uC7A1\uC544\uAC00\uBC84\uB838\uC5B4..\n\uB098\uC05C
-      \uB9C8\uB140 \uAC19\uC73C\uB2C8\uB77C\uACE0!"
-    - "\uBC14\uB85C \uC800\uAE30\uAC00 \uB9C8\uB140\uC758 \uC9D1\uC774\uACA0\uC9C0??\n\uB9C8\uB140\uAC00
-      \uC5C6\uB294 \uD2C8\uC744 \uD0C0\uC11C \uD5E8\uC824\uC744 \uAD6C\uD558\uC790."
-    - "\uD5E8\uC824\uC740 \uC5B4\uB514\uC788\uC9C0??"
-    - "\uC557 \uC800\uAE30\uC788\uB2E4!!\n\uD5E8\uC824!! \uB0B4\uAC00 \uAD6C\uD558\uB7EC\uC654\uC5B4!!!!"
-    - "\uADF8\uB808\uD154?! \uB124\uAC00 \uC5B4\uB5BB\uAC8C \uC5EC\uAE30\uC5D0...\n\uC544\uB2C8
-      \uC77C\uB2E8 \uC870\uC6A9\uD788 \uD574! \uADF8\uB7EC\uB2E4 \uB9C8\uB140\uAC00
-      \uAE68\uBA74 \uD070\uC77C\uB09C\uB2E4\uACE0...!"
-    - "\uBB50?? \uB9C8\uB140\uAC00 \uC9D1\uC5D0\uC788\uC5B4?"
-    - "\uD638\uD638 \uC2DD\uB7C9\uC774 \uC81C\uBC1C\uB85C \uAC78\uC5B4\uB4E4\uC5B4\uC654\uB124??\n\uC774\uAC8C
-      \uBB34\uC2A8 \uD589\uC6B4\uC774\uB78C!"
-    - "\uCCC7 \uB4E4\uCF30\uAD70. \uC774\uB807\uAC8C \uB41C \uC774\uC0C1 \n\uD5E8\uC824\uC744
-      \uAC78\uACE0 \uC2B9\uBD80\uB2E4 \uB9C8\uB140!"
-    - "\uB2F9\uB3CC\uD558\uAD70! \uC88B\uB2E4!"
-    - ?????
-    names:
-    - "\uADF8\uB808\uD154"
-    - "\uADF8\uB808\uD154"
-    - "\uADF8\uB808\uD154"
-    - "\uADF8\uB808\uD154"
-    - "\uD5E8\uC824"
-    - "\uADF8\uB808\uD154"
-    - "\uB9C8\uB140"
-    - "\uADF8\uB808\uD154"
-    - "\uB9C8\uB140"
-    - "\uD5E8\uC824"
-    sprites_R:
-    - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
-    - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
-    - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
-    - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
-    - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
-    - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
-    - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
-    - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
-    - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
-    - {fileID: 0}
-    sprites_L:
-    - {fileID: 21300000, guid: 532eaad61030f8b43ab4d21824b350ec, type: 3}
-    - {fileID: 21300000, guid: 532eaad61030f8b43ab4d21824b350ec, type: 3}
-    - {fileID: 0}
-    - {fileID: 21300000, guid: 532eaad61030f8b43ab4d21824b350ec, type: 3}
-    - {fileID: 21300000, guid: 532eaad61030f8b43ab4d21824b350ec, type: 3}
-    - {fileID: 21300000, guid: 532eaad61030f8b43ab4d21824b350ec, type: 3}
-    - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
-    - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
-    - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
-    - {fileID: 21300000, guid: 532eaad61030f8b43ab4d21824b350ec, type: 3}
-    background:
-    - {fileID: 21300000, guid: 638e600f79cf0704ca8193365b4e90dd, type: 3}
-    - {fileID: 21300000, guid: 638e600f79cf0704ca8193365b4e90dd, type: 3}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!82 &1069354654
 AudioSource:
   m_ObjectHideFlags: 0

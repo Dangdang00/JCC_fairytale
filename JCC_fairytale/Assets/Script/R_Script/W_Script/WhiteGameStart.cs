@@ -10,6 +10,6 @@ public class WhiteGameStart : MonoBehaviour
     }
     public void ChangeSecondScene()
     {
-        SceneManager.LoadScene("NewGameWhite");
+        SceneManager.LoadScene("WhiteSnowGame");
     }
 }

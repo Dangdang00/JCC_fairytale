@@ -136,7 +136,7 @@ public class Dialogue_H : MonoBehaviour
                 {
                     StopAllCoroutines();
                     ExitDialogue();
-                    SceneManager.LoadScene("H_Ending");
+                    SceneManager.LoadScene("H_Title");
                 }
                 else
                 {

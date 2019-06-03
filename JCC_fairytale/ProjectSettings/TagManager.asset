@@ -11,6 +11,9 @@ TagManager:
   - GApple
   - GoldApple
   - Ground
+  - DESTROYER
+  - PLAYER
+  - ENEMY
   layers:
   - Default
   - TransparentFX
@@ -20,8 +23,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Player
+  - Enemy
   - 
   - 
   - 

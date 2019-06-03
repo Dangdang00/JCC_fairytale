@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Base/story.unity
     guid: 4125ecc126735a1409e936f1a99522cf
   - enabled: 1
-    path: Assets/Scenes/H_Scenes/test/New.unity
+    path: Assets/Scenes/Base/test/New.unity
     guid: 5e00be7beafb5d54980d755958cfccce
   - enabled: 1
     path: Assets/Scenes/Library.unity
@@ -60,9 +60,6 @@ EditorBuildSettings:
     path: Assets/Scenes/W_Scenes/WhiteGameWay.unity
     guid: 49b1b3b1faf5f4e40bb00e93e14e60da
   - enabled: 1
-    path: Assets/Scenes/W_Scenes/NewGameWhite.unity
-    guid: de26fd1b87731f84e80e7c00f84fcf7f
-  - enabled: 1
     path: Assets/Scenes/W_Scenes/WhiteSnowGame.unity
     guid: e281023cd7fcfdd42a2a028bf80556be
   - enabled: 1
@@ -80,4 +77,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/H_Scenes/H_Ending.unity
     guid: 74233ce7cc04ff741aab1757a7598314
+  - enabled: 1
+    path: Assets/Scenes/H_Scenes/H_Title.unity
+    guid: fb7f45a0370a7e74bab07ce9268d6ff4
+  - enabled: 1
+    path: Assets/Scenes/H_Scenes/H_Again.unity
+    guid: a71b266e1e8c6354482e65405097477c
+  - enabled: 1
+    path: Assets/Scenes/H_Scenes/H_End.unity
+    guid: 18b693e1a1d98ac459fa00645a2983b8
+  - enabled: 1
+    path: Assets/Scenes/H_Scenes/H_Main.unity
+    guid: 90a7e0214fe7919459fc8f6a4cc7aa2e
+  - enabled: 1
+    path: Assets/Scenes/H_Scenes/H_Play.unity
+    guid: 0e178dce796f9924c9f7a49d8da81b2c
+  - enabled: 1
+    path: Assets/Scenes/H_Scenes/H_Way.unity
+    guid: e2e460767fb81b946b3a342cb1b12ccb
   m_configObjects: {}
