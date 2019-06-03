@@ -13,6 +13,7 @@ public class GameDirector : MonoBehaviour
     GameObject hpGage3;
     void Start()
     {
+        count = 0;
         this.hpGage1 = GameObject.Find("HPImage1");
         this.hpGage2 = GameObject.Find("HPImage");
         this.hpGage3 = GameObject.Find("HPImage2");

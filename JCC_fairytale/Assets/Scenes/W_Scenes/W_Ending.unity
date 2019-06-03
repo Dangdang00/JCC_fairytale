@@ -847,6 +847,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 62c0f0cebb7328e45ad3be103d00c9d5, type: 3}
     - {fileID: 21300000, guid: 62c0f0cebb7328e45ad3be103d00c9d5, type: 3}
     - {fileID: 21300000, guid: 62c0f0cebb7328e45ad3be103d00c9d5, type: 3}
+    - {fileID: 21300000, guid: 62c0f0cebb7328e45ad3be103d00c9d5, type: 3}
   text: {fileID: 1982989836}
   Name: {fileID: 524640920}
   rendererSprite_L: {fileID: 32702405}

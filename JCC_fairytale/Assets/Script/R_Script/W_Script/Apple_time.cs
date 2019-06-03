@@ -9,7 +9,7 @@ public class Apple_time : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        time = 30f;
+        time = 30.0f;
     }
     // Update is called once per frame
     void Update()

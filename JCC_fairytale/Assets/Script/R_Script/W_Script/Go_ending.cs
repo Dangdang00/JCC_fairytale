@@ -9,6 +9,6 @@ public class Go_ending : MonoBehaviour
     public void ChangeGameScene()
     {
         Wbook = true;     // Treasure.cs와 연결된 변수
-        SceneManager.LoadScene("New");
+        SceneManager.LoadScene("W_Ending");
     }
 }

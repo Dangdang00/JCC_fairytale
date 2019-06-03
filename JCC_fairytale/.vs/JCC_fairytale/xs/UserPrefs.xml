@@ -1,13 +1,11 @@
 ﻿<Properties StartupConfiguration="{16CC3DD8-BF8C-F6BF-0DC1-CD0981AC0A70}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/R_Script/Go_Ending.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/R_Script/Character.cs">
     <Files>
-      <File FileName="Assets/Script/ChangeBookCover.cs" Line="21" Column="10" />
-      <File FileName="Assets/Script/R_Script/W_Script/Go_ending.cs" Line="12" Column="36" />
-      <File FileName="Assets/Script/R_Script/Go_Ending.cs" Line="14" Column="46" />
-      <File FileName="Assets/Script/Treasure.cs" Line="28" Column="40" />
-      <File FileName="Assets/Script/Pause.cs" Line="12" Column="1" />
-      <File FileName="Assets/Script/R_Script/RGo_Library.cs" Line="15" Column="31" />
-      <File FileName="Assets/Script/R_Script/Pause_Click.cs" Line="20" Column="41" />
+      <File FileName="Assets/Script/R_Script/Character.cs" Line="16" Column="24" />
+      <File FileName="Assets/Script/R_Script/GameManager.cs" Line="13" Column="25" />
+      <File FileName="Assets/Script/R_Script/Jump.cs" Line="8" Column="5" />
+      <File FileName="Assets/Script/R_Script/ResultText.cs" Line="14" Column="18" />
+      <File FileName="Assets/Script/R_Script/ScoreText.cs" Line="10" Column="12" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

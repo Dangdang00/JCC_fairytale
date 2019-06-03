@@ -123,7 +123,6 @@ GameObject:
   - component: {fileID: 10614639}
   - component: {fileID: 10614642}
   - component: {fileID: 10614641}
-  - component: {fileID: 10614640}
   m_Layer: 0
   m_Name: nstone1 (4)
   m_TagString: stone
@@ -145,19 +144,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &10614640
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 10614638}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &10614641
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -339,7 +325,6 @@ GameObject:
   - component: {fileID: 14535802}
   - component: {fileID: 14535805}
   - component: {fileID: 14535804}
-  - component: {fileID: 14535803}
   m_Layer: 0
   m_Name: nstone3 (8)
   m_TagString: stone
@@ -361,19 +346,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &14535803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 14535801}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &14535804
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -459,7 +431,6 @@ GameObject:
   - component: {fileID: 41341948}
   - component: {fileID: 41341951}
   - component: {fileID: 41341950}
-  - component: {fileID: 41341949}
   m_Layer: 0
   m_Name: nstone1 (23)
   m_TagString: stone
@@ -481,19 +452,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &41341949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 41341947}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &41341950
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1076,7 +1034,6 @@ GameObject:
   - component: {fileID: 112040785}
   - component: {fileID: 112040788}
   - component: {fileID: 112040787}
-  - component: {fileID: 112040786}
   m_Layer: 0
   m_Name: nstone2 (23)
   m_TagString: stone
@@ -1098,19 +1055,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &112040786
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 112040784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &112040787
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1186,7 +1130,6 @@ GameObject:
   - component: {fileID: 112753057}
   - component: {fileID: 112753060}
   - component: {fileID: 112753059}
-  - component: {fileID: 112753058}
   m_Layer: 0
   m_Name: nstone3 (12)
   m_TagString: stone
@@ -1208,19 +1151,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &112753058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 112753056}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &112753059
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1306,7 +1236,6 @@ GameObject:
   - component: {fileID: 114619714}
   - component: {fileID: 114619717}
   - component: {fileID: 114619716}
-  - component: {fileID: 114619715}
   m_Layer: 0
   m_Name: nstone1 (2)
   m_TagString: stone
@@ -1328,19 +1257,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114619715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 114619713}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &114619716
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1495,7 +1411,6 @@ GameObject:
   - component: {fileID: 124492771}
   - component: {fileID: 124492774}
   - component: {fileID: 124492773}
-  - component: {fileID: 124492772}
   m_Layer: 0
   m_Name: nstone1 (8)
   m_TagString: stone
@@ -1517,19 +1432,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &124492772
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 124492770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &124492773
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1605,7 +1507,6 @@ GameObject:
   - component: {fileID: 135596399}
   - component: {fileID: 135596402}
   - component: {fileID: 135596401}
-  - component: {fileID: 135596400}
   m_Layer: 0
   m_Name: rstone2 (5)
   m_TagString: rstone
@@ -1627,19 +1528,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &135596400
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 135596398}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &135596401
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1715,7 +1603,6 @@ GameObject:
   - component: {fileID: 136032772}
   - component: {fileID: 136032775}
   - component: {fileID: 136032774}
-  - component: {fileID: 136032773}
   m_Layer: 0
   m_Name: rstone2 (9)
   m_TagString: rstone
@@ -1737,19 +1624,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &136032773
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 136032771}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &136032774
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1825,7 +1699,6 @@ GameObject:
   - component: {fileID: 154370120}
   - component: {fileID: 154370123}
   - component: {fileID: 154370122}
-  - component: {fileID: 154370121}
   m_Layer: 0
   m_Name: nstone2 (12)
   m_TagString: stone
@@ -1847,19 +1720,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &154370121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 154370119}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &154370122
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2147,7 +2007,6 @@ GameObject:
   - component: {fileID: 186705106}
   - component: {fileID: 186705109}
   - component: {fileID: 186705108}
-  - component: {fileID: 186705107}
   m_Layer: 0
   m_Name: nstone1 (10)
   m_TagString: stone
@@ -2169,19 +2028,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &186705107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 186705105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &186705108
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2654,7 +2500,6 @@ GameObject:
   - component: {fileID: 246658424}
   - component: {fileID: 246658427}
   - component: {fileID: 246658426}
-  - component: {fileID: 246658425}
   m_Layer: 0
   m_Name: nstone2 (2)
   m_TagString: stone
@@ -2676,19 +2521,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &246658425
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 246658423}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &246658426
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2764,7 +2596,6 @@ GameObject:
   - component: {fileID: 254765363}
   - component: {fileID: 254765366}
   - component: {fileID: 254765365}
-  - component: {fileID: 254765364}
   m_Layer: 0
   m_Name: rstone1 (8)
   m_TagString: rstone
@@ -2786,19 +2617,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &254765364
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 254765362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &254765365
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2874,7 +2692,6 @@ GameObject:
   - component: {fileID: 271040849}
   - component: {fileID: 271040852}
   - component: {fileID: 271040851}
-  - component: {fileID: 271040850}
   m_Layer: 0
   m_Name: nstone2 (3)
   m_TagString: stone
@@ -2896,19 +2713,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &271040850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 271040848}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &271040851
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3090,7 +2894,6 @@ GameObject:
   - component: {fileID: 311580608}
   - component: {fileID: 311580611}
   - component: {fileID: 311580610}
-  - component: {fileID: 311580609}
   m_Layer: 0
   m_Name: nstone1 (15)
   m_TagString: stone
@@ -3112,19 +2915,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &311580609
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 311580607}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &311580610
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3412,7 +3202,6 @@ GameObject:
   - component: {fileID: 366167288}
   - component: {fileID: 366167291}
   - component: {fileID: 366167290}
-  - component: {fileID: 366167289}
   m_Layer: 0
   m_Name: nstone1 (11)
   m_TagString: stone
@@ -3434,19 +3223,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &366167289
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 366167287}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &366167290
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3734,7 +3510,6 @@ GameObject:
   - component: {fileID: 367817440}
   - component: {fileID: 367817443}
   - component: {fileID: 367817442}
-  - component: {fileID: 367817441}
   m_Layer: 0
   m_Name: rstone2 (1)
   m_TagString: rstone
@@ -3756,19 +3531,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &367817441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 367817439}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &367817442
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3950,7 +3712,6 @@ GameObject:
   - component: {fileID: 398399041}
   - component: {fileID: 398399044}
   - component: {fileID: 398399043}
-  - component: {fileID: 398399042}
   m_Layer: 0
   m_Name: nstone1 (14)
   m_TagString: stone
@@ -3972,19 +3733,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &398399042
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 398399040}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &398399043
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4295,7 +4043,6 @@ GameObject:
   - component: {fileID: 438911090}
   - component: {fileID: 438911093}
   - component: {fileID: 438911092}
-  - component: {fileID: 438911091}
   m_Layer: 0
   m_Name: nstone3 (11)
   m_TagString: stone
@@ -4317,19 +4064,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &438911091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 438911089}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &438911092
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4415,7 +4149,6 @@ GameObject:
   - component: {fileID: 457130607}
   - component: {fileID: 457130610}
   - component: {fileID: 457130609}
-  - component: {fileID: 457130608}
   m_Layer: 0
   m_Name: nstone2 (19)
   m_TagString: stone
@@ -4437,19 +4170,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &457130608
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 457130606}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &457130609
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4525,7 +4245,6 @@ GameObject:
   - component: {fileID: 466649622}
   - component: {fileID: 466649625}
   - component: {fileID: 466649624}
-  - component: {fileID: 466649623}
   m_Layer: 0
   m_Name: rstone3 (11)
   m_TagString: rstone
@@ -4547,19 +4266,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 22.304}
---- !u!114 &466649623
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 466649621}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &466649624
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4751,7 +4457,6 @@ GameObject:
   - component: {fileID: 514203671}
   - component: {fileID: 514203674}
   - component: {fileID: 514203673}
-  - component: {fileID: 514203672}
   m_Layer: 0
   m_Name: rstone1 (13)
   m_TagString: rstone
@@ -4773,19 +4478,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &514203672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 514203670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &514203673
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4943,7 +4635,6 @@ GameObject:
   - component: {fileID: 525792021}
   - component: {fileID: 525792024}
   - component: {fileID: 525792023}
-  - component: {fileID: 525792022}
   m_Layer: 0
   m_Name: rstone3 (6)
   m_TagString: rstone
@@ -4965,19 +4656,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &525792022
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 525792020}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &525792023
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5169,7 +4847,6 @@ GameObject:
   - component: {fileID: 547456567}
   - component: {fileID: 547456570}
   - component: {fileID: 547456569}
-  - component: {fileID: 547456568}
   m_Layer: 0
   m_Name: rstone3 (15)
   m_TagString: rstone
@@ -5191,19 +4868,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -25.982}
---- !u!114 &547456568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 547456566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &547456569
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5395,7 +5059,6 @@ GameObject:
   - component: {fileID: 558530651}
   - component: {fileID: 558530654}
   - component: {fileID: 558530653}
-  - component: {fileID: 558530652}
   m_Layer: 0
   m_Name: rstone1 (2)
   m_TagString: rstone
@@ -5417,19 +5080,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &558530652
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 558530650}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &558530653
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5751,7 +5401,6 @@ GameObject:
   - component: {fileID: 601203321}
   - component: {fileID: 601203324}
   - component: {fileID: 601203323}
-  - component: {fileID: 601203322}
   m_Layer: 0
   m_Name: rstone3 (13)
   m_TagString: rstone
@@ -5773,19 +5422,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 58.836002}
---- !u!114 &601203322
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 601203320}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &601203323
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5977,7 +5613,6 @@ GameObject:
   - component: {fileID: 615295336}
   - component: {fileID: 615295339}
   - component: {fileID: 615295338}
-  - component: {fileID: 615295337}
   m_Layer: 0
   m_Name: rstone1 (10)
   m_TagString: rstone
@@ -5999,19 +5634,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &615295337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 615295335}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &615295338
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6087,7 +5709,6 @@ GameObject:
   - component: {fileID: 642124595}
   - component: {fileID: 642124598}
   - component: {fileID: 642124597}
-  - component: {fileID: 642124596}
   m_Layer: 0
   m_Name: nstone3 (9)
   m_TagString: stone
@@ -6109,19 +5730,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &642124596
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 642124594}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &642124597
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6498,7 +6106,6 @@ GameObject:
   - component: {fileID: 655069039}
   - component: {fileID: 655069042}
   - component: {fileID: 655069041}
-  - component: {fileID: 655069040}
   m_Layer: 0
   m_Name: nstone3 (2)
   m_TagString: stone
@@ -6520,19 +6127,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &655069040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 655069038}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &655069041
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7126,7 +6720,6 @@ GameObject:
   - component: {fileID: 700936709}
   - component: {fileID: 700936712}
   - component: {fileID: 700936711}
-  - component: {fileID: 700936710}
   m_Layer: 0
   m_Name: nstone3 (4)
   m_TagString: stone
@@ -7148,19 +6741,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &700936710
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 700936708}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &700936711
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7458,7 +7038,6 @@ GameObject:
   - component: {fileID: 737567406}
   - component: {fileID: 737567409}
   - component: {fileID: 737567408}
-  - component: {fileID: 737567407}
   m_Layer: 0
   m_Name: nstone3 (3)
   m_TagString: stone
@@ -7480,19 +7059,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &737567407
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 737567405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &737567408
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7790,7 +7356,6 @@ GameObject:
   - component: {fileID: 783569956}
   - component: {fileID: 783569959}
   - component: {fileID: 783569958}
-  - component: {fileID: 783569957}
   m_Layer: 0
   m_Name: nstone2 (1)
   m_TagString: stone
@@ -7812,19 +7377,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &783569957
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 783569955}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &783569958
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7900,7 +7452,6 @@ GameObject:
   - component: {fileID: 784132986}
   - component: {fileID: 784132989}
   - component: {fileID: 784132988}
-  - component: {fileID: 784132987}
   m_Layer: 0
   m_Name: rstone2 (10)
   m_TagString: rstone
@@ -7922,19 +7473,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &784132987
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 784132985}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &784132988
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8010,7 +7548,6 @@ GameObject:
   - component: {fileID: 789763375}
   - component: {fileID: 789763378}
   - component: {fileID: 789763377}
-  - component: {fileID: 789763376}
   m_Layer: 0
   m_Name: rstone2 (14)
   m_TagString: rstone
@@ -8032,19 +7569,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &789763376
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 789763374}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &789763377
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8199,7 +7723,6 @@ GameObject:
   - component: {fileID: 796960559}
   - component: {fileID: 796960562}
   - component: {fileID: 796960561}
-  - component: {fileID: 796960560}
   m_Layer: 0
   m_Name: rstone1 (15)
   m_TagString: rstone
@@ -8221,19 +7744,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &796960560
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 796960558}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &796960561
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8643,7 +8153,6 @@ GameObject:
   - component: {fileID: 809975953}
   - component: {fileID: 809975952}
   - component: {fileID: 809975951}
-  - component: {fileID: 809975954}
   m_Layer: 0
   m_Name: nstone1
   m_TagString: stone
@@ -8729,19 +8238,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &809975954
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 809975950}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!1 &813522688
 GameObject:
   m_ObjectHideFlags: 0
@@ -8753,7 +8249,6 @@ GameObject:
   - component: {fileID: 813522689}
   - component: {fileID: 813522692}
   - component: {fileID: 813522691}
-  - component: {fileID: 813522690}
   m_Layer: 0
   m_Name: nstone2 (8)
   m_TagString: stone
@@ -8775,19 +8270,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &813522690
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 813522688}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &813522691
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9048,7 +8530,6 @@ GameObject:
   - component: {fileID: 830748925}
   - component: {fileID: 830748928}
   - component: {fileID: 830748927}
-  - component: {fileID: 830748926}
   m_Layer: 0
   m_Name: rstone3 (14)
   m_TagString: rstone
@@ -9070,19 +8551,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &830748926
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 830748924}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &830748927
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9168,7 +8636,6 @@ GameObject:
   - component: {fileID: 837436048}
   - component: {fileID: 837436051}
   - component: {fileID: 837436050}
-  - component: {fileID: 837436049}
   m_Layer: 0
   m_Name: nstone2 (15)
   m_TagString: stone
@@ -9190,19 +8657,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &837436049
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 837436047}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &837436050
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9278,7 +8732,6 @@ GameObject:
   - component: {fileID: 848494956}
   - component: {fileID: 848494959}
   - component: {fileID: 848494958}
-  - component: {fileID: 848494957}
   m_Layer: 0
   m_Name: nstone1 (9)
   m_TagString: stone
@@ -9300,19 +8753,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &848494957
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 848494955}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &848494958
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9467,7 +8907,6 @@ GameObject:
   - component: {fileID: 867107322}
   - component: {fileID: 867107325}
   - component: {fileID: 867107324}
-  - component: {fileID: 867107323}
   m_Layer: 0
   m_Name: nstone3 (13)
   m_TagString: stone
@@ -9489,19 +8928,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &867107323
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 867107321}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &867107324
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9587,7 +9013,6 @@ GameObject:
   - component: {fileID: 867467586}
   - component: {fileID: 867467589}
   - component: {fileID: 867467588}
-  - component: {fileID: 867467587}
   m_Layer: 0
   m_Name: rstone2 (7)
   m_TagString: rstone
@@ -9609,19 +9034,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &867467587
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 867467585}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &867467588
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9803,7 +9215,6 @@ GameObject:
   - component: {fileID: 870939669}
   - component: {fileID: 870939672}
   - component: {fileID: 870939671}
-  - component: {fileID: 870939670}
   m_Layer: 0
   m_Name: nstone1 (24)
   m_TagString: stone
@@ -9825,19 +9236,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &870939670
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 870939668}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &870939671
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9913,7 +9311,6 @@ GameObject:
   - component: {fileID: 896658233}
   - component: {fileID: 896658236}
   - component: {fileID: 896658235}
-  - component: {fileID: 896658234}
   m_Layer: 0
   m_Name: rstone2 (4)
   m_TagString: rstone
@@ -9935,19 +9332,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &896658234
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 896658232}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &896658235
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10574,7 +9958,6 @@ GameObject:
   - component: {fileID: 933177058}
   - component: {fileID: 933177061}
   - component: {fileID: 933177060}
-  - component: {fileID: 933177059}
   m_Layer: 0
   m_Name: rstone3 (3)
   m_TagString: rstone
@@ -10596,19 +9979,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &933177059
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 933177057}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &933177060
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10694,7 +10064,6 @@ GameObject:
   - component: {fileID: 935165510}
   - component: {fileID: 935165512}
   - component: {fileID: 935165511}
-  - component: {fileID: 935165513}
   m_Layer: 0
   m_Name: rstone1
   m_TagString: rstone
@@ -10780,19 +10149,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &935165513
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 935165509}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!1 &938960627
 GameObject:
   m_ObjectHideFlags: 0
@@ -11095,7 +10451,6 @@ GameObject:
   - component: {fileID: 975958112}
   - component: {fileID: 975958115}
   - component: {fileID: 975958114}
-  - component: {fileID: 975958113}
   m_Layer: 0
   m_Name: nstone1 (6)
   m_TagString: stone
@@ -11117,19 +10472,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &975958113
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 975958111}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &975958114
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11205,7 +10547,6 @@ GameObject:
   - component: {fileID: 979341284}
   - component: {fileID: 979341287}
   - component: {fileID: 979341286}
-  - component: {fileID: 979341285}
   m_Layer: 0
   m_Name: rstone3 (5)
   m_TagString: rstone
@@ -11227,19 +10568,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &979341285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 979341283}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &979341286
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11467,7 +10795,6 @@ GameObject:
   - component: {fileID: 990272183}
   - component: {fileID: 990272186}
   - component: {fileID: 990272185}
-  - component: {fileID: 990272184}
   m_Layer: 0
   m_Name: rstone1 (1)
   m_TagString: rstone
@@ -11489,19 +10816,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &990272184
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 990272182}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &990272185
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11577,7 +10891,6 @@ GameObject:
   - component: {fileID: 1000380604}
   - component: {fileID: 1000380607}
   - component: {fileID: 1000380606}
-  - component: {fileID: 1000380605}
   m_Layer: 0
   m_Name: rstone1 (3)
   m_TagString: rstone
@@ -11599,19 +10912,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1000380605
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000380603}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1000380606
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11766,7 +11066,6 @@ GameObject:
   - component: {fileID: 1011420527}
   - component: {fileID: 1011420530}
   - component: {fileID: 1011420529}
-  - component: {fileID: 1011420528}
   m_Layer: 0
   m_Name: nstone2 (4)
   m_TagString: stone
@@ -11788,19 +11087,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1011420528
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1011420526}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1011420529
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11982,7 +11268,6 @@ GameObject:
   - component: {fileID: 1017987287}
   - component: {fileID: 1017987290}
   - component: {fileID: 1017987289}
-  - component: {fileID: 1017987288}
   m_Layer: 0
   m_Name: rstone3 (10)
   m_TagString: rstone
@@ -12004,19 +11289,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -25.982}
---- !u!114 &1017987288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1017987286}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &1017987289
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12102,7 +11374,6 @@ GameObject:
   - component: {fileID: 1032968757}
   - component: {fileID: 1032968760}
   - component: {fileID: 1032968759}
-  - component: {fileID: 1032968758}
   m_Layer: 0
   m_Name: nstone3 (15)
   m_TagString: stone
@@ -12124,19 +11395,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1032968758
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1032968756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &1032968759
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12222,7 +11480,6 @@ GameObject:
   - component: {fileID: 1037470159}
   - component: {fileID: 1037470162}
   - component: {fileID: 1037470161}
-  - component: {fileID: 1037470160}
   m_Layer: 0
   m_Name: nstone2 (22)
   m_TagString: stone
@@ -12244,19 +11501,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1037470160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1037470158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1037470161
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12837,7 +12081,6 @@ GameObject:
   - component: {fileID: 1086101944}
   - component: {fileID: 1086101947}
   - component: {fileID: 1086101946}
-  - component: {fileID: 1086101945}
   m_Layer: 0
   m_Name: nstone2 (14)
   m_TagString: stone
@@ -12859,19 +12102,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1086101945
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1086101943}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1086101946
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12947,7 +12177,6 @@ GameObject:
   - component: {fileID: 1096718937}
   - component: {fileID: 1096718940}
   - component: {fileID: 1096718939}
-  - component: {fileID: 1096718938}
   m_Layer: 0
   m_Name: rstone3 (7)
   m_TagString: rstone
@@ -12969,19 +12198,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1096718938
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1096718936}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &1096718939
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13248,7 +12464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08142136b69e6294882bf152ebe05442, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
+  Rscore: 0
   scoreText: {fileID: 2016049744}
 --- !u!82 &1101799769
 AudioSource:
@@ -13357,7 +12573,6 @@ GameObject:
   - component: {fileID: 1126973198}
   - component: {fileID: 1126973201}
   - component: {fileID: 1126973200}
-  - component: {fileID: 1126973199}
   m_Layer: 0
   m_Name: rstone2 (12)
   m_TagString: rstone
@@ -13379,19 +12594,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: -0.296, y: 0, z: 0}
---- !u!114 &1126973199
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1126973197}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1126973200
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13573,7 +12775,6 @@ GameObject:
   - component: {fileID: 1146152507}
   - component: {fileID: 1146152510}
   - component: {fileID: 1146152509}
-  - component: {fileID: 1146152508}
   m_Layer: 0
   m_Name: rstone2 (3)
   m_TagString: rstone
@@ -13595,19 +12796,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1146152508
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1146152506}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1146152509
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13683,7 +12871,6 @@ GameObject:
   - component: {fileID: 1152522198}
   - component: {fileID: 1152522201}
   - component: {fileID: 1152522200}
-  - component: {fileID: 1152522199}
   m_Layer: 0
   m_Name: nstone3 (19)
   m_TagString: stone
@@ -13705,19 +12892,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1152522199
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1152522197}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &1152522200
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13909,7 +13083,6 @@ GameObject:
   - component: {fileID: 1187097270}
   - component: {fileID: 1187097273}
   - component: {fileID: 1187097272}
-  - component: {fileID: 1187097271}
   m_Layer: 0
   m_Name: nstone1 (19)
   m_TagString: stone
@@ -13931,19 +13104,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1187097271
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1187097269}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1187097272
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14019,7 +13179,6 @@ GameObject:
   - component: {fileID: 1193639443}
   - component: {fileID: 1193639446}
   - component: {fileID: 1193639445}
-  - component: {fileID: 1193639444}
   m_Layer: 0
   m_Name: rstone2 (8)
   m_TagString: rstone
@@ -14041,19 +13200,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1193639444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1193639442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1193639445
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14235,7 +13381,6 @@ GameObject:
   - component: {fileID: 1224444917}
   - component: {fileID: 1224444920}
   - component: {fileID: 1224444919}
-  - component: {fileID: 1224444918}
   m_Layer: 0
   m_Name: rstone1 (9)
   m_TagString: rstone
@@ -14257,19 +13402,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1224444918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1224444916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1224444919
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14451,7 +13583,6 @@ GameObject:
   - component: {fileID: 1232472149}
   - component: {fileID: 1232472152}
   - component: {fileID: 1232472151}
-  - component: {fileID: 1232472150}
   m_Layer: 0
   m_Name: rstone1 (11)
   m_TagString: rstone
@@ -14473,19 +13604,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1232472150
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1232472148}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1232472151
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14667,7 +13785,6 @@ GameObject:
   - component: {fileID: 1244661557}
   - component: {fileID: 1244661556}
   - component: {fileID: 1244661555}
-  - component: {fileID: 1244661554}
   m_Layer: 0
   m_Name: rstone3
   m_TagString: rstone
@@ -14675,19 +13792,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1244661554
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1244661553}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &1244661555
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14787,7 +13891,6 @@ GameObject:
   - component: {fileID: 1315639533}
   - component: {fileID: 1315639536}
   - component: {fileID: 1315639535}
-  - component: {fileID: 1315639534}
   m_Layer: 0
   m_Name: rstone2 (11)
   m_TagString: rstone
@@ -14809,19 +13912,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1315639534
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1315639532}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1315639535
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14897,7 +13987,6 @@ GameObject:
   - component: {fileID: 1321154558}
   - component: {fileID: 1321154561}
   - component: {fileID: 1321154560}
-  - component: {fileID: 1321154559}
   m_Layer: 0
   m_Name: nstone2 (18)
   m_TagString: stone
@@ -14919,19 +14008,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1321154559
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1321154557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1321154560
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15113,7 +14189,6 @@ GameObject:
   - component: {fileID: 1340568984}
   - component: {fileID: 1340568987}
   - component: {fileID: 1340568986}
-  - component: {fileID: 1340568985}
   m_Layer: 0
   m_Name: rstone3 (9)
   m_TagString: rstone
@@ -15135,19 +14210,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 21.574001}
---- !u!114 &1340568985
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1340568983}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &1340568986
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15445,7 +14507,6 @@ GameObject:
   - component: {fileID: 1363203771}
   - component: {fileID: 1363203774}
   - component: {fileID: 1363203773}
-  - component: {fileID: 1363203772}
   m_Layer: 0
   m_Name: nstone2 (10)
   m_TagString: stone
@@ -15467,19 +14528,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1363203772
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1363203770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1363203773
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15804,7 +14852,6 @@ GameObject:
   - component: {fileID: 1392813267}
   - component: {fileID: 1392813270}
   - component: {fileID: 1392813269}
-  - component: {fileID: 1392813268}
   m_Layer: 0
   m_Name: nstone1 (17)
   m_TagString: stone
@@ -15826,19 +14873,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1392813268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1392813266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1392813269
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16232,7 +15266,6 @@ GameObject:
   - component: {fileID: 1481211710}
   - component: {fileID: 1481211713}
   - component: {fileID: 1481211712}
-  - component: {fileID: 1481211711}
   m_Layer: 0
   m_Name: nstone3 (14)
   m_TagString: stone
@@ -16254,19 +15287,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1481211711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1481211709}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &1481211712
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16458,7 +15478,6 @@ GameObject:
   - component: {fileID: 1499888811}
   - component: {fileID: 1499888814}
   - component: {fileID: 1499888813}
-  - component: {fileID: 1499888812}
   m_Layer: 0
   m_Name: nstone2 (6)
   m_TagString: stone
@@ -16480,19 +15499,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1499888812
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1499888810}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1499888813
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16674,7 +15680,6 @@ GameObject:
   - component: {fileID: 1513638880}
   - component: {fileID: 1513638883}
   - component: {fileID: 1513638882}
-  - component: {fileID: 1513638881}
   m_Layer: 0
   m_Name: rstone1 (6)
   m_TagString: rstone
@@ -16696,19 +15701,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1513638881
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1513638879}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1513638882
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16784,7 +15776,6 @@ GameObject:
   - component: {fileID: 1514352887}
   - component: {fileID: 1514352890}
   - component: {fileID: 1514352889}
-  - component: {fileID: 1514352888}
   m_Layer: 0
   m_Name: rstone2 (6)
   m_TagString: rstone
@@ -16806,19 +15797,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1514352888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1514352886}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1514352889
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17000,7 +15978,6 @@ GameObject:
   - component: {fileID: 1518314935}
   - component: {fileID: 1518314938}
   - component: {fileID: 1518314937}
-  - component: {fileID: 1518314936}
   m_Layer: 0
   m_Name: nstone1 (18)
   m_TagString: stone
@@ -17022,19 +15999,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1518314936
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1518314934}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1518314937
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17216,7 +16180,6 @@ GameObject:
   - component: {fileID: 1534759982}
   - component: {fileID: 1534759985}
   - component: {fileID: 1534759984}
-  - component: {fileID: 1534759983}
   m_Layer: 0
   m_Name: nstone3 (7)
   m_TagString: stone
@@ -17238,19 +16201,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1534759983
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1534759981}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &1534759984
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17479,7 +16429,6 @@ GameObject:
   - component: {fileID: 1544745597}
   - component: {fileID: 1544745600}
   - component: {fileID: 1544745599}
-  - component: {fileID: 1544745598}
   m_Layer: 0
   m_Name: rstone1 (4)
   m_TagString: rstone
@@ -17501,19 +16450,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1544745598
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1544745596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1544745599
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17668,7 +16604,6 @@ GameObject:
   - component: {fileID: 1556266065}
   - component: {fileID: 1556266068}
   - component: {fileID: 1556266067}
-  - component: {fileID: 1556266066}
   m_Layer: 0
   m_Name: rstone1 (12)
   m_TagString: rstone
@@ -17690,19 +16625,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1556266066
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1556266064}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1556266067
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17778,7 +16700,6 @@ GameObject:
   - component: {fileID: 1560376694}
   - component: {fileID: 1560376697}
   - component: {fileID: 1560376696}
-  - component: {fileID: 1560376695}
   m_Layer: 0
   m_Name: rstone1 (14)
   m_TagString: rstone
@@ -17800,19 +16721,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1560376695
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1560376693}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1560376696
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17888,7 +16796,6 @@ GameObject:
   - component: {fileID: 1568936606}
   - component: {fileID: 1568936609}
   - component: {fileID: 1568936608}
-  - component: {fileID: 1568936607}
   m_Layer: 0
   m_Name: nstone2 (17)
   m_TagString: stone
@@ -17910,19 +16817,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1568936607
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1568936605}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1568936608
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17998,7 +16892,6 @@ GameObject:
   - component: {fileID: 1582611466}
   - component: {fileID: 1582611469}
   - component: {fileID: 1582611468}
-  - component: {fileID: 1582611467}
   m_Layer: 0
   m_Name: nstone1 (16)
   m_TagString: stone
@@ -18020,19 +16913,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1582611467
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1582611465}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1582611468
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18210,7 +17090,6 @@ GameObject:
   - component: {fileID: 1587876626}
   - component: {fileID: 1587876629}
   - component: {fileID: 1587876628}
-  - component: {fileID: 1587876627}
   m_Layer: 0
   m_Name: nstone1 (7)
   m_TagString: stone
@@ -18232,19 +17111,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1587876627
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1587876625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1587876628
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18320,7 +17186,6 @@ GameObject:
   - component: {fileID: 1588275207}
   - component: {fileID: 1588275210}
   - component: {fileID: 1588275209}
-  - component: {fileID: 1588275208}
   m_Layer: 0
   m_Name: rstone1 (16)
   m_TagString: rstone
@@ -18342,19 +17207,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1588275208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1588275206}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1588275209
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18430,7 +17282,6 @@ GameObject:
   - component: {fileID: 1590190217}
   - component: {fileID: 1590190220}
   - component: {fileID: 1590190219}
-  - component: {fileID: 1590190218}
   m_Layer: 0
   m_Name: nstone2 (5)
   m_TagString: stone
@@ -18452,19 +17303,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1590190218
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1590190216}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1590190219
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18725,7 +17563,6 @@ GameObject:
   - component: {fileID: 1629361360}
   - component: {fileID: 1629361359}
   - component: {fileID: 1629361361}
-  - component: {fileID: 1629361362}
   m_Layer: 0
   m_Name: nstone2
   m_TagString: stone
@@ -18811,19 +17648,6 @@ CircleCollider2D:
   m_Offset: {x: -0.035819054, y: 0.011213541}
   serializedVersion: 2
   m_Radius: 0.46361637
---- !u!114 &1629361362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1629361358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!1 &1633216270
 GameObject:
   m_ObjectHideFlags: 0
@@ -18835,7 +17659,6 @@ GameObject:
   - component: {fileID: 1633216271}
   - component: {fileID: 1633216274}
   - component: {fileID: 1633216273}
-  - component: {fileID: 1633216272}
   m_Layer: 0
   m_Name: nstone3 (18)
   m_TagString: stone
@@ -18857,19 +17680,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1633216272
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1633216270}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &1633216273
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19426,7 +18236,6 @@ GameObject:
   - component: {fileID: 1686185168}
   - component: {fileID: 1686185171}
   - component: {fileID: 1686185170}
-  - component: {fileID: 1686185169}
   m_Layer: 0
   m_Name: nstone3 (16)
   m_TagString: stone
@@ -19448,19 +18257,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1686185169
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1686185167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &1686185170
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19652,7 +18448,6 @@ GameObject:
   - component: {fileID: 1688109167}
   - component: {fileID: 1688109170}
   - component: {fileID: 1688109169}
-  - component: {fileID: 1688109168}
   m_Layer: 0
   m_Name: rstone1 (7)
   m_TagString: rstone
@@ -19674,19 +18469,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1688109168
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1688109166}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1688109169
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19762,7 +18544,6 @@ GameObject:
   - component: {fileID: 1690517974}
   - component: {fileID: 1690517977}
   - component: {fileID: 1690517976}
-  - component: {fileID: 1690517975}
   m_Layer: 0
   m_Name: nstone2 (16)
   m_TagString: stone
@@ -19784,19 +18565,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1690517975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1690517973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1690517976
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19872,7 +18640,6 @@ GameObject:
   - component: {fileID: 1704641858}
   - component: {fileID: 1704641861}
   - component: {fileID: 1704641860}
-  - component: {fileID: 1704641859}
   m_Layer: 0
   m_Name: nstone2 (13)
   m_TagString: stone
@@ -19894,19 +18661,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1704641859
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1704641857}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1704641860
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19982,7 +18736,6 @@ GameObject:
   - component: {fileID: 1721222955}
   - component: {fileID: 1721222958}
   - component: {fileID: 1721222957}
-  - component: {fileID: 1721222956}
   m_Layer: 0
   m_Name: nstone2 (9)
   m_TagString: stone
@@ -20004,19 +18757,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1721222956
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1721222954}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1721222957
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20237,7 +18977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08142136b69e6294882bf152ebe05442, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
+  Rscore: 0
   scoreText: {fileID: 1759965253}
 --- !u!114 &1759965253
 MonoBehaviour:
@@ -20292,7 +19032,6 @@ GameObject:
   - component: {fileID: 1761112386}
   - component: {fileID: 1761112389}
   - component: {fileID: 1761112388}
-  - component: {fileID: 1761112387}
   m_Layer: 0
   m_Name: nstone2 (21)
   m_TagString: stone
@@ -20314,19 +19053,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1761112387
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1761112385}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1761112388
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20614,7 +19340,6 @@ GameObject:
   - component: {fileID: 1787468134}
   - component: {fileID: 1787468137}
   - component: {fileID: 1787468136}
-  - component: {fileID: 1787468135}
   m_Layer: 0
   m_Name: nstone1 (21)
   m_TagString: stone
@@ -20636,19 +19361,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1787468135
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787468133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1787468136
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20830,7 +19542,6 @@ GameObject:
   - component: {fileID: 1794867570}
   - component: {fileID: 1794867573}
   - component: {fileID: 1794867572}
-  - component: {fileID: 1794867571}
   m_Layer: 0
   m_Name: rstone2 (13)
   m_TagString: rstone
@@ -20852,19 +19563,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1794867571
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1794867569}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1794867572
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -21019,7 +19717,6 @@ GameObject:
   - component: {fileID: 1797877637}
   - component: {fileID: 1797877640}
   - component: {fileID: 1797877639}
-  - component: {fileID: 1797877638}
   m_Layer: 0
   m_Name: nstone2 (20)
   m_TagString: stone
@@ -21041,19 +19738,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1797877638
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1797877636}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1797877639
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -21129,7 +19813,6 @@ GameObject:
   - component: {fileID: 1802937606}
   - component: {fileID: 1802937609}
   - component: {fileID: 1802937608}
-  - component: {fileID: 1802937607}
   m_Layer: 0
   m_Name: rstone1 (5)
   m_TagString: rstone
@@ -21151,19 +19834,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1802937607
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1802937605}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1802937608
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -21239,7 +19909,6 @@ GameObject:
   - component: {fileID: 1823249448}
   - component: {fileID: 1823249451}
   - component: {fileID: 1823249450}
-  - component: {fileID: 1823249449}
   m_Layer: 0
   m_Name: nstone3 (10)
   m_TagString: stone
@@ -21261,19 +19930,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1823249449
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1823249447}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &1823249450
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21359,7 +20015,6 @@ GameObject:
   - component: {fileID: 1846894245}
   - component: {fileID: 1846894248}
   - component: {fileID: 1846894247}
-  - component: {fileID: 1846894246}
   m_Layer: 0
   m_Name: rstone3 (4)
   m_TagString: rstone
@@ -21381,19 +20036,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1846894246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1846894244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &1846894247
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21969,7 +20611,6 @@ GameObject:
   - component: {fileID: 1893790381}
   - component: {fileID: 1893790384}
   - component: {fileID: 1893790383}
-  - component: {fileID: 1893790382}
   m_Layer: 0
   m_Name: nstone3 (5)
   m_TagString: stone
@@ -21991,19 +20632,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1893790382
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1893790380}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &1893790383
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22368,7 +20996,6 @@ GameObject:
   - component: {fileID: 1914589482}
   - component: {fileID: 1914589485}
   - component: {fileID: 1914589484}
-  - component: {fileID: 1914589483}
   m_Layer: 0
   m_Name: rstone3 (8)
   m_TagString: rstone
@@ -22390,19 +21017,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1914589483
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1914589481}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &1914589484
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22567,7 +21181,6 @@ GameObject:
   - component: {fileID: 1945235206}
   - component: {fileID: 1945235209}
   - component: {fileID: 1945235208}
-  - component: {fileID: 1945235207}
   m_Layer: 0
   m_Name: nstone1 (20)
   m_TagString: stone
@@ -22589,19 +21202,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1945235207
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1945235205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1945235208
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -22677,7 +21277,6 @@ GameObject:
   - component: {fileID: 1954208146}
   - component: {fileID: 1954208149}
   - component: {fileID: 1954208148}
-  - component: {fileID: 1954208147}
   m_Layer: 0
   m_Name: nstone1 (3)
   m_TagString: stone
@@ -22699,19 +21298,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1954208147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1954208145}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1954208148
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23032,7 +21618,6 @@ GameObject:
   - component: {fileID: 1975761684}
   - component: {fileID: 1975761683}
   - component: {fileID: 1975761685}
-  - component: {fileID: 1975761686}
   m_Layer: 0
   m_Name: nstone3
   m_TagString: stone
@@ -23128,19 +21713,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0826607, y: 0.6140938}
   m_EdgeRadius: 0
---- !u!114 &1975761686
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1975761682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!1 &1979161417
 GameObject:
   m_ObjectHideFlags: 0
@@ -23152,7 +21724,6 @@ GameObject:
   - component: {fileID: 1979161421}
   - component: {fileID: 1979161420}
   - component: {fileID: 1979161419}
-  - component: {fileID: 1979161418}
   m_Layer: 0
   m_Name: rstone2
   m_TagString: rstone
@@ -23160,19 +21731,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1979161418
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1979161417}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1979161419
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23262,7 +21820,6 @@ GameObject:
   - component: {fileID: 1982013235}
   - component: {fileID: 1982013238}
   - component: {fileID: 1982013237}
-  - component: {fileID: 1982013236}
   m_Layer: 0
   m_Name: nstone1 (1)
   m_TagString: stone
@@ -23284,19 +21841,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1982013236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1982013234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1982013237
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23451,7 +21995,6 @@ GameObject:
   - component: {fileID: 1987683961}
   - component: {fileID: 1987683964}
   - component: {fileID: 1987683963}
-  - component: {fileID: 1987683962}
   m_Layer: 0
   m_Name: nstone2 (11)
   m_TagString: stone
@@ -23473,19 +22016,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1987683962
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1987683960}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &1987683963
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23949,7 +22479,6 @@ GameObject:
   - component: {fileID: 2011029868}
   - component: {fileID: 2011029871}
   - component: {fileID: 2011029870}
-  - component: {fileID: 2011029869}
   m_Layer: 0
   m_Name: rstone3 (1)
   m_TagString: rstone
@@ -23971,19 +22500,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2011029869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2011029867}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &2011029870
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24108,7 +22624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08142136b69e6294882bf152ebe05442, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
+  Rscore: 0
   scoreText: {fileID: 2016049744}
 --- !u!114 &2016049744
 MonoBehaviour:
@@ -24163,7 +22679,6 @@ GameObject:
   - component: {fileID: 2034475760}
   - component: {fileID: 2034475763}
   - component: {fileID: 2034475762}
-  - component: {fileID: 2034475761}
   m_Layer: 0
   m_Name: nstone1 (5)
   m_TagString: stone
@@ -24185,19 +22700,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2034475761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2034475759}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &2034475762
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24347,7 +22849,6 @@ GameObject:
   - component: {fileID: 2056135298}
   - component: {fileID: 2056135301}
   - component: {fileID: 2056135300}
-  - component: {fileID: 2056135299}
   m_Layer: 0
   m_Name: nstone3 (17)
   m_TagString: stone
@@ -24369,19 +22870,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2056135299
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2056135297}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &2056135300
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24467,7 +22955,6 @@ GameObject:
   - component: {fileID: 2066332519}
   - component: {fileID: 2066332522}
   - component: {fileID: 2066332521}
-  - component: {fileID: 2066332520}
   m_Layer: 0
   m_Name: nstone1 (12)
   m_TagString: stone
@@ -24489,19 +22976,6 @@ Transform:
   m_Father: {fileID: 1912700164}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2066332520
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2066332518}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!58 &2066332521
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24683,7 +23157,6 @@ GameObject:
   - component: {fileID: 2094873929}
   - component: {fileID: 2094873932}
   - component: {fileID: 2094873931}
-  - component: {fileID: 2094873930}
   m_Layer: 0
   m_Name: rstone3 (2)
   m_TagString: rstone
@@ -24705,19 +23178,6 @@ Transform:
   m_Father: {fileID: 687895257}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2094873930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2094873928}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 651c4074c5010d34ba87beaab0dd0f03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!61 &2094873931
 BoxCollider2D:
   m_ObjectHideFlags: 0

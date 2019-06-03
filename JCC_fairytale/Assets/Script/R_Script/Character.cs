@@ -5,11 +5,17 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class Character : MonoBehaviour {
-    public float moveSpeed = 0.08f;
-    public float jumpPower = 350f;
+    public float moveSpeed = 8.0f;
+    public float jumpPower = 400f;
 
     public GameManager gameManager;
 
+    void Start()
+    {
+        moveSpeed = 8.0f;
+        jumpPower = 400f;
+    }
+    
     void Update()
     {
         transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);     // 속도

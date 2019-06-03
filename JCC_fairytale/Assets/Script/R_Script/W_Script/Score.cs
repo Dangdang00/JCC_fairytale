@@ -6,17 +6,17 @@ using UnityEngine.UI;
 public class Score : MonoBehaviour
 {
 
-    public static int count = 0;
+    public static int Wcount = 0;
     public Text ScoreText;
     // Start is called before the first frame update
     void Start()
     {
-        count = 0;
+        Wcount = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        ScoreText.text = "Score : " + count.ToString();
+        ScoreText.text = "Score : " + Wcount.ToString();
     }
 }

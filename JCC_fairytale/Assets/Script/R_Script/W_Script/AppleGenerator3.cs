@@ -8,6 +8,12 @@ public class AppleGenerator3 : MonoBehaviour
     float span = 1.0f;
     float delta = 0;
 
+    void Start()
+    {
+        span = 1.0f;
+        delta = 0.0f;
+    }
+
     void Update()
     {
         this.delta += Time.deltaTime;

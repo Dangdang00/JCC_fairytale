@@ -17,6 +17,9 @@ public class BakSul_Control : MonoBehaviour
 
     void Start()
     {
+        speed = 6;
+        count = 0;
+
         this.left = GameObject.Find("Walking_Left");
         this.right = GameObject.Find("Walking_Right");
     }
