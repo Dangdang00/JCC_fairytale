@@ -604,7 +604,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000012398, y: -4}
+  m_AnchoredPosition: {x: 65, y: -4}
   m_SizeDelta: {x: 1719.2, y: 629.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &837937441
@@ -634,17 +634,17 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 100
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC8FC\uC778\uACF5\uC774 \uB3CC\uBA69\uC774 500\uAC1C\uB97C \uBAA8\uC544\n\uD560\uBA38\uB2C8\uB97C
-    \uAD6C\uD560 \uC218 \uC788\uB3C4\uB85D \uB3C4\uC640\uC8FC\uC138\uC694!\n\n\uC810\uD504:
-    \uB9C8\uC6B0\uC2A4 \uC67C\uCABD\uBC84\uD2BC \uD074\uB9AD!\nLOSE\uD654\uBA74\uC774
-    \uB098\uC62C \uB54C, \n\uD654\uBA74 \uC544\uBB34 \uACF3\uC774\uB098 \uD074\uB9AD\uD558\uBA74
-    \uC7AC\uC2DC\uC791\uD569\uB2C8\uB2E4."
+  m_Text: "\uC8FC\uC778\uACF5\uC774 \uB291\uB300\uC640 \uB36B\uC744 \uD53C\uD574 \uB3CC\uBA69\uC774\uB97C
+    \uBAA8\uC544\n\uD560\uBA38\uB2C8\uB97C \uAD6C\uD560 \uC218 \uC788\uB3C4\uB85D
+    \uB3C4\uC640\uC8FC\uC138\uC694!\n\n\uC810\uD504: \uB9C8\uC6B0\uC2A4 \uC67C\uCABD\uBC84\uD2BC
+    \uD074\uB9AD!\nLOSE\uD654\uBA74\uC774 \uB098\uC62C \uB54C, \n\uD654\uBA74 \uC544\uBB34
+    \uACF3\uC774\uB098 \uD074\uB9AD\uD558\uBA74 \uC7AC\uC2DC\uC791\uD569\uB2C8\uB2E4."
 --- !u!222 &837937442
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -652,6 +652,80 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 837937439}
+  m_CullTransparentMesh: 0
+--- !u!1 &1010392526
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1010392527}
+  - component: {fileID: 1010392529}
+  - component: {fileID: 1010392528}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1010392527
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010392526}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.5090772, y: 0.5090772, z: 0.5090772}
+  m_Children: []
+  m_Father: {fileID: 1633172178}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 761, y: -212}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1010392528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010392526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 125f1a49877f74fd7a72311c89a81d83, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1010392529
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010392526}
   m_CullTransparentMesh: 0
 --- !u!1 &1219282572
 GameObject:
@@ -1048,6 +1122,7 @@ RectTransform:
   m_Children:
   - {fileID: 627385059}
   - {fileID: 55117151}
+  - {fileID: 1010392527}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

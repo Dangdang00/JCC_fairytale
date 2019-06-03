@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/R_Scenes/R_Menu.unity
+=======
+- path: Assets/Scenes/R_Scenes/R_Game.unity
+>>>>>>> cd9bbb90864f6f1130e4a4d88af91de767ccdd5c
   isLoaded: 1
   isActive: 1
