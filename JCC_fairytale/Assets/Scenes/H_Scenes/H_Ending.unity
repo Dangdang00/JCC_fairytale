@@ -595,6 +595,7 @@ MonoBehaviour:
     - "\uD5E8\uC824"
     - "\uADF8\uB808\uD154"
     - "\uD5E8\uC824"
+    - 
     sprites_R:
     - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
     - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
@@ -602,6 +603,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
     - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
     - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
+    - {fileID: 0}
     sprites_L:
     - {fileID: 21300000, guid: 532eaad61030f8b43ab4d21824b350ec, type: 3}
     - {fileID: 21300000, guid: 532eaad61030f8b43ab4d21824b350ec, type: 3}
@@ -609,6 +611,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 532eaad61030f8b43ab4d21824b350ec, type: 3}
     - {fileID: 21300000, guid: 532eaad61030f8b43ab4d21824b350ec, type: 3}
     - {fileID: 21300000, guid: 532eaad61030f8b43ab4d21824b350ec, type: 3}
+    - {fileID: 0}
     background:
     - {fileID: 21300000, guid: 84ab6ed0a0956cf4296f3caf267bfb5a, type: 3}
     - {fileID: 21300000, guid: 84ab6ed0a0956cf4296f3caf267bfb5a, type: 3}
@@ -616,6 +619,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 84ab6ed0a0956cf4296f3caf267bfb5a, type: 3}
     - {fileID: 21300000, guid: 84ab6ed0a0956cf4296f3caf267bfb5a, type: 3}
     - {fileID: 21300000, guid: 84ab6ed0a0956cf4296f3caf267bfb5a, type: 3}
+    - {fileID: 0}
   text: {fileID: 243769054}
   Name: {fileID: 982297590}
   rendererSprite_L: {fileID: 1336363281}

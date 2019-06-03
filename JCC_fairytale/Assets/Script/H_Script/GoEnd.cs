@@ -5,6 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class GoEnd : MonoBehaviour {
     public void ChangeGameScene() {
-        SceneManager.LoadScene("Dialogue_H_Ending");
+        SceneManager.LoadScene("H_Ending");
         }
     }
