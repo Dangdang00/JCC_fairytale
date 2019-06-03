@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/R_Scenes/R_Game.unity
+- path: Assets/Scenes/W_Scenes/W_Ending.unity
   isLoaded: 1
   isActive: 1

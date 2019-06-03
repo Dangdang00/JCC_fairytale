@@ -14,8 +14,8 @@ public class GameDirector : MonoBehaviour
     void Start()
     {
         count = 0;
-        this.hpGage1 = GameObject.Find("HPImage1");
-        this.hpGage2 = GameObject.Find("HPImage");
+        this.hpGage1 = GameObject.Find("HPImage");
+        this.hpGage2 = GameObject.Find("HPImage1");
         this.hpGage3 = GameObject.Find("HPImage2");
         Invoke("WhiteGameWin", 30.0f);
     }
