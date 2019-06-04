@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/W_Scenes/NewGameWhite.unity
+- path: Assets/Scenes/Library.unity
   isLoaded: 1
   isActive: 1
