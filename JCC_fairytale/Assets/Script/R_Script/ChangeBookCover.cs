@@ -13,6 +13,8 @@ public class ChangeBookCover : MonoBehaviour
     public GameObject Wbook_Clear;
     public GameObject Hbook_Clear;
 
+    public GameObject End_Panel;
+
     void Update()
     {
         // 빨간모자 미니게임 성공시 책 이미지 변경
@@ -34,6 +36,12 @@ public class ChangeBookCover : MonoBehaviour
         {
             Hbook.SetActive(false);
             Hbook_Clear.SetActive(true);
+        }
+
+        if (Go_Ending.Rbook && Go_ending.Wbook && GoEnd.Hbook)
+        {
+            // 딜레이 주
+            End_Panel.SetActive(true);
         }
 
     }

@@ -11,6 +11,13 @@ public class ScoreText : MonoBehaviour
 
     public Text scoreText;
 
+    void Start()
+    {
+        Rscore = 0;
+        stone = 5;
+        rstone = 10;
+    }
+
     void OnTriggerEnter2D(Collider2D col)
     {
         if(col.gameObject.tag == "stone")

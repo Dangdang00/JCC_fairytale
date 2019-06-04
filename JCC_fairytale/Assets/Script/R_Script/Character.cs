@@ -12,6 +12,7 @@ public class Character : MonoBehaviour {
 
     void Start()
     {
+        Time.timeScale = 1f;
         moveSpeed = 8.0f;
         jumpPower = 400f;
     }
@@ -37,8 +38,9 @@ public class Character : MonoBehaviour {
             //ResultText.Print_Score(ScoreText.score);    //ResultText의 Print함수 호출
             //gameManager.Win();
         }
+
         // 게임에서 졌을 때
-        else if(col.transform.name == "LoseCollider")
+        else if(col.gameObject.tag == "LoseCollider")
         {
             gameManager.Lose();
         }

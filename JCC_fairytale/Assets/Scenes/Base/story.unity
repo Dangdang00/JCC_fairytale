@@ -985,7 +985,6 @@ GameObject:
   - component: {fileID: 1986180668}
   - component: {fileID: 1986180667}
   - component: {fileID: 1986180666}
-  - component: {fileID: 1986180665}
   - component: {fileID: 1986180672}
   - component: {fileID: 1986180671}
   - component: {fileID: 1986180670}
@@ -996,50 +995,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1986180665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1986180664}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e7e1609b31e2254c9166b889f769f1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue:
-    sentences:
-    - "\uC544 \uC2EC\uC2EC\uD558\uB2E4.."
-    - "\uC2DC\uD5D8\uB3C4 \uB05D\uB098\uC11C \uD560 \uAC83\uB3C4 \uC5C6\uB124.. \uB3C4\uC11C\uAD00\uC774\uB098
-      \uAC00\uBCFC\uAE4C?"
-    - "\uBBF8\uB9BC\uC778\uC774\uBA74 \uAC00\uB054 \uCC45 \uC815\uB3C4\uB294 \uC77D\uC5B4\uC918\uC57C\uC9C0\u314E\u314E"
-    - "\uC640 \uCC45\uC774 \uC0DD\uAC01\uBCF4\uB2E4 \uB108\uBB34 \uB9CE\uC740\uB370?
-      \uBB58 \uC77D\uC5B4\uC57C\uD55C\uB2F4.."
-    - "\uC74C.. \uCD94\uB9AC\uC18C\uC124? \uB85C\uB9E8\uC2A4? \uC544\uB2D8 \uC790\uBC14\uCC45?"
-    - "\uC544, \uB3D9\uD654\uCC45\uB3C4 \uC5C4\uCCAD \uB9CE\uB124!"
-    - "\uADF8\uB7FC \uC624\uB79C\uB9CC\uC5D0 \uB3D9\uD654\uCC45\uC774\uB098 \uC77D\uC5B4\uC57C\uACA0\uB2E4."
-    - "\uB0B4\uAC00 \uC81C\uC77C \uC88B\uC544\uD558\uB294 \uB3D9\uD654\uBD80\uD130
-      \uC77D\uC5B4\uBCF4\uC790!"
-    names: []
-    sprites:
-    - {fileID: 21300000, guid: 6d2ffa0720011b949bbc7e8a8d5819f6, type: 3}
-    - {fileID: 21300000, guid: 21a8070b7d8ca1747bfc44b472900d07, type: 3}
-    - {fileID: 21300000, guid: 0e7071fef5e167c459257086bbb372fd, type: 3}
-    - {fileID: 21300000, guid: 1d3d6bec5bcdb804e81fe48a3315aa9d, type: 3}
-    - {fileID: 21300000, guid: 21a8070b7d8ca1747bfc44b472900d07, type: 3}
-    - {fileID: 21300000, guid: 6d2ffa0720011b949bbc7e8a8d5819f6, type: 3}
-    - {fileID: 21300000, guid: 0e7071fef5e167c459257086bbb372fd, type: 3}
-    - {fileID: 21300000, guid: 0e7071fef5e167c459257086bbb372fd, type: 3}
-    background:
-    - {fileID: 21300000, guid: 634725976e3227649827a363748f14fd, type: 3}
-    - {fileID: 21300000, guid: 634725976e3227649827a363748f14fd, type: 3}
-    - {fileID: 21300000, guid: 634725976e3227649827a363748f14fd, type: 3}
-    - {fileID: 21300000, guid: 730aa319cec87fe44b712b34be699a01, type: 3}
-    - {fileID: 21300000, guid: 730aa319cec87fe44b712b34be699a01, type: 3}
-    - {fileID: 21300000, guid: 730aa319cec87fe44b712b34be699a01, type: 3}
-    - {fileID: 21300000, guid: 730aa319cec87fe44b712b34be699a01, type: 3}
-    - {fileID: 21300000, guid: 730aa319cec87fe44b712b34be699a01, type: 3}
 --- !u!114 &1986180666
 MonoBehaviour:
   m_ObjectHideFlags: 0

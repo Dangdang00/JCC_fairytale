@@ -4,16 +4,6 @@ using UnityEngine.SceneManagement;
 
 public class ChangeMain : MonoBehaviour
 {
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
-
     public void ChangeGameScene()
     {
         SceneManager.LoadScene("R_Menu");

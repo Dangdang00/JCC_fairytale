@@ -14,6 +14,7 @@ TagManager:
   - DESTROYER
   - PLAYER
   - ENEMY
+  - LoseCollider
   layers:
   - Default
   - TransparentFX

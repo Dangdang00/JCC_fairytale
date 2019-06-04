@@ -6,6 +6,11 @@ public class Jump : MonoBehaviour
 {
     bool isJumping = false;
 
+    void Start()
+    {
+        isJumping = false;
+    }
+
     void Update()
     {
         /*GetMousButton(0)하면 누르면 계속 점프*/
