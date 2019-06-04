@@ -13,7 +13,7 @@ public class RespawnManager : MonoBehaviour {
 
     IEnumerator RespawnEnemy() {
         while(true) {
-            yield return new WaitForSeconds(0.7f);
+            yield return new WaitForSeconds(2.1f);
             float range = (float)Screen.width / (float)Screen.height * Camera.main.orthographicSize;
             Instantiate(obj, respawnTr.position + new Vector3(Random.Range(-range, range), 0, 0), Quaternion.identity);
         }

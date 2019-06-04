@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyCtrl : MonoBehaviour {
-    public int hp = 5;
-    public int initHp = 5;
+    public int hp = 3;
+    public int initHp = 3;
 
     public Transform tr;
     public GameObject effect;

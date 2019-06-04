@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 public class PlayerCtrl : MonoBehaviour
 {
 
-    public int hp = 10;
-    public int initHp = 10;
+    public int hp = 30;
+    public int initHp = 30;
     public Rigidbody2D rb;
     public float speed = 300.0f;
 

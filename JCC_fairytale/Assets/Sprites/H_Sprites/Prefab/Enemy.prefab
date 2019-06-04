@@ -149,8 +149,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf76f4f9a4a3e9345a78f85a9feaaa50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 5
-  initHp: 5
+  hp: 3
+  initHp: 3
   tr: {fileID: 4120666846038869800}
   effect: {fileID: 3409803723054969166, guid: eb3ca324af3515048bf14157f4680442, type: 3}
 --- !u!61 &772318798507780916

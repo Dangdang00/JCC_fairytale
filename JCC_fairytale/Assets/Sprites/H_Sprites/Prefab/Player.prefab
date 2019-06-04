@@ -128,8 +128,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 734a1268589b4cc4eab190efbd4461a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 10
-  initHp: 10
+  hp: 30
+  initHp: 30
   rb: {fileID: 1343072241556584321}
   speed: 300
   tr: {fileID: 6126228933144399351}
