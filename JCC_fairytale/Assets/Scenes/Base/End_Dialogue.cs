@@ -122,7 +122,6 @@ public class End_Dialogue : MonoBehaviour
                 {
                     StopAllCoroutines();
                     ExitDialogue();
-                    SceneManager.LoadScene("Library");
                 }
                 else
                 {
