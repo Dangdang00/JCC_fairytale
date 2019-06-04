@@ -9,6 +9,7 @@ public class Sound : MonoBehaviour
     void Awake()
     {
         audioSource = GetComponent<AudioSource>();  // 초기화
+        
     }
 
     public void Audio()

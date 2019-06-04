@@ -168,7 +168,7 @@ GameObject:
   - component: {fileID: 419010714}
   - component: {fileID: 419010715}
   m_Layer: 0
-  m_Name: GoldGenerator
+  m_Name: GoldGenerato
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
