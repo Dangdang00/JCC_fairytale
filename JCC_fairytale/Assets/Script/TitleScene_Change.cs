@@ -53,4 +53,9 @@ public class TitleScene_Change : MonoBehaviour
     {
         SceneManager.LoadScene("treasure");
     }
+
+    public void ChangeEndStoryScene()
+    {
+        SceneManager.LoadScene("End_story");
+    }
 }

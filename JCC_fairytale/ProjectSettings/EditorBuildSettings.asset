@@ -95,4 +95,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/H_Scenes/H_Way.unity
     guid: e2e460767fb81b946b3a342cb1b12ccb
+  - enabled: 1
+    path: Assets/Scenes/Base/End_story.unity
+    guid: 2a849bdaa704ec14ba3e0005f84bdba4
   m_configObjects: {}
