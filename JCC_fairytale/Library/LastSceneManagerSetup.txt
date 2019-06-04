@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Title.unity
+=======
+- path: Assets/Scenes/Library.unity
+>>>>>>> 0e728a52cb0c1041c0af413c9e118c54b90255f0
   isLoaded: 1
   isActive: 1
