@@ -3,7 +3,8 @@
     <Files>
       <File FileName="Assets/Script/R_Script/Pause_Click.cs" Line="1" Column="1" />
       <File FileName="Assets/Script/Pause.cs" Line="8" Column="1" />
-      <File FileName="Assets/Script/R_Script/ChangeBookCover.cs" Line="43" Column="21" />
+      <File FileName="Assets/Script/R_Script/ChangeBookCover.cs" Line="23" Column="36" />
+      <File FileName="Assets/Script/TitleScene_Change.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
