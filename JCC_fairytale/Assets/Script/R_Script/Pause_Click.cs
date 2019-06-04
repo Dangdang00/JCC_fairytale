@@ -44,4 +44,8 @@ public class Pause_Click : MonoBehaviour
     {
         SceneManager.LoadScene("W_story");
     }
+    public void Go_HStory()
+    {
+        SceneManager.LoadScene("H_Story");
+    }
 }

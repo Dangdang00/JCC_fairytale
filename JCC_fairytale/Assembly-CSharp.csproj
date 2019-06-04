@@ -72,7 +72,6 @@
     <Compile Include="Assets\Scenes\Base\dialogue_ver2\W_story\DialogueManager_afterW.cs" />
     <Compile Include="Assets\Scenes\Base\dialogue_ver2\W_story\DialogueManager_W.cs" />
     <Compile Include="Assets\Script\AudioManager.cs" />
-    <Compile Include="Assets\Script\ChangeBookCover.cs" />
     <Compile Include="Assets\Script\ChangeRStory.cs" />
     <Compile Include="Assets\Script\H_Script\AgainMain.cs" />
     <Compile Include="Assets\Script\H_Script\BackgroundMusicCtrl.cs" />
@@ -89,6 +88,7 @@
     <Compile Include="Assets\Script\H_Script\Start.cs" />
     <Compile Include="Assets\Script\H_Script\Way.cs" />
     <Compile Include="Assets\Script\Pause.cs" />
+    <Compile Include="Assets\Script\R_Script\ChangeBookCover.cs" />
     <Compile Include="Assets\Script\R_Script\ChangeMain.cs" />
     <Compile Include="Assets\Script\R_Script\ChangeRuleScene.cs" />
     <Compile Include="Assets\Script\R_Script\ChangeScene.cs" />
