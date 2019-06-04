@@ -85,8 +85,6 @@ public class DialogueManager_afterR : MonoBehaviour
     {
         if (count > 0)
         {
-            Name.text += listNames[count];
-            text.text += listSentences[count];
             if (listBackground[count] != listBackground[count - 1])
             {
                 //yield return new WaitForSeconds(0.2f);
@@ -113,9 +111,8 @@ public class DialogueManager_afterR : MonoBehaviour
             rendererSprite_R.GetComponent<SpriteRenderer>().sprite = listSprites_R[count];
             rendererSprite_L.GetComponent<SpriteRenderer>().sprite = listSprites_L[count];
         }
-// 1글자씩 출력.
-        //yield return new WaitForSeconds(0.01f);
-
+        Name.text += listNames[count];
+        text.text += listSentences[count];
     }
     // Update is called once per frame
     void Update()
@@ -130,7 +127,7 @@ public class DialogueManager_afterR : MonoBehaviour
                 text.text = " ";
                 Name.text = " ";
 
-                if (count >= 9)
+                if (count >= 10)
                 {
                     StopAllCoroutines();
                     ExitDialogue();
