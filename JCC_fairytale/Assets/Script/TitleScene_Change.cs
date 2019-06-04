@@ -5,12 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class TitleScene_Change : MonoBehaviour
 {
-   /* AudioSource audioSource;
+    /*
+   AudioSource audioSource;
 
     void Awake()
     {
         audioSource = GetComponent<AudioSource>();
-        //DontDestroyOnLoad(gameObject);
+        DontDestroyOnLoad(gameObject);
     }
     */
     public void ChangeTitleScene()
