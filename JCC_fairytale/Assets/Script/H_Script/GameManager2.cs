@@ -22,7 +22,7 @@ public class GameManager2 : MonoBehaviour
     }
 
     void Start()  {
-        
+        score = 0; 
     }
 
     
