@@ -95,6 +95,7 @@
     <Compile Include="Assets\Script\R_Script\ChangeRuleScene.cs" />
     <Compile Include="Assets\Script\R_Script\ChangeScene.cs" />
     <Compile Include="Assets\Script\R_Script\Character.cs" />
+    <Compile Include="Assets\Script\R_Script\Ending_Score.cs" />
     <Compile Include="Assets\Script\R_Script\GameManager.cs" />
     <Compile Include="Assets\Script\R_Script\Go_Ending.cs" />
     <Compile Include="Assets\Script\R_Script\Jump.cs" />
