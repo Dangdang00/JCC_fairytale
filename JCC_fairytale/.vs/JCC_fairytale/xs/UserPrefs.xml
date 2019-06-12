@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{16CC3DD8-BF8C-F6BF-0DC1-CD0981AC0A70}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/R_Script/Ending_Score.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/R_Script/W_Script/ResultScore.cs">
     <Files>
-      <File FileName="Assets/Script/R_Script/Character.cs" Line="10" Column="1" />
-      <File FileName="Assets/Script/R_Script/ScoreText.cs" Line="42" Column="19" />
-      <File FileName="Assets/Script/R_Script/Ending_Score.cs" Line="20" Column="55" NotebookId="1" />
+      <File FileName="Assets/Script/R_Script/W_Script/Score.cs" Line="9" Column="19" />
+      <File FileName="Assets/Script/R_Script/W_Script/ResultScore.cs" Line="16" Column="18" />
+      <File FileName="Assets/Script/R_Script/Ending_Score.cs" Line="20" Column="55" />
+      <File FileName="Assets/Script/R_Script/ScoreText.cs" Line="8" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
