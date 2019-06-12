@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/H_Scenes/H_Play.unity
+- path: Assets/Scenes/W_Scenes/WhiteSnowWin.unity
   isLoaded: 1
   isActive: 1
