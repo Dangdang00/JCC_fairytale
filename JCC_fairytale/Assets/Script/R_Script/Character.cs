@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 public class Character : MonoBehaviour {
     public float moveSpeed = 8.0f;
     public float jumpPower = 400f;
-    private int score = 0;
 
     public GameManager gameManager;
 
@@ -35,8 +34,6 @@ public class Character : MonoBehaviour {
         {
             Time.timeScale = 0f;
             Debug.Log("Win!");
-           //score = ScoreText.GetScore();
-            //Ending_Score.ResultScorePrint(score);
             SceneManager.LoadScene("R_Win");
             //ResultText.Print_Score(ScoreText.score);    //ResultText의 Print함수 호출
             //gameManager.Win();
