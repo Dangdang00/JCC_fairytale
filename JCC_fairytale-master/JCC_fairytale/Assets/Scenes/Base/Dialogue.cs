@@ -10,4 +10,5 @@ public class Dialogue2
     public string[] names;
     public Sprite[] sprites;
     public Sprite[] background;
+    public AudioClip[] audioClip;
 }

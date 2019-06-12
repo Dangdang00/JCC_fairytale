@@ -24,6 +24,15 @@ public class DialogueManager_R : MonoBehaviour
     private int count; // 대화 진행 상황 카운트.
     private bool talking = false;
 
+
+    private AudioClip sfx;
+    public AudioSource audioSource;
+    private List<AudioClip> listSfx;
+
+    public AudioClip sfx2;
+    public AudioSource audioSource2;
+
+
     /* #region Singleton
       private void Awake()
       {
@@ -42,7 +51,7 @@ public class DialogueManager_R : MonoBehaviour
     // Use this for initialization
     public void Start()
     {
-        count = 0;
+        count = -1;
         //text.text = " ";
         //Name.text = " ";
         listSentences = new List<string>();
@@ -50,7 +59,9 @@ public class DialogueManager_R : MonoBehaviour
         listSprites_R = new List<Sprite>();
         listSprites_L = new List<Sprite>();
         listBackground = new List<Sprite>();
+        listSfx = new List<AudioClip>();
         talking = true;
+        audioSource.PlayOneShot(sfx2, 0.5f);
     }
 
     public void ShowDialogue()
@@ -63,6 +74,7 @@ public class DialogueManager_R : MonoBehaviour
             listSprites_L.Add(dialogue.sprites_L[i]);
             listSentences.Add(dialogue.sentences[i]);
             listNames.Add(dialogue.names[i]);
+            listSfx.Add(dialogue.audioClips[i]);
         }
         StartCoroutine(Start_DialogueCoroutine());
     }
@@ -77,6 +89,7 @@ public class DialogueManager_R : MonoBehaviour
         listSprites_R.Clear();
         listSprites_L.Clear();
         listBackground.Clear();
+        listSfx.Clear();
         talking = false;
     }
 
@@ -124,15 +137,16 @@ public class DialogueManager_R : MonoBehaviour
     {
         if (talking)
         {
-
             if (Input.GetMouseButtonDown(0))
             {
+                audioSource.Stop();
                 ShowDialogue();
                 count++;
                 text.text = " ";
                 Name.text = " ";
+                
 
-                if (count >= 7)
+                if (count >= 6)
                 {
                     StopAllCoroutines();
                     ExitDialogue();
@@ -140,6 +154,8 @@ public class DialogueManager_R : MonoBehaviour
                 }
                 else
                 {
+                    sfx = listSfx[count];
+                    audioSource.PlayOneShot(sfx, 0.7f);
                     StopAllCoroutines();
                     StartCoroutine(Start_DialogueCoroutine());
                 }

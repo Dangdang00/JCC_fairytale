@@ -23,20 +23,13 @@ public class Dialogue_H_Ending : MonoBehaviour
     private int count; // 대화 진행 상황 카운트.
     private bool talking = false;
 
-    /* #region Singleton
-      private void Awake()
-      {
-          if (instance == null)
-          {
-              DontDestroyOnLoad(this.gameObject);
-              instance = this;
-          }
-          else
-          {
-              Destroy(this.gameObject);
-          }
-      }
-      #endregion Singleton*/
+    private AudioClip sfx;
+    public AudioSource audioSource;
+    private List<AudioClip> listSfx;
+
+    public AudioClip sfx2;
+    public AudioSource audioSource2;
+
 
     // Use this for initialization
     public void Start()
@@ -49,8 +42,9 @@ public class Dialogue_H_Ending : MonoBehaviour
         listSprites_R = new List<Sprite>();
         listSprites_L = new List<Sprite>();
         listBackground = new List<Sprite>();
+        listSfx = new List<AudioClip>();
         talking = true;
-        //ShowDialogue();
+        audioSource.PlayOneShot(sfx2, 0.5f);
     }
 
     public void ShowDialogue()
@@ -63,6 +57,7 @@ public class Dialogue_H_Ending : MonoBehaviour
             listSprites_L.Add(dialogue.sprites_L[i]);
             listSentences.Add(dialogue.sentences[i]);
             listNames.Add(dialogue.names[i]);
+            listSfx.Add(dialogue.audioClips[i]);
         }
         StartCoroutine(Start_DialogueCoroutine());
     }
@@ -77,6 +72,7 @@ public class Dialogue_H_Ending : MonoBehaviour
         listSprites_R.Clear();
         listSprites_L.Clear();
         listBackground.Clear();
+        listSfx.Clear();
         talking = false;
     }
 
@@ -127,11 +123,12 @@ public class Dialogue_H_Ending : MonoBehaviour
             
             if (Input.GetMouseButtonDown(0))
             {
-        
+                audioSource.Stop();
                 ShowDialogue();
                 count++;
                 text.text = " ";
                 Name.text = " ";
+               
 
                 if (count >= 5)
                 {
@@ -141,6 +138,8 @@ public class Dialogue_H_Ending : MonoBehaviour
                 }
                 else
                 {
+                    sfx = listSfx[count];
+                    audioSource.PlayOneShot(sfx, 0.7f);
                     StopAllCoroutines();
                     StartCoroutine(Start_DialogueCoroutine());
                 }

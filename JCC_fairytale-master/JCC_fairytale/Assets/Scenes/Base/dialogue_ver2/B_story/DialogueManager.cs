@@ -20,23 +20,14 @@ public class DialogueManager : MonoBehaviour
     private List<Sprite> listBackground;
 
     private int count; // 대화 진행 상황 카운트.
-
     private bool talking = false;
 
-  /* #region Singleton
-    private void Awake()
-    {
-        if (instance == null)
-        {
-            DontDestroyOnLoad(this.gameObject);
-            instance = this;
-        }
-        else
-        {
-            Destroy(this.gameObject);
-        }
-    }
-    #endregion Singleton*/
+    private AudioClip sfx;
+    public AudioSource audioSource;
+    private List<AudioClip> listSfx;
+
+    public AudioClip sfx2;
+    public AudioSource audioSource2;
 
     // Use this for initialization
     void Start()
@@ -46,7 +37,9 @@ public class DialogueManager : MonoBehaviour
         listNames = new List<string>();
         listSprites = new List<Sprite>();
         listBackground = new List<Sprite>();
+        listSfx = new List<AudioClip>();
         talking = true;
+        audioSource.PlayOneShot(sfx2, 0.5f);
     }
 
     public void ShowDialogue()
@@ -58,6 +51,7 @@ public class DialogueManager : MonoBehaviour
             listSprites.Add(dialogue.sprites[i]);
             listBackground.Add(dialogue.background[i]);
             listNames.Add(dialogue.names[i]);
+            listSfx.Add(dialogue.audioClip[i]);
         }
         StartCoroutine(Start_DialogueCoroutine());
     }
@@ -70,6 +64,7 @@ public class DialogueManager : MonoBehaviour
         listSentences.Clear();
         listSprites.Clear();
         listBackground.Clear();
+        listSfx.Clear();
         talking = false;
     }
 
@@ -113,12 +108,13 @@ public class DialogueManager : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
+                audioSource.Stop();
                 ShowDialogue();
                 count++;
                 text.text =" ";
                 Name.text = " ";
 
-                if (count >= 10)
+                if (count >= 7)
                 {
                     StopAllCoroutines();
                     ExitDialogue();
@@ -126,6 +122,8 @@ public class DialogueManager : MonoBehaviour
                 }
                 else
                 {
+                    sfx = listSfx[count];
+                    audioSource.PlayOneShot(sfx, 0.7f);
                     StopAllCoroutines();
                     StartCoroutine(Start_DialogueCoroutine());
                 }

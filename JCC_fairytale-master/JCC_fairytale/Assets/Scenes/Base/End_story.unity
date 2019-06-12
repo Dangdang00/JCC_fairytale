@@ -163,8 +163,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC73C..\uC73C, \uBB50\uC9C0? \n\uBD84\uBA85 \uB098\uB294 \uB3D9\uD654
-    \uC18D\uC5D0..."
+  m_Text: "\uC5B4\u2026.?, \uBB50\uC9C0? \uBD84\uBA85 \uB098\uB294 \uB3D9\uD654 \uC18D\uC5D0.."
 --- !u!222 &371541223
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -534,22 +533,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - "\uD5C9! \uB3C4\uC11C\uAD00\uC774\uC796\uC544?\n\uB0B4\uAC00 \uAFC8\uC774\uB77C\uB3C4
-      \uAFBC\uAC74\uAC00??"
-    - "! \uC544\uB2C8 \uC800\uAC74... \uB0B4\uAC00 \uB3C4\uC640\uC8FC\uACE0 \uBC1B\uC558\uB358\n\uCFE0\uD0A4\uB791
-      \uAE08\uC0AC\uACFC\uB791 \uD30C\uC774\uC778\uB370..?"
-    - "\uC124\uB9C8, \uAFC8\uC774 \uC544\uB2C8\uB77C \uC9C4\uC9DC\uC600\uB358\uAC70\uC57C!?!?\n\uD5D0
-      \uB300\uBC15. \uB0B4\uAC00 \uB3D9\uD654 \uC18D\uC73C\uB85C \uB4E4\uC5B4\uAC00\uB2E4\uB2C8!!"
-    - "\uBBF8\uB9BC\uC544 \uC5EC\uAE30\uC11C \uBB50\uD574? "
-    - "\uC5B4, \uB9C8\uCE68 \uC798 \uB410\uB2E4. \n\uB0B4\uAC00 \uC9C0\uAE08 \uBB34\uC2A8
+    - "\uC544\uB2C8 \uC800\uAC74.. \uB0B4\uAC00 \uB3C4\uC640\uC8FC\uACE0 \uBC1B\uC558\uB358
+      \uCFE0\uD0A4\uC640 \uAE08\uC0AC\uACFC\uC640 \uD30C\uC774\uC778\uB370..?"
+    - "\uC124\uB9C8, \uAFC8\uC774 \uC544\uB2C8\uB77C \uC9C4\uC9DC\uC600\uB358\uAC70\uC57C!?!?
+      \uD5D0. \uB300\uBC15. \uB0B4\uAC00 \uB3D9\uD654 \uC18D\uC73C\uB85C \uB4E4\uC5B4\uAC00\uB2E4\uB2C8!!"
+    - "\uBBF8\uB9BC\uC544 \uC5EC\uAE30\uC11C \uBB50\uD574?"
+    - "\uC5B4, \uB9C8\uCE68 \uC798\uB410\uB2E4. \uB0B4\uAC00 \uC9C0\uAE08 \uBB34\uC2A8
       \uC77C\uC744 \uACAA\uC5C8\uB0D0\uBA74.."
     - "\uB610 \uC774\uC0C1\uD55C \uC18C\uB9AC \uD558\uC9C0\uB9D0\uACE0. \uC9C0\uAE08
       \uB108\uD76C \uBC18 \uC2DC\uAC04\uD45C \uBC14\uB00C\uC5B4\uC11C\n\uC560\uB4E4
       \uB2E4 \uAC14\uC5B4 \uC9C0\uAE08."
-    - "\uC5E5? \uBB50\uB85C \uBC14\uB00C\uC5C8\uB294\uB370?"
-    - "\uCCB4\uC721."
     - "\uC544 \uBBF8\uCCE4\uB098\uBD10! \uB2A6\uC5C8\uC796\uC544!!!"
-    - "...\uC65C\uC800\uB798."
+    - "[\uB3D9\uD654 \uC18D\uC5D0\uC11C \uC8FC\uC778\uACF5\uB4E4\uC744 \uB3C4\uC640\uC900
+      \uBBF8\uB9BC\uC774\uB355\uBD84\uC5D0\n\uB3D9\uD654 \uC18D \uCE5C\uAD6C\uB4E4\uC740
+      \uC624\uB298\uB3C4 \uD589\uBCF5\uD558\uAC8C \uC0B4\uC558\uB2F5\uB2C8\uB2E4.]"
     names:
     - "\uBBF8\uB9BC\uC774"
     - "\uBBF8\uB9BC\uC774"
@@ -558,9 +555,6 @@ MonoBehaviour:
     - "\uBBF8\uB9BC\uC774"
     - "\uCE5C\uAD6C"
     - "\uBBF8\uB9BC\uC774"
-    - "\uCE5C\uAD6C"
-    - "\uBBF8\uB9BC\uC774"
-    - "\uCE5C\uAD6C"
     sprites:
     - {fileID: 21300000, guid: affad725aa1f84dc78b97388217f58b9, type: 3}
     - {fileID: 21300000, guid: 35449ee10a34a41c58f6cd1b2874657f, type: 3}
@@ -569,12 +563,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 4fbbeb737b62943828399d69ec69cf3a, type: 3}
     - {fileID: 21300000, guid: 4fbbeb737b62943828399d69ec69cf3a, type: 3}
     - {fileID: 21300000, guid: 35449ee10a34a41c58f6cd1b2874657f, type: 3}
-    - {fileID: 21300000, guid: 35449ee10a34a41c58f6cd1b2874657f, type: 3}
-    - {fileID: 21300000, guid: affad725aa1f84dc78b97388217f58b9, type: 3}
-    - {fileID: 0}
     background:
-    - {fileID: 21300000, guid: d30c32feebc6241cd98d9a83abb29a79, type: 3}
-    - {fileID: 21300000, guid: d30c32feebc6241cd98d9a83abb29a79, type: 3}
     - {fileID: 21300000, guid: d30c32feebc6241cd98d9a83abb29a79, type: 3}
     - {fileID: 21300000, guid: d30c32feebc6241cd98d9a83abb29a79, type: 3}
     - {fileID: 21300000, guid: d30c32feebc6241cd98d9a83abb29a79, type: 3}

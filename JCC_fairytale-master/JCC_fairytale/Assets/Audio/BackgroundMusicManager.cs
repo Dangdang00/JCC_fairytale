@@ -10,7 +10,7 @@ public class BackgroundMusicManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        audioSource.PlayOneShot(sfx, 0.5f);
+        audioSource.PlayOneShot(sfx, 0.4f);
     }
 
     // Update is called once per frame

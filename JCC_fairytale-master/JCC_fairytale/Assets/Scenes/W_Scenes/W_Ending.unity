@@ -461,7 +461,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 948335813}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.78, y: -1.35, z: 10}
+  m_LocalPosition: {x: 5.61, y: -0.58, z: 10}
   m_LocalScale: {x: 1.15582, y: 1.13514, z: 1}
   m_Children: []
   m_Father: {fileID: 934920364}
@@ -504,7 +504,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: 2010c857ed2db6f4db386854ac58f614, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f5e612d781876a0469c8e5b7f7133456, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -673,6 +673,133 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1493991825
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1493991827}
+  - component: {fileID: 1493991826}
+  m_Layer: 0
+  m_Name: Audio Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1493991826
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493991825}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1493991827
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493991825}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.579032, y: -1.1874073, z: 0.06640625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1537633013
 GameObject:
@@ -965,15 +1092,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - "\uB0B4 \uC0AC\uACFC\uB97C \uB2E4 \uD53C\uD558\uB2E4\uB2C8...\n\uC4F8\uB370\uC5C6\uC774
-      \uC7AC\uBE60\uB974\uAD6C\uB098 \uBC31\uC124\uACF5\uC8FC!"
-    - "\uC704\uD5D8\uD558\uC796\uC544\uC694!! \uC81C\uAC00 \uB9DE\uAE30\uB77C\uB3C4
-      \uD588\uC74C \uC5B4\uCA4C\uB824\uACE0!!"
+    - "\uB0B4 \uC0AC\uACFC\uB97C \uC798\uB3C4 \uD53C\uD558\uB2E4\uB2C8.. \uC4F8\uB370\uC5C6\uC774
+      \uC7AC\uBE60\uB974\uAD6C\uB098! \uBC31\uC124\uACF5\uC8FC!"
+    - "\uC704\uD5D8\uD558\uC796\uC544\uC694!! \uC81C\uAC00 \uB2E4\uCE58\uAE30\uB77C\uB3C4
+      \uD588\uC73C\uBA74 \uC5B4\uCA4C\uB824\uACE0!!"
     - "\uD765. \uB2E4 \uD53C\uD588\uC73C\uB2C8 \uB41C \uAC70 \uC544\uB2CC\uAC00?"
-    - "\uD5D0.. "
-    - "\uAD1C\uD788 \uC2DC\uAC04\uB9CC \uB0AD\uBE44\uD588\uB124. \n\uC774 \uC0AC\uACFC\uB098
-      \uBA39\uACE0 \uB5A8\uC5B4\uC838!"
-    - "\uC640 \uC800 \uC544\uC90C\uB9C8 \uC7AC\uC218\uC5C6\uB2E4 \uC9C4\uC9DC.."
+    - "\uC815\uB9D0 \uB108\uBB34\uD558\uC2DC\uB124\uC694. \uC57D\uC18D\uD55C \uC0AC\uACFC\uB098
+      \uC8FC\uC138\uC694!"
+    - "\uB2F9\uB3CC\uD558\uAD70.. \uAD1C\uD788 \uC2DC\uAC04\uB9CC \uB0AD\uBE44\uD588\uB124.
+      \uC774 \uC0AC\uACFC\uB098 \uBA39\uACE0 \uB5A8\uC5B4\uC838!"
+    - "\uC640 \uC800 \uC544\uC90C\uB9C8 \uC9C4\uC9DC \uC7AC\uC218 \uC5C6\uB2E4\u2026"
     - "[\uBC31\uC124\uACF5\uC8FC\uC758 \uAE08\uC0AC\uACFC\uB97C \uD68D\uB4DD\uD588\uC2B5\uB2C8\uB2E4!]"
     names:
     - "\uB9C8\uB140"
@@ -984,12 +1112,12 @@ MonoBehaviour:
     - "\uBC31\uC124\uACF5\uC8FC"
     - 
     sprites_R:
-    - {fileID: 21300000, guid: 0e7071fef5e167c459257086bbb372fd, type: 3}
-    - {fileID: 21300000, guid: 21a8070b7d8ca1747bfc44b472900d07, type: 3}
-    - {fileID: 21300000, guid: 0e7071fef5e167c459257086bbb372fd, type: 3}
-    - {fileID: 21300000, guid: 6d2ffa0720011b949bbc7e8a8d5819f6, type: 3}
-    - {fileID: 21300000, guid: eeb2ad33b052e9b41ba6e43dabce5dc8, type: 3}
-    - {fileID: 21300000, guid: 0e7071fef5e167c459257086bbb372fd, type: 3}
+    - {fileID: 21300000, guid: f5e612d781876a0469c8e5b7f7133456, type: 3}
+    - {fileID: 21300000, guid: f5e612d781876a0469c8e5b7f7133456, type: 3}
+    - {fileID: 21300000, guid: f5e612d781876a0469c8e5b7f7133456, type: 3}
+    - {fileID: 21300000, guid: f5e612d781876a0469c8e5b7f7133456, type: 3}
+    - {fileID: 21300000, guid: f5e612d781876a0469c8e5b7f7133456, type: 3}
+    - {fileID: 21300000, guid: f5e612d781876a0469c8e5b7f7133456, type: 3}
     - {fileID: 0}
     sprites_L:
     - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
@@ -1007,11 +1135,22 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 62c0f0cebb7328e45ad3be103d00c9d5, type: 3}
     - {fileID: 21300000, guid: 62c0f0cebb7328e45ad3be103d00c9d5, type: 3}
     - {fileID: 0}
+    audioClips:
+    - {fileID: 8300000, guid: ec059bd3f32c9fd4aaffe91cc067cc67, type: 3}
+    - {fileID: 0}
+    - {fileID: 8300000, guid: 694c1e86a7f66b841b3e6803b810beb2, type: 3}
+    - {fileID: 0}
+    - {fileID: 8300000, guid: 5c9be3982eb68614ba527c77985b87f3, type: 3}
+    - {fileID: 0}
+    - {fileID: 8300000, guid: 01a0e33825b2606408fa455da505a494, type: 3}
   text: {fileID: 1982989836}
   Name: {fileID: 524640920}
   rendererSprite_L: {fileID: 32702405}
   rendererSprite_R: {fileID: 948335815}
   rendererBackground: {fileID: 1538801348}
+  audioSource: {fileID: 1493991826}
+  sfx2: {fileID: 0}
+  audioSource2: {fileID: 1493991826}
 --- !u!114 &1565489844
 MonoBehaviour:
   m_ObjectHideFlags: 0
