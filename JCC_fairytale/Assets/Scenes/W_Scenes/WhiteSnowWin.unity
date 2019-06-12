@@ -345,7 +345,6 @@ RectTransform:
   m_Children:
   - {fileID: 60153290}
   - {fileID: 1206992915}
-  - {fileID: 427169257}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -530,99 +529,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &427169256
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 427169257}
-  - component: {fileID: 427169259}
-  - component: {fileID: 427169258}
-  - component: {fileID: 427169260}
-  m_Layer: 5
-  m_Name: ScoreText
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &427169257
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 427169256}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 140074279}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -213.1, y: 44.6}
-  m_SizeDelta: {x: 188.06, y: 102.96}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &427169258
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 427169256}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.99607843, g: 0.9529412, b: 0.43529412, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: cd37a0b3fd005fe4b89013953cd1478e, type: 3}
-    m_FontSize: 93
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 9
-    m_MaxSize: 93
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 000
---- !u!222 &427169259
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 427169256}
-  m_CullTransparentMesh: 0
---- !u!114 &427169260
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 427169256}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2a7503feb851444aabde8d91f2a2ee0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ResultText: {fileID: 427169258}
 --- !u!1 &445165783
 GameObject:
   m_ObjectHideFlags: 0
@@ -822,7 +728,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: ea1fe1af359604f7ebc2dae754909942, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3b33de8ca80d94d88af4a88d14916975, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -841,8 +747,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 626306294}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.04, y: -0.66, z: 0}
-  m_LocalScale: {x: 1.0974029, y: 1.0974029, z: 1.0974029}
+  m_LocalPosition: {x: 5.76, y: -0.66, z: 0}
+  m_LocalScale: {x: 0.5146673, y: 0.5146673, z: 0.5146673}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -963,8 +869,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -150.4, y: -92.8}
-  m_SizeDelta: {x: 1276.1, y: 555.5}
+  m_AnchoredPosition: {x: -264, y: -92.8}
+  m_SizeDelta: {x: 1162.9, y: 555.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1206992916
 MonoBehaviour:
@@ -999,8 +905,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uCD95\uD558\uD569\uB2C8\uB2E4~\n\uB3C5\uC0AC\uACFC\uB97C \uD53C\uD574
-    \       \uC810\uC744 \uC5BB\uC5C8\uC2B5\uB2C8\uB2E4.\n\n\uADF8\uB7FC \uC774\uC81C,\n\uBBF8\uB9BC\uC774\uB97C
+  m_Text: "\uCD95\uD558\uD569\uB2C8\uB2E4~\n\uBB34\uC0AC\uD788 \uB3C5\uC0AC\uACFC\uB97C
+    \uD53C\uD588\uC2B5\uB2C8\uB2E4.\n\n\uADF8\uB7FC \uC774\uC81C,\n\uBBF8\uB9BC\uC774\uB97C
     \uAD6C\uD558\uB7EC \uAC00\uBCFC\uAE4C\uC694?"
 --- !u!222 &1206992917
 CanvasRenderer:
