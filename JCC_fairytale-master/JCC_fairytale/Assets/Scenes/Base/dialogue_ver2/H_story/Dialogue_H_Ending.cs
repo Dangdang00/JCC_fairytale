@@ -41,7 +41,7 @@ public class Dialogue_H_Ending : MonoBehaviour
     // Use this for initialization
     public void Start()
     {
-        count = 0;
+        count = -1;
         //text.text = " ";
         //Name.text = " ";
         listSentences = new List<string>();
@@ -133,7 +133,7 @@ public class Dialogue_H_Ending : MonoBehaviour
                 text.text = " ";
                 Name.text = " ";
 
-                if (count >= 7)
+                if (count >= 5)
                 {
                     StopAllCoroutines();
                     ExitDialogue();

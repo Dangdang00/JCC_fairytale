@@ -42,7 +42,7 @@ public class DialogueManager_W : MonoBehaviour
     // Use this for initialization
     public void Start()
     {
-        count = 0;
+        count = -1;
         //text.text = " ";
         //Name.text = " ";
         listSentences = new List<string>();
@@ -132,7 +132,7 @@ public class DialogueManager_W : MonoBehaviour
                 text.text = " ";
                 Name.text = " ";
 
-                if (count >= 8)
+                if (count >= 7)
                 {
                     StopAllCoroutines();
                     ExitDialogue();

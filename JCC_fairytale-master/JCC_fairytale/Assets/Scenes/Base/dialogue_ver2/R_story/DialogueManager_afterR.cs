@@ -24,25 +24,10 @@ public class DialogueManager_afterR : MonoBehaviour
     private int count; // 대화 진행 상황 카운트.
     private bool talking = false;
 
-    private AudioClip sfx;
+    /*private AudioClip sfx;
     public AudioSource audioSource;
-
     private List<AudioClip> listSfx;
-
-    /* #region Singleton
-      private void Awake()
-      {
-          if (instance == null)
-          {
-              DontDestroyOnLoad(this.gameObject);
-              instance = this;
-          }
-          else
-          {
-              Destroy(this.gameObject);
-          }
-      }
-      #endregion Singleton*/
+    */
 
     // Use this for initialization
     public void Start()
@@ -55,7 +40,7 @@ public class DialogueManager_afterR : MonoBehaviour
         listSprites_R = new List<Sprite>();
         listSprites_L = new List<Sprite>();
         listBackground = new List<Sprite>();
-        listSfx = new List<AudioClip>();
+        //listSfx = new List<AudioClip>();
         talking = true;
     }
 
@@ -69,7 +54,7 @@ public class DialogueManager_afterR : MonoBehaviour
             listSprites_L.Add(dialogue.sprites_L[i]);
             listSentences.Add(dialogue.sentences[i]);
             listNames.Add(dialogue.names[i]);
-            listSfx.Add(dialogue.audioClips[i]);
+            //listSfx.Add(dialogue.audioClips[i]);
         }
         StartCoroutine(Start_DialogueCoroutine());
     }
@@ -84,7 +69,7 @@ public class DialogueManager_afterR : MonoBehaviour
         listSprites_R.Clear();
         listSprites_L.Clear();
         listBackground.Clear();
-        listSfx.Clear();
+        //listSfx.Clear();
         talking = false;
     }
 
@@ -135,8 +120,8 @@ public class DialogueManager_afterR : MonoBehaviour
                 count++;
                 text.text = " ";
                 Name.text = " ";
-                sfx = listSfx[count];
-                audioSource.PlayOneShot(sfx, 0.7f);
+                //sfx = listSfx[count];
+               //audioSource.PlayOneShot(sfx, 0.7f);
 
                 if (count >= 10)
                 {

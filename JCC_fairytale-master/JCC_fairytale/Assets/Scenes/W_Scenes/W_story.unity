@@ -137,7 +137,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 64930702}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.78, y: -1.35, z: 10}
+  m_LocalPosition: {x: 5.6, y: -0.5, z: 10}
   m_LocalScale: {x: 1.15582, y: 1.13514, z: 1}
   m_Children: []
   m_Father: {fileID: 654676266}
@@ -180,7 +180,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: 18a7913cf7e600041b64dedc92291389, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f5e612d781876a0469c8e5b7f7133456, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -418,23 +418,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - "\uB9DB\uC788\uB294 \uC0AC\uACFC \uD558\uB098 \uC0AC\uC138\uC694~ \n\uAFC0\uC0AC\uACFC\uAC00
-      \uB2E8\uB3C8 \uAD6C\uCC9C \uAD6C\uBC31\uC6D0~!"
-    - "\uC640.. \uC0AC\uACFC \uB9DB\uC788\uACA0\uB2E4.. \uADFC\uB370 \uB3C8\uC774
+    - "\uC640.. \uC0AC\uACFC \uB9DB\uC788\uACA0\uB2E4.. \uADF8\uB7F0\uB370 \uB3C8\uC774
       \uC5C6\uB124.."
     - "\uAC70\uAE30 \uC608\uC05C \uACF5\uC8FC\uB2D8, \uC0AC\uACFC \uD558\uB098 \uB4DC\uC154\uBCF4\uC2DC\uC9C0
-      \uC54A\uACA0\uC5B4\uC694? \n\uD2B9\uBCC4\uD788 \uD560\uC778\uD574\uB4DC\uB9AC\uC9C0\uC694!"
-    - "\uD5C9 \uACF5\uC9DC\uB85C \uC8FC\uC2DC\uB294\uAC70\uC5D0\uC694? \uB300\uBC15
-      \uC644\uC804 \uC88B\uC544\uC694!"
-    - "\uD560\uC778\uB9CC \uD574\uB4DC\uB9B0\uB2E4\uB2C8\uAE4C\uC694 \uACF5\uC8FC\uB2D8.
-      \n\uB2F9\uC5F0\uD788 \uB3C8\uC740 \uB0B4\uC154\uC57C\uC8E0\u314E\u314E"
-    - "\uC544.. \uADFC\uB370 \uC81C\uAC00.. \uC9C0\uAE08 \uB3C8\uC774 \uC5C6\uC5B4\uC11C..
-      \n\uC678\uC0C1\uC740 \uC548 \uB418\uACA0\uC8E0? "
-    - "\uBB50? \uAC10\uD788 \uB3C8\uB3C4 \uC5C6\uB294 \uB188\uC774!!\n\uB0B4 \uC0AC\uACFC\uB098
-      \uBC1B\uC544\uB77C!"
+      \uC54A\uACA0\uC5B4\uC694? \uD2B9\uBCC4\uD788 \uD560\uC778\uD574\uB4DC\uB9AC\uC9C0\uC694!"
+    - "\uD5C9 \uACF5\uC9DC\uB85C \uC8FC\uC2DC\uB294 \uAC70\uC5D0\uC694? \uB300\uBC15,
+      \uB108\uBB34 \uC88B\uC544\uC694!"
+    - "\uD560\uC778\uB9CC \uD574\uB4DC\uB9B0\uB2E4\uB2C8\uAE4C\uC694! \uACF5\uC8FC\uB2D8.
+      \uB2F9\uC5F0\uD788 \uB3C8\uC740 \uB0B4\uC154\uC57C\uC8E0.\u314E\u314E"
+    - "\uC544.. \uADFC\uB370 \uC81C\uAC00.. \uC9C0\uAE08 \uB3C8\uC774 \uC5C6\uB294\uB370\u2026
+      \uADF8\uB0E5 \uC8FC\uC2DC\uBA74 \uC548 \uB418\uACA0\uC8E0?"
+    - "\uBB50? \uAC10\uD788 \uB3C8\uB3C4 \uC5C6\uB294 \uB188\uC774!! \uB0B4\uAC00
+      \uB358\uC9C0\uB294 \uC0AC\uACFC\uB97C \uBAA8\uB450 \uD53C\uD558\uBA74 \uC0DD\uAC01\uD574\uBCF4\uC9C0."
     - "\uC73C\uC545!"
     names:
-    - "\uB9C8\uB140"
     - "\uBC31\uC124\uACF5\uC8FC"
     - "\uB9C8\uB140"
     - "\uBC31\uC124\uACF5\uC8FC"
@@ -443,25 +440,22 @@ MonoBehaviour:
     - "\uB9C8\uB140"
     - "\uBC31\uC124\uACF5\uC8FC"
     sprites_R:
-    - {fileID: 21300000, guid: 98aa1fff0fcf61a46885c4728680de80, type: 3}
-    - {fileID: 21300000, guid: af2634ea2861d914aa480b41b78d6e19, type: 3}
-    - {fileID: 21300000, guid: f5c388021d7b52d42bb451e54a3044e0, type: 3}
-    - {fileID: 21300000, guid: 98aa1fff0fcf61a46885c4728680de80, type: 3}
-    - {fileID: 21300000, guid: 98aa1fff0fcf61a46885c4728680de80, type: 3}
-    - {fileID: 21300000, guid: 374f72a449e3fb24190ba5de7dbdedf4, type: 3}
-    - {fileID: 21300000, guid: 98aa1fff0fcf61a46885c4728680de80, type: 3}
-    - {fileID: 21300000, guid: 2010c857ed2db6f4db386854ac58f614, type: 3}
+    - {fileID: 21300000, guid: f5e612d781876a0469c8e5b7f7133456, type: 3}
+    - {fileID: 21300000, guid: f5e612d781876a0469c8e5b7f7133456, type: 3}
+    - {fileID: 21300000, guid: f5e612d781876a0469c8e5b7f7133456, type: 3}
+    - {fileID: 21300000, guid: f5e612d781876a0469c8e5b7f7133456, type: 3}
+    - {fileID: 21300000, guid: f5e612d781876a0469c8e5b7f7133456, type: 3}
+    - {fileID: 21300000, guid: f5e612d781876a0469c8e5b7f7133456, type: 3}
+    - {fileID: 21300000, guid: f5e612d781876a0469c8e5b7f7133456, type: 3}
     sprites_L:
-    - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
-    - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
-    - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
     - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
     - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
     - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
     - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
     - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
     background:
-    - {fileID: 21300000, guid: 4df2dda6b48884a7ca813b303f8511c4, type: 3}
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
@@ -469,6 +463,7 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
+    audioClips: []
   text: {fileID: 1774751068}
   Name: {fileID: 721933034}
   rendererSprite_L: {fileID: 1046636263}
@@ -810,7 +805,7 @@ GameObject:
   - component: {fileID: 664908758}
   - component: {fileID: 664908757}
   m_Layer: 0
-  m_Name: "\uBC31\uC124\uACF5\uC8FC\uBC30\uACBD"
+  m_Name: Wback
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -872,8 +867,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 664908756}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.11, y: -0.05, z: 0}
-  m_LocalScale: {x: 0.938, y: 0.938, z: 0.938}
+  m_LocalPosition: {x: -0.06, y: 0.06, z: 0}
+  m_LocalScale: {x: 0.92862004, y: 0.95676, z: 0.938}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -1153,8 +1148,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uBC30\uAC00 \uB108\uBB34 \uACE0\uD30C\uC11C \uC544\uBB34\uAC83\uB3C4 \uBABB\uD558\uACA0\uC5B4..
-    \n\uBB50 \uBA39\uC744\uAC70 \uC5C6\uB098??"
+  m_Text: "\uBC30\uAC00 \uB108\uBB34 \uACE0\uD30C\uC11C \uC544\uBB34\uAC83\uB3C4 \uBABB
+    \uD558\uACA0\uC5B4.. \uBB50 \uBA39\uC744 \uAC70 \uC5C6\uB098??"
 --- !u!222 &1774751069
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1235,7 +1230,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 62c0f0cebb7328e45ad3be103d00c9d5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

@@ -321,7 +321,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uD06C\uC544\uC545"
+  m_Text: "\uC73C\uC544\uC545\u2026 \uB0B4\uAC00 \uC9C0\uB2E4\uB2C8\u2026 \uBB34\uC2A8
+    \uC5EC\uC790\uC560\uAC00 \uD798\uC774\u2026"
 --- !u!222 &243769055
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -633,7 +634,6 @@ RectTransform:
   m_Children:
   - {fileID: 982297592}
   - {fileID: 243769056}
-  - {fileID: 2102507824}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -656,28 +656,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - "\uC640 \uB0B4\uAC00 \uC774\uACBC\uC5B4 \uD5E8\uC824!!"
-    - "\uC5ED\uC2DC \uB124\uAC00 \uC774\uAE38\uC904 \uC54C\uC558\uC5B4.\n\uB9C8\uB140\uAC00
-      \uAE30\uC808\uD55C \uD2C8\uC744 \uD0C0 \uB3C4\uB9DD\uAC00\uC790 \uADF8\uB808\uD154."
-    - "\uADFC\uB370 \uB9C8\uB140\uB791 \uC2F8\uC6E0\uB354\uB2C8..\n\uBC30\uAC00 \uC880
-      \uACE0\uD508\uB370..."
-    - "\uBC30 \uB9CE\uC774 \uACE0\uD30C \uADF8\uB808\uD154??\n\uC774 \uC9D1 \uACFC\uC790\uB85C
-      \uB418\uC5B4\uC788\uB358\uB370 \uC870\uAE08 \uB72F\uC744\uAE4C?"
-    - "\uC644\uC804 \uC88B\uC740\uB370 \uD5E8\uC824!\n\uCD5C\uB300\uD55C \uB9CE\uC774
-      \uB72F\uC5B4\uAC00\uC790\u314E\u314E"
-    - "\uADF8\uB798. \uC9D1\uC5D0\uAC00\uC11C \uC6B0\uC720\uB791 \uBA39\uC790."
+    - "\uBABB \uBCF8 \uC0AC\uC774\uC5D0 \uD798\uC774 \uB9CE\uC774 \uC138\uC84C\uB294\uAC78\u2026?
+      \uC774\uC81C \uC9D1\uC73C\uB85C \uB3CC\uC544\uAC00\uC790 \uADF8\uB808\uD154!"
+    - "\uADFC\uB370 \uB9C8\uB140\uC640 \uC2F8\uC6E0\uB354\uB2C8.. \uBC30\uAC00 \uC880
+      \uACE0\uD508\uB370\u2026"
+    - "\uADF8\uB798?? \uC774 \uC9D1 \uACFC\uC790\uB85C \uB418\uC5B4\uC788\uB358\uB370
+      \uC870\uAE08 \uB72F\uC744\uAE4C?"
+    - "\uC544\uC8FC \uC88B\uC740\uB370. \uD5E8\uC824! \uCD5C\uB300\uD55C \uB9CE\uC774
+      \uB72F\uC5B4\uAC00\uC790.\u314E\u314E"
     - "[\uD5E8\uC824\uACFC \uADF8\uB808\uD154\uC758 \uCFE0\uD0A4\uB97C \uD68D\uB4DD\uD558\uC168\uC2B5\uB2C8\uB2E4!]"
     names:
-    - "\uADF8\uB808\uD154"
     - "\uD5E8\uC824"
     - "\uADF8\uB808\uD154"
     - "\uD5E8\uC824"
     - "\uADF8\uB808\uD154"
-    - "\uD5E8\uC824"
     - 
     sprites_R:
-    - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
-    - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
     - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
     - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
     - {fileID: 21300000, guid: e8c8ca11022caa64387019f1a2145567, type: 3}
@@ -688,17 +682,14 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 532eaad61030f8b43ab4d21824b350ec, type: 3}
     - {fileID: 21300000, guid: 532eaad61030f8b43ab4d21824b350ec, type: 3}
     - {fileID: 21300000, guid: 532eaad61030f8b43ab4d21824b350ec, type: 3}
-    - {fileID: 21300000, guid: 532eaad61030f8b43ab4d21824b350ec, type: 3}
-    - {fileID: 21300000, guid: 532eaad61030f8b43ab4d21824b350ec, type: 3}
     - {fileID: 0}
     background:
     - {fileID: 21300000, guid: 84ab6ed0a0956cf4296f3caf267bfb5a, type: 3}
     - {fileID: 21300000, guid: 84ab6ed0a0956cf4296f3caf267bfb5a, type: 3}
     - {fileID: 21300000, guid: 84ab6ed0a0956cf4296f3caf267bfb5a, type: 3}
     - {fileID: 21300000, guid: 84ab6ed0a0956cf4296f3caf267bfb5a, type: 3}
-    - {fileID: 21300000, guid: 84ab6ed0a0956cf4296f3caf267bfb5a, type: 3}
-    - {fileID: 21300000, guid: 84ab6ed0a0956cf4296f3caf267bfb5a, type: 3}
     - {fileID: 0}
+    audioClips: []
   text: {fileID: 243769054}
   Name: {fileID: 982297590}
   rendererSprite_L: {fileID: 1336363281}
@@ -1254,38 +1245,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2102507823
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2102507824}
-  m_Layer: 5
-  m_Name: DialogueManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2102507824
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2102507823}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 328739009}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
