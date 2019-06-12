@@ -78,6 +78,7 @@
     <Compile Include="Assets\Script\H_Script\BackgroundMusicCtrl.cs" />
     <Compile Include="Assets\Script\H_Script\BulletCtrl.cs" />
     <Compile Include="Assets\Script\H_Script\Change_HStory.cs" />
+    <Compile Include="Assets\Script\H_Script\EndScore.cs" />
     <Compile Include="Assets\Script\H_Script\EnemyCtrl.cs" />
     <Compile Include="Assets\Script\H_Script\ExplosionCtrl.cs" />
     <Compile Include="Assets\Script\H_Script\FireCtrl.cs" />
