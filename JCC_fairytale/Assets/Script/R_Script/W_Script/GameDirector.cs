@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameDirector : MonoBehaviour
 {
     int count = 0;
+    int goscore;
 
     GameObject hpGage1;
     GameObject hpGage2;
@@ -42,6 +43,8 @@ public class GameDirector : MonoBehaviour
     }
     public void WhiteGameWin()
     {
+        //Debug.Log("값 보냄: " + Score.Wcount);
         SceneManager.LoadScene("WhiteSnowWin");
+        //ResultScore.setWResultScore(Score.Wcount);
     }
 }

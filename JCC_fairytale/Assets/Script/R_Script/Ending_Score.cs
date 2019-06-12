@@ -13,10 +13,10 @@ public class Ending_Score : MonoBehaviour
         ResultScore = 0;
     }
 
-    public void ResultScorePrint(int score)
+    void Update()
     {
-        ResultScoreText.text = ResultScoreText.ToString();
+        ResultScore = ScoreText.Rscore;
+        Debug.Log("Test: " + ScoreText.Rscore);
+        ResultScoreText.text = ResultScore.ToString();
     }
-
-
 }
