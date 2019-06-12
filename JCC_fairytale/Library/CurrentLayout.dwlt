@@ -40,8 +40,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 429
     y: 0
+<<<<<<< HEAD
     width: 318
     height: 435
+=======
+    width: 634
+    height: 525
+>>>>>>> a20ff53738830e62b43096519ded901b2077e688
   m_MinSize: {x: 204, y: 224}
   m_MaxSize: {x: 4004, y: 4024}
   m_ActualView: {fileID: 18}
@@ -91,8 +96,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 747
     y: 0
+<<<<<<< HEAD
     width: 277
     height: 717
+=======
+    width: 340
+    height: 869
+>>>>>>> a20ff53738830e62b43096519ded901b2077e688
   m_MinSize: {x: 277, y: 74}
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 15}
@@ -118,7 +128,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 202
+<<<<<<< HEAD
     height: 435
+=======
+    height: 525
+>>>>>>> a20ff53738830e62b43096519ded901b2077e688
   m_MinSize: {x: 202, y: 224}
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 16}
@@ -288,8 +302,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 202
     y: 0
+<<<<<<< HEAD
     width: 227
     height: 435
+=======
+    width: 504
+    height: 525
+>>>>>>> a20ff53738830e62b43096519ded901b2077e688
   m_MinSize: {x: 204, y: 224}
   m_MaxSize: {x: 4004, y: 4024}
   m_ActualView: {fileID: 17}
@@ -362,20 +381,35 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/Scenes/R_Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
   - Assets/Scenes/R_Scenes
+=======
+    - Assets/Scenes/W_Scenes
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Scenes/W_Scenes
+>>>>>>> a20ff53738830e62b43096519ded901b2077e688
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\JCC_fairytale\JCC_fairytale
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 197.49893}
     m_SelectedIDs: 64290000
     m_LastClickedID: 10596
     m_ExpandedIDs: 00000000402800006428000080280000d22800003c290000242a0000422b0000762c0000c02c0000482d00002e2f0000
+=======
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 280b0000
+    m_LastClickedID: 2856
+    m_ExpandedIDs: 000000005c09000096090000c00900009e0a0000e60a0000160b0000e6280000e8280000ea28000000ca9a3b
+>>>>>>> a20ff53738830e62b43096519ded901b2077e688
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -403,7 +437,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000402800006428000080280000d22800003c290000242a0000422b0000762c0000c02c0000482d00002e2f0000
+=======
+    m_ExpandedIDs: 000000005c09000096090000c00900009e0a0000e60a0000160b0000e6280000e8280000ea280000
+>>>>>>> a20ff53738830e62b43096519ded901b2077e688
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -522,9 +560,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 822f0000
       m_LastClickedID: 12162
       m_ExpandedIDs: 72fbffffd6fbffff
+=======
+      m_SelectedIDs: 98090000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 4efbffff64fbffffc4fbffff
+>>>>>>> a20ff53738830e62b43096519ded901b2077e688
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -564,8 +608,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
-      type: 0}
+    m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
