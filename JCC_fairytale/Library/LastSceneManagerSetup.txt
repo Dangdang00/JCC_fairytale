@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/H_Scenes/H_Play.unity
+=======
+- path: Assets/Scenes/R_Scenes/R_Win.unity
+>>>>>>> 28afeef485f19bd382e5cc583bc98f7ae09596d3
   isLoaded: 1
   isActive: 1

@@ -672,7 +672,7 @@ GameObject:
   - component: {fileID: 1101420949}
   - component: {fileID: 1101420948}
   m_Layer: 5
-  m_Name: HPImage
+  m_Name: HPImage1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1315,7 +1315,7 @@ GameObject:
   - component: {fileID: 1727568991}
   - component: {fileID: 1727568990}
   m_Layer: 5
-  m_Name: HPImage1
+  m_Name: HPImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

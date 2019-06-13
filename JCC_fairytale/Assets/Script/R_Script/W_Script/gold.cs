@@ -22,7 +22,7 @@ public class gold : MonoBehaviour
             this.delta = 0;
             GameObject go = Instantiate(DApple_white2_prefab) as GameObject;
             int px = Random.Range(-10, 10);
-            go.transform.position = new Vector3(px, 11, 0);
+            go.transform.position = new Vector3(px, 8, 0);
         }
     }
 }
