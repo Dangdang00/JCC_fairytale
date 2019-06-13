@@ -501,7 +501,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1363509346}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56320a7a477be9b4999a99181506ed36, type: 3}
+  m_Script: {fileID: 11500000, guid: 063f2450264334c4185bf8a9e1498f24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1363509349
@@ -545,7 +545,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1363509348}
-        m_MethodName: ChangeGameScene
+        m_MethodName: Go_HDB_Scene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -192,7 +192,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 60153294}
-        m_MethodName: ChangeGameScene
+        m_MethodName: Go_WDB_Scene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 60153289}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb532dfe5fdac4e8ab78f363abd7dd4d, type: 3}
+  m_Script: {fileID: 11500000, guid: 9c1887ba1c43f450cbcec201e526be85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &140074275

@@ -83,6 +83,7 @@
     <Compile Include="Assets\Script\H_Script\FireCtrl.cs" />
     <Compile Include="Assets\Script\H_Script\GameManager2.cs" />
     <Compile Include="Assets\Script\H_Script\GameTimer.cs" />
+    <Compile Include="Assets\Script\H_Script\Go_HDB.cs" />
     <Compile Include="Assets\Script\H_Script\GoEnd.cs" />
     <Compile Include="Assets\Script\H_Script\HEndScore.cs" />
     <Compile Include="Assets\Script\H_Script\HScoreRegister.cs" />
@@ -100,9 +101,10 @@
     <Compile Include="Assets\Script\R_Script\Character.cs" />
     <Compile Include="Assets\Script\R_Script\GameManager.cs" />
     <Compile Include="Assets\Script\R_Script\Go_Ending.cs" />
+    <Compile Include="Assets\Script\R_Script\Go_RDB.cs" />
     <Compile Include="Assets\Script\R_Script\Jump.cs" />
     <Compile Include="Assets\Script\R_Script\Pause_Click.cs" />
-    <Compile Include="Assets\Script\R_Script\ResultText.cs" />
+    <Compile Include="Assets\Script\R_Script\REndScore.cs" />
     <Compile Include="Assets\Script\R_Script\RGo_Library.cs" />
     <Compile Include="Assets\Script\R_Script\RScoreRegister.cs" />
     <Compile Include="Assets\Script\R_Script\ScoreText.cs" />
@@ -115,13 +117,14 @@
     <Compile Include="Assets\Script\R_Script\W_Script\AppleGenerator2.cs" />
     <Compile Include="Assets\Script\R_Script\W_Script\AppleGenerator3.cs" />
     <Compile Include="Assets\Script\R_Script\W_Script\BakSul_Control.cs" />
-    <Compile Include="Assets\Script\R_Script\W_Script\EndScore.cs" />
     <Compile Include="Assets\Script\R_Script\W_Script\GameDirector.cs" />
     <Compile Include="Assets\Script\R_Script\W_Script\Go_ending.cs" />
     <Compile Include="Assets\Script\R_Script\W_Script\Go_firstStory.cs" />
+    <Compile Include="Assets\Script\R_Script\W_Script\Go_WDB.cs" />
     <Compile Include="Assets\Script\R_Script\W_Script\gold.cs" />
     <Compile Include="Assets\Script\R_Script\W_Script\GoldApple.cs" />
     <Compile Include="Assets\Script\R_Script\W_Script\Score.cs" />
+    <Compile Include="Assets\Script\R_Script\W_Script\WEndScore.cs" />
     <Compile Include="Assets\Script\R_Script\W_Script\WhiteGameAgain.cs" />
     <Compile Include="Assets\Script\R_Script\W_Script\WhiteGameStart.cs" />
     <Compile Include="Assets\Script\R_Script\W_Script\WhiteGameWay.cs" />

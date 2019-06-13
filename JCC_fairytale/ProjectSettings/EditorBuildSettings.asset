@@ -78,6 +78,9 @@ EditorBuildSettings:
     path: Assets/Scenes/H_Scenes/H_Ending.unity
     guid: 74233ce7cc04ff741aab1757a7598314
   - enabled: 1
+    path: Assets/Scenes/W_Scenes/W_DB.unity
+    guid: 8f48a9b456722447fa6789463b67e186
+  - enabled: 1
     path: Assets/Scenes/H_Scenes/H_Title.unity
     guid: fb7f45a0370a7e74bab07ce9268d6ff4
   - enabled: 1
@@ -92,6 +95,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/H_Scenes/H_Play.unity
     guid: 0e178dce796f9924c9f7a49d8da81b2c
+  - enabled: 1
+    path: Assets/Scenes/H_Scenes/H_DB.unity
+    guid: 33fcb2ccc597444c38839c9da5eebcb3
   - enabled: 1
     path: Assets/Scenes/H_Scenes/H_Way.unity
     guid: e2e460767fb81b946b3a342cb1b12ccb
