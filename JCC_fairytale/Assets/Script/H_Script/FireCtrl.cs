@@ -21,7 +21,7 @@ public class FireCtrl : MonoBehaviour {
     }
 
     void Fire() {
-        audioSource.PlayOneShot(sfx, 1.0f);
+        audioSource.PlayOneShot(sfx, 0.1f);
         for(int i = 0; i< pos.Length; i++) {
             Instantiate(bullet, pos[i].transform.position, pos[i].transform.rotation);
         }

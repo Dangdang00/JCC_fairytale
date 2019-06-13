@@ -710,9 +710,9 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 8300000, guid: 2303b2cacde03d34d88d5415685a1397, type: 3}
     - {fileID: 8300000, guid: 04c5965074bfce342aa5ac19bd322c66, type: 3}
-    - {fileID: 0}
+    - {fileID: 8300000, guid: 25b4e344ae0afe846bbb53966cfe6c8d, type: 3}
     - {fileID: 8300000, guid: 3dbbbc440bf1e8c448868e42d4e38fd6, type: 3}
-    - {fileID: 0}
+    - {fileID: 8300000, guid: f22b58cb64ceadd4cb3da8a83f9d8262, type: 3}
     - {fileID: 8300000, guid: 9d8682abe11ca674faa3ab265bdee3a8, type: 3}
     - {fileID: 8300000, guid: 86528e1a8f4d3174795783733490c849, type: 3}
   text: {fileID: 371541222}
@@ -1065,8 +1065,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1667271015}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.12, y: -0.08, z: 10}
-  m_LocalScale: {x: 1.869, y: 1.879, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
+  m_LocalScale: {x: 1.8783449, y: 1.9015479, z: 1}
   m_Children: []
   m_Father: {fileID: 1167492042}
   m_RootOrder: 0
