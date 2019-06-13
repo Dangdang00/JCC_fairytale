@@ -6,27 +6,9 @@
       <File FileName="Assets/Script/R_Script/Go_RDB.cs" Line="13" Column="2" />
       <File FileName="Assets/Script/H_Script/Go_HDB.cs" Line="12" Column="2" />
       <File FileName="Assets/Script/R_Script/REndScore.cs" Line="6" Column="23" />
-      <File FileName="Assets/Script/R_Script/W_Script/WEndScore.cs" Line="15" Column="19" />
+      <File FileName="Assets/Script/R_Script/W_Script/WEndScore.cs" Line="15" Column="1" />
       <File FileName="Assets/Script/H_Script/HEndScore.cs" Line="15" Column="22" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="JCC_fairytale" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Script" expanded="True">
-                <Node name="H_Script" expanded="True" />
-                <Node name="R_Script" expanded="True">
-                  <Node name="W_Script" expanded="True">
-                    <Node name="WEndScore.cs" selected="True" />
-                  </Node>
-                </Node>
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
     <Watch file="../../../Assets/Scenes/Base/dialogue_ver2/W_story/DialogueManager_W.cs" line="110" offsetX="771" offsetY="1635" expression="count" liveUpdate="False" />

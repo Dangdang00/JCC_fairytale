@@ -45,6 +45,9 @@ EditorBuildSettings:
     path: Assets/Scenes/R_Scenes/R_Game.unity
     guid: 153ec5d6878db8c46ba46048e2b7d070
   - enabled: 1
+    path: Assets/Scenes/R_Scenes/R_Win.unity
+    guid: 08fb8a8aaaea949ca929d0aa474d9a39
+  - enabled: 1
     path: Assets/Scenes/R_Scenes/R_DB.unity
     guid: 09b0e2ff1abea4041b82956ec89465a8
   - enabled: 1
