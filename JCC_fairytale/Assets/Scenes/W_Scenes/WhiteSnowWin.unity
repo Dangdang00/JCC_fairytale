@@ -1000,8 +1000,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\uCD95\uD558\uD569\uB2C8\uB2E4~\n\uB3C5\uC0AC\uACFC\uB97C \uD53C\uD574
-    \        \uC810\uC744 \uC5BB\uC5C8\uC2B5\uB2C8\uB2E4.\n\n\uADF8\uB7FC \uC774\uC81C,\n\uBBF8\uB9BC\uC774\uB97C
-    \uAD6C\uD558\uB7EC \uAC00\uBCFC\uAE4C\uC694?"
+    \        \uC810\uC744 \uC5BB\uC5C8\uC2B5\uB2C8\uB2E4.\n\n\uADF8\uB7FC \uC774\uC81C,\n\uAE08\uC0AC\uACFC\uB97C
+    \uBC1B\uC73C\uB7EC \uAC00\uBCFC\uAE4C\uC694?"
 --- !u!222 &1206992917
 CanvasRenderer:
   m_ObjectHideFlags: 0
