@@ -28,9 +28,9 @@ public class BakSul_Control : MonoBehaviour
     void Update()
     {
         xMove = 0;
-        if (Input.GetMouseButton(1))
+        if (Input.GetMouseButton(1) || Input.GetKey(KeyCode.RightArrow))
             xMove = speed * Time.deltaTime;
-        else if (Input.GetMouseButton(0))
+        else if (Input.GetMouseButton(0) || Input.GetKey(KeyCode.LeftArrow))
             xMove = -speed * Time.deltaTime;
         this.transform.Translate(new Vector3(xMove, 0));
 

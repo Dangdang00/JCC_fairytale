@@ -14,7 +14,7 @@ public class Jump : MonoBehaviour
     void Update()
     {
         /*GetMousButton(0)하면 누르면 계속 점프*/
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
         {
             Debug.Log("Click");
             if (isJumping == false)
