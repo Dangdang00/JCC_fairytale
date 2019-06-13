@@ -404,7 +404,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Time:60
+  m_Text: "Time: 40\x03"
 --- !u!222 &1130408272
 CanvasRenderer:
   m_ObjectHideFlags: 0

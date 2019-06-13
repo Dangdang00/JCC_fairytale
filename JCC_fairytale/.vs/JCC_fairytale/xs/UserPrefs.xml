@@ -1,14 +1,32 @@
 ﻿<Properties StartupConfiguration="{16CC3DD8-BF8C-F6BF-0DC1-CD0981AC0A70}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/R_Script/W_Script/WEndScore.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/H_Script/GameTimer.cs">
     <Files>
-      <File FileName="Assets/Script/R_Script/W_Script/Go_ending.cs" Line="12" Column="21" />
-      <File FileName="Assets/Script/R_Script/W_Script/Go_WDB.cs" Line="1" Column="1" />
-      <File FileName="Assets/Script/R_Script/Go_RDB.cs" Line="13" Column="2" />
-      <File FileName="Assets/Script/H_Script/Go_HDB.cs" Line="12" Column="2" />
-      <File FileName="Assets/Script/R_Script/REndScore.cs" Line="6" Column="23" />
-      <File FileName="Assets/Script/R_Script/W_Script/WEndScore.cs" Line="15" Column="1" />
-      <File FileName="Assets/Script/H_Script/HEndScore.cs" Line="15" Column="22" />
+      <File FileName="../../Ranking Study/Assets/PlayerScores.cs" Line="7" Column="42" />
+      <File FileName="../../Ranking Study/Assets/User.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/RScoreRegister.cs" Line="19" Column="7" NotebookId="1" />
+      <File FileName="Assets/Script/FireBase/User.cs" Line="14" Column="1" NotebookId="1" />
+      <File FileName="Assets/Script/FireBase/WScoreRegister.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Assets/Script/H_Script/GameTimer.cs" Line="1" Column="1" NotebookId="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="JCC_fairytale" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Script" expanded="True">
+                <Node name="FireBase" expanded="True" />
+                <Node name="H_Script" expanded="True">
+                  <Node name="GameTimer.cs" selected="True" />
+                </Node>
+                <Node name="R_Script" expanded="True">
+                  <Node name="W_Script" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
     <Watch file="../../../Assets/Scenes/Base/dialogue_ver2/W_story/DialogueManager_W.cs" line="110" offsetX="771" offsetY="1635" expression="count" liveUpdate="False" />

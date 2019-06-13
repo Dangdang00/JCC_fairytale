@@ -191,6 +191,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 226674828}
   m_CullTransparentMesh: 0
+--- !u!1 &305658373
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 305658374}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &305658374
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305658373}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1239.5, y: 262, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &356699018
 GameObject:
   m_ObjectHideFlags: 0
@@ -818,7 +848,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: " \uC774\uB984\uC744 \uC785\uB825\uD574\uC8FC\uC384\uC5D0\uC5D0~\uD638~!"
+  m_Text: "  \uC774\uB984\uC744 \uC785\uB825\uD574\uC8FC\uC138\uC694"
 --- !u!222 &1560919223
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -966,7 +996,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0.60784316}
-    m_HighlightedColor: {r: 0.9254902, g: 0.7254902, b: 0.3882353, a: 1}
+    m_HighlightedColor: {r: 0.9433962, g: 0.58793294, b: 0.5740477, a: 0.6666667}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -1151,7 +1181,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0.60784316}
-    m_HighlightedColor: {r: 0.9254902, g: 0.7254902, b: 0.3882353, a: 1}
+    m_HighlightedColor: {r: 0.94509804, g: 0.5882353, b: 0.57254905, a: 0.6666667}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -1371,7 +1401,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0.60784316}
-    m_HighlightedColor: {r: 0.9254902, g: 0.7254902, b: 0.3882353, a: 1}
+    m_HighlightedColor: {r: 0.94509804, g: 0.5882353, b: 0.57254905, a: 0.6666667}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
