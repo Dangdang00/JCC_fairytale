@@ -708,19 +708,19 @@ MonoBehaviour:
     - {fileID: 21300000, guid: d30c32feebc6241cd98d9a83abb29a79, type: 3}
     audioClip:
     - {fileID: 0}
+    - {fileID: 8300000, guid: 2303b2cacde03d34d88d5415685a1397, type: 3}
+    - {fileID: 8300000, guid: 04c5965074bfce342aa5ac19bd322c66, type: 3}
     - {fileID: 0}
+    - {fileID: 8300000, guid: 3dbbbc440bf1e8c448868e42d4e38fd6, type: 3}
     - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
+    - {fileID: 8300000, guid: 9d8682abe11ca674faa3ab265bdee3a8, type: 3}
     - {fileID: 8300000, guid: 86528e1a8f4d3174795783733490c849, type: 3}
   text: {fileID: 371541222}
   Name: {fileID: 1837675817}
   rendererSprite: {fileID: 444045149}
   rendererBackground: {fileID: 1667271016}
   audioSource: {fileID: 1108817041}
-  sfx2: {fileID: 0}
+  sfx2: {fileID: 8300000, guid: eee5a330cfe35a040bc79f9663de0d5a, type: 3}
   audioSource2: {fileID: 1108817041}
 --- !u!114 &1244030719
 MonoBehaviour:

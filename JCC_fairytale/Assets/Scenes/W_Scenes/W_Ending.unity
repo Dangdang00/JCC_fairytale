@@ -940,8 +940,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1538801347}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.069, y: 0.052, z: 10}
-  m_LocalScale: {x: 0.928, y: 0.974, z: 1}
+  m_LocalPosition: {x: -0.012, y: 0.068, z: 10}
+  m_LocalScale: {x: 0.9363519, y: 0.971078, z: 1}
   m_Children: []
   m_Father: {fileID: 934920364}
   m_RootOrder: 2
@@ -1137,11 +1137,11 @@ MonoBehaviour:
     - {fileID: 0}
     audioClips:
     - {fileID: 8300000, guid: ec059bd3f32c9fd4aaffe91cc067cc67, type: 3}
-    - {fileID: 0}
+    - {fileID: 8300000, guid: 9cf48e7f64e998740b8a95359e711b0a, type: 3}
     - {fileID: 8300000, guid: 694c1e86a7f66b841b3e6803b810beb2, type: 3}
-    - {fileID: 0}
+    - {fileID: 8300000, guid: 070168b206a638c4cbc3bee89dc6dbae, type: 3}
     - {fileID: 8300000, guid: 5c9be3982eb68614ba527c77985b87f3, type: 3}
-    - {fileID: 0}
+    - {fileID: 8300000, guid: ae7f59f232a62c24d9e8e6f72691d13a, type: 3}
     - {fileID: 8300000, guid: 01a0e33825b2606408fa455da505a494, type: 3}
   text: {fileID: 1982989836}
   Name: {fileID: 524640920}
@@ -1149,7 +1149,7 @@ MonoBehaviour:
   rendererSprite_R: {fileID: 948335815}
   rendererBackground: {fileID: 1538801348}
   audioSource: {fileID: 1493991826}
-  sfx2: {fileID: 0}
+  sfx2: {fileID: 8300000, guid: 5d0a54dfcc5faca4280df33603df11bd, type: 3}
   audioSource2: {fileID: 1493991826}
 --- !u!114 &1565489844
 MonoBehaviour:
