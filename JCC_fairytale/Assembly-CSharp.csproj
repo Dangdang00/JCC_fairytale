@@ -77,6 +77,7 @@
     <Compile Include="Assets\Script\FireBase\HScoreRegister.cs" />
     <Compile Include="Assets\Script\FireBase\User.cs" />
     <Compile Include="Assets\Script\FireBase\WScoreRegister.cs" />
+    <Compile Include="Assets\Script\Go_Rank.cs" />
     <Compile Include="Assets\Script\H_Script\AgainMain.cs" />
     <Compile Include="Assets\Script\H_Script\BackgroundMusicCtrl.cs" />
     <Compile Include="Assets\Script\H_Script\BulletCtrl.cs" />

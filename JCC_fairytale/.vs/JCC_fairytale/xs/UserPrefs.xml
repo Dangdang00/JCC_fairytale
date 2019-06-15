@@ -1,17 +1,14 @@
 ﻿<Properties StartupConfiguration="{16CC3DD8-BF8C-F6BF-0DC1-CD0981AC0A70}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Base/dialogue_ver2/B_story/DialogueManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/R_Script/W_Script/WEndScore.cs">
     <Files>
-      <File FileName="../../Ranking Study/Assets/PlayerScores.cs" Line="7" Column="42" />
-      <File FileName="../../Ranking Study/Assets/User.cs" Line="1" Column="1" />
-      <File FileName="Assets/Script/R_Script/Character.cs" Line="1" Column="1" />
-      <File FileName="Assets/Script/R_Script/Jump.cs" Line="17" Column="76" />
-      <File FileName="Assets/Script/R_Script/W_Script/BakSul_Control.cs" Line="33" Column="57" />
-      <File FileName="Assets/Scenes/Base/dialogue_ver2/B_story/DialogueManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/Go_Rank.cs" Line="21" Column="6" />
+      <File FileName="Assets/Script/H_Script/Go_HDB.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/R_Script/W_Script/WEndScore.cs" Line="15" Column="1" />
       <File FileName="Assets/Script/RScoreRegister.cs" Line="19" Column="7" NotebookId="1" />
       <File FileName="Assets/Script/FireBase/User.cs" Line="14" Column="1" NotebookId="1" />
       <File FileName="Assets/Script/FireBase/WScoreRegister.cs" Line="1" Column="1" NotebookId="1" />
       <File FileName="Assets/Script/H_Script/GameTimer.cs" Line="10" Column="17" NotebookId="1" />
-      <File FileName="Assets/RestClient/DemoScene/Scripts/MainScript.cs" Line="20" Column="1" NotebookId="1" />
+      <File FileName="Assets/Script/R_Script/Go_RDB.cs" Line="1" Column="1" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
