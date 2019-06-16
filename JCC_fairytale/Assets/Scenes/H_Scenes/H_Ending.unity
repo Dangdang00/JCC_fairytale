@@ -690,18 +690,18 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 84ab6ed0a0956cf4296f3caf267bfb5a, type: 3}
     - {fileID: 0}
     audioClips:
-    - {fileID: 8300000, guid: a6961a8e4bf71bc4eb9278b9bf7ca533, type: 3}
-    - {fileID: 8300000, guid: 88722751253001640b479676f5b1e974, type: 3}
+    - {fileID: 8300000, guid: fe325dc3cc270bf46bc7afe6b3b42859, type: 3}
+    - {fileID: 8300000, guid: ac526b48ac99ac84a8bf15b341c94a76, type: 3}
     - {fileID: 8300000, guid: b357967cbbde2dc479c2f0e56e31502e, type: 3}
-    - {fileID: 8300000, guid: aff35d430ad05ec439812fce261109e9, type: 3}
-    - {fileID: 8300000, guid: ff8476c936862d1469a9d722753035b8, type: 3}
+    - {fileID: 8300000, guid: 738f6753eb4438e46ba9f32a0c52ebf8, type: 3}
+    - {fileID: 8300000, guid: a234e4c47a3630e4ebbe2e26d55f2533, type: 3}
   text: {fileID: 243769054}
   Name: {fileID: 982297590}
   rendererSprite_L: {fileID: 1336363281}
   rendererSprite_R: {fileID: 777822773}
   rendererBackground: {fileID: 278851437}
   audioSource: {fileID: 1687151760}
-  sfx2: {fileID: 8300000, guid: 325fd78c12ebabb4abe52cbecff0d569, type: 3}
+  sfx2: {fileID: 8300000, guid: 53a263c6c5f252846a9189b3bab21d29, type: 3}
   audioSource2: {fileID: 1687151760}
 --- !u!1 &576956860
 GameObject:

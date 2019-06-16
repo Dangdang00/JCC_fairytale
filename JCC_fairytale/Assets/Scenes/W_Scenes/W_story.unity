@@ -464,20 +464,20 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 0}
     audioClips:
-    - {fileID: 8300000, guid: 27d8c15fb5ddeaf418356a8ddb29ea52, type: 3}
-    - {fileID: 8300000, guid: 06c8355a5224db84da5a827e462d26f8, type: 3}
-    - {fileID: 8300000, guid: a45ef2053bb66e14ab2685cbcc4fef40, type: 3}
+    - {fileID: 8300000, guid: 363d9016a0778e447819ae090d28a29e, type: 3}
+    - {fileID: 8300000, guid: d07dcbd107d63ee49b56dea011d0badc, type: 3}
+    - {fileID: 8300000, guid: 95a243f9379fa8040bbcf52897b9af56, type: 3}
     - {fileID: 0}
-    - {fileID: 8300000, guid: 28b4ae8f23d08144f96f147955a2af0c, type: 3}
-    - {fileID: 8300000, guid: d286f8f27ccf7994e8a2505ad2f2ac4d, type: 3}
-    - {fileID: 8300000, guid: 535aa099abc491f46bbebb3300fbd9ac, type: 3}
+    - {fileID: 8300000, guid: 3f98a11ed830c7e44b63cf00675ba4db, type: 3}
+    - {fileID: 8300000, guid: f4ff84e9a05e6ea4cb5434f9b25a7397, type: 3}
+    - {fileID: 8300000, guid: f8258b7e98505154d8cbd61ac48e0411, type: 3}
   text: {fileID: 1774751068}
   Name: {fileID: 721933034}
   rendererSprite_L: {fileID: 1046636263}
   rendererSprite_R: {fileID: 64930704}
   rendererBackground: {fileID: 1927017138}
   audioSource: {fileID: 604869601}
-  sfx2: {fileID: 8300000, guid: 4982bdbee63720044b025940e2584b6d, type: 3}
+  sfx2: {fileID: 8300000, guid: a41bf19d0b6ee64459f0974bc7bd7072, type: 3}
   audioSource2: {fileID: 604869601}
 --- !u!1 &160336884
 GameObject:

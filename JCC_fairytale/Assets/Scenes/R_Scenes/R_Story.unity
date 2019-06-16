@@ -1020,19 +1020,19 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 66116186eaf98034cb882bdf2ebe87a1, type: 3}
     - {fileID: 21300000, guid: 66116186eaf98034cb882bdf2ebe87a1, type: 3}
     audioClips:
-    - {fileID: 8300000, guid: a30a45bb5415f424dbc198286b81a728, type: 3}
-    - {fileID: 8300000, guid: f86c0d60708c60e49be7da7953cdb2bb, type: 3}
-    - {fileID: 8300000, guid: 72034d0fd4d60cb48bc4534e6bf95081, type: 3}
-    - {fileID: 8300000, guid: 9778fb7b95c2a8047a9fef92a6141733, type: 3}
-    - {fileID: 8300000, guid: 5fe5a2a32b3ff514a8840d2fcde0264c, type: 3}
-    - {fileID: 8300000, guid: 402823fab0358bd419e90c52ee5eeca8, type: 3}
+    - {fileID: 8300000, guid: 07c3603d2eda4d5438327c0c0974d0ae, type: 3}
+    - {fileID: 8300000, guid: fba746feea4561a4db768ae02bda990e, type: 3}
+    - {fileID: 8300000, guid: 3ece0059e47990f4e934577560e7eed3, type: 3}
+    - {fileID: 8300000, guid: d2934d4a2068be64b8a7c3019bb7596c, type: 3}
+    - {fileID: 8300000, guid: 0ecbfa6f552ceca4ba06dc642f347665, type: 3}
+    - {fileID: 8300000, guid: d12b2dc95eb24de4b8cc3384db766247, type: 3}
   text: {fileID: 602846157}
   Name: {fileID: 984764156}
   rendererSprite_L: {fileID: 883837333}
   rendererSprite_R: {fileID: 105702224}
   rendererBackground: {fileID: 260728191}
   audioSource: {fileID: 622965942}
-  sfx2: {fileID: 8300000, guid: c042db8b46bc4964faa553b8fbd94738, type: 3}
+  sfx2: {fileID: 8300000, guid: 9e19b5e3ad48015409cd6859594b9528, type: 3}
   audioSource2: {fileID: 622965942}
 --- !u!114 &2092404773
 MonoBehaviour:
