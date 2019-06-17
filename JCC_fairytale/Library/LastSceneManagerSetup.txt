@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/W_Scenes/W_story.unity
-=======
-- path: Assets/Scenes/W_Scenes/W_DB.unity
->>>>>>> 0b88d706c177a430a374dc18c78a8cbe8708ce93
+- path: Assets/Scenes/W_Scenes/W_Rank.unity
   isLoaded: 1
   isActive: 1
