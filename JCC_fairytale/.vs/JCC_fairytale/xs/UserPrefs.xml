@@ -1,10 +1,12 @@
 ﻿<Properties StartupConfiguration="{16CC3DD8-BF8C-F6BF-0DC1-CD0981AC0A70}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Go_Rank.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/FireBase/PlayerScores.cs">
     <Files>
-      <File FileName="Assets/Script/FireBase/PlayerScores.cs" Line="40" Column="28" />
-      <File FileName="Assets/Script/R_Script/ScoreText.cs" Line="39" Column="44" />
-      <File FileName="Assets/Script/Go_Rank.cs" Line="9" Column="5" />
-      <File FileName="Assets/Script/R_Script/REndScore.cs" Line="10" Column="5" NotebookId="1" />
+      <File FileName="Assets/Script/FireBase/PlayerScores.cs" Line="128" Column="35" />
+      <File FileName="Assets/Script/R_Script/W_Script/WEndScore.cs" Line="8" Column="19" />
+      <File FileName="Assets/Script/R_Script/REndScore.cs" Line="8" Column="16" />
+      <File FileName="Assets/Script/H_Script/HEndScore.cs" Line="8" Column="19" />
+      <File FileName="Assets/Script/FireBase/GameScore.cs" Line="10" Column="26" NotebookId="1" />
+      <File FileName="Assets/Script/Go_Rank.cs" Line="24" Column="1" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>

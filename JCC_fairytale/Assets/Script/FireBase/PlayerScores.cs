@@ -24,9 +24,23 @@ public class PlayerScores : MonoBehaviour
     public static int playerScore = 0;
     public static string playerName = null;
 
+    //string url;
+
     void Start()
     {
         playerScore = REndScore.result_Score;
+
+        /*if (Go_Rank.R_Rank)
+        {
+            playerScore = REndScore.result_Score;
+            Debug.Log("점수: " + playerScore);
+        }
+
+        else if (Go_Rank.W_Rank)
+            playerScore = WEndScore.Wscore;
+
+        else if (Go_Rank.H_Rank)
+            playerScore = HEndScore.Hscore;*/
     }
 
     public void OnSubmit()
@@ -43,37 +57,39 @@ public class PlayerScores : MonoBehaviour
 
     private void UpdateScore()
     {
-        //scoreText.text = "Score: " + user.userScore;
         Debug.Log("출력");
-        Debug.Log(gameScore.R_UserID1);
-        Debug.Log(gameScore.R_UserScore1);
-        Debug.Log(gameScore.R_UserID2);
-        Debug.Log(gameScore.R_UserScore2);
-        Debug.Log(gameScore.R_UserID3);
-        Debug.Log(gameScore.R_UserScore3);
-        Debug.Log(gameScore.R_UserID4);
-        Debug.Log(gameScore.R_UserScore4);
-        Debug.Log(gameScore.R_UserID5);
-        Debug.Log(gameScore.R_UserScore5);
+        scoreText1.text = gameScore.UserScore1.ToString();
+        scoreText2.text = gameScore.UserScore2.ToString();
+        scoreText3.text = gameScore.UserScore3.ToString();
+        scoreText4.text = gameScore.UserScore4.ToString();
+        scoreText5.text = gameScore.UserScore5.ToString();
+        nameText1.text = gameScore.UserID1;
+        nameText2.text = gameScore.UserID2;
+        nameText3.text = gameScore.UserID3;
+        nameText4.text = gameScore.UserID4;
+        nameText5.text = gameScore.UserID5;
 
-        scoreText1.text = gameScore.R_UserScore1.ToString();
-        scoreText2.text = gameScore.R_UserScore2.ToString();
-        scoreText3.text = gameScore.R_UserScore3.ToString();
-        scoreText4.text = gameScore.R_UserScore4.ToString();
-        scoreText5.text = gameScore.R_UserScore5.ToString();
-        nameText1.text = gameScore.R_UserID1;
-        nameText2.text = gameScore.R_UserID2;
-        nameText3.text = gameScore.R_UserID3;
-        nameText4.text = gameScore.R_UserID4;
-        nameText5.text = gameScore.R_UserID5;
+        if (Go_Rank.R_Rank)
+            Go_Rank.R_Rank = false;
+        else if (Go_Rank.W_Rank)
+            Go_Rank.W_Rank = false;
+        else if (Go_Rank.H_Rank)
+            Go_Rank.H_Rank = false;
     }
 
     private void PostToDatabase()
     {
-        // 점수 계산해서 게임스코어에 저장         
-        // GameScore ㄹㅏ는 클래스 정의해서 사용 
-        //User user = new User(); // 여기가 게임스코어로 바뀌어야함
         GameScore gameScore = new GameScore();
+
+        Debug.Log("점수: " + playerScore);
+        Debug.Log("이름: " + playerName);
+
+        /*if (Go_Rank.R_Rank)
+            url = "https://jcc-fairytale.firebaseio.com/RedHood.json";
+        else if (Go_Rank.W_Rank)
+            url = "https://jcc-fairytale.firebaseio.com/SnowWhite.json";
+        else if (Go_Rank.H_Rank)
+            url = "https://jcc-fairytale.firebaseio.com/HanselandGretel.json";*/
 
         RestClient.Get<GameScore>("https://jcc-fairytale.firebaseio.com/RedHood.json").Then(response =>
         {
@@ -87,19 +103,22 @@ public class PlayerScores : MonoBehaviour
             gameScore.UserID = playerName;
             gameScore.UserScore = playerScore;
 
+            Debug.Log("점수: " + playerScore);
+            Debug.Log("이름: " + playerName);
+
             // 값 할당
-            score[0] = gameScore.R_UserScore1;
-            score[1] = gameScore.R_UserScore2;
-            score[2] = gameScore.R_UserScore3;
-            score[3] = gameScore.R_UserScore4;
-            score[4] = gameScore.R_UserScore5;
+            score[0] = gameScore.UserScore1;
+            score[1] = gameScore.UserScore2;
+            score[2] = gameScore.UserScore3;
+            score[3] = gameScore.UserScore4;
+            score[4] = gameScore.UserScore5;
             score[5] = gameScore.UserScore;
 
-            id[0] = gameScore.R_UserID1;
-            id[1] = gameScore.R_UserID2;
-            id[2] = gameScore.R_UserID3;
-            id[3] = gameScore.R_UserID4;
-            id[4] = gameScore.R_UserID5;
+            id[0] = gameScore.UserID1;
+            id[1] = gameScore.UserID2;
+            id[2] = gameScore.UserID3;
+            id[3] = gameScore.UserID4;
+            id[4] = gameScore.UserID5;
             id[5] = gameScore.UserID;
 
             for (int i = 5; i >= 0; i--)
@@ -121,24 +140,21 @@ public class PlayerScores : MonoBehaviour
             }
 
             // 값 변경
-            gameScore.R_UserScore1 = score[0];
-            gameScore.R_UserScore2 = score[1];
-            gameScore.R_UserScore3 = score[2];
-            gameScore.R_UserScore4 = score[3];
-            gameScore.R_UserScore5 = score[4];
+            gameScore.UserScore1 = score[0];
+            gameScore.UserScore2 = score[1];
+            gameScore.UserScore3 = score[2];
+            gameScore.UserScore4 = score[3];
+            gameScore.UserScore5 = score[4];
 
-            gameScore.R_UserID1 = id[0];
-            gameScore.R_UserID2 = id[1];
-            gameScore.R_UserID3 = id[2];
-            gameScore.R_UserID4 = id[3];
-            gameScore.R_UserID5 = id[4];
+            gameScore.UserID1 = id[0];
+            gameScore.UserID2 = id[1];
+            gameScore.UserID3 = id[2];
+            gameScore.UserID4 = id[3];
+            gameScore.UserID5 = id[4];
 
             RestClient.Put("https://jcc-fairytale.firebaseio.com/RedHood.json", gameScore);
 
         });
-
-        Debug.Log("점수: " + playerScore);
-        Debug.Log("이름: " + playerName);
     }
 
     private void RetrieveFromDatabase()
