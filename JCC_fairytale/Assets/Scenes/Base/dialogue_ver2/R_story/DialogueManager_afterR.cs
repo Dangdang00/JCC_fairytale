@@ -127,7 +127,7 @@ public class DialogueManager_afterR : MonoBehaviour
                 Name.text = " ";
 
 
-                if (count >= 10)
+                if (count >= 9)
                 {
                     StopAllCoroutines();
                     ExitDialogue();

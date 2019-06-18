@@ -584,9 +584,6 @@ MonoBehaviour:
       \uC774\uAC8C \uBB34\uC2A8 \uD589\uC6B4\uC774\uB78C!"
     - "\uCCC7 \uB4E4\uCF1C\uBC84\uB838\uAD70. \uC774\uB807\uAC8C \uB41C \uC774\uC0C1
       \uC2B9\uBD80\uB2E4 \uB9C8\uB140!"
-    - "\uC88B\uB2E4. \uB108\uC815\uB3C4\uBA74 \uB0B4\uAC00 \uAD73\uC774 \uB098\uC124
-      \uD544\uC694\uB3C4 \uC5C6\uACA0\uB294\uAC78?"
-    - "\uADF8\uB808\uD154 \uB108 \uBB50\uD558\uB294\uAC70\uC57C?!?!"
     names:
     - "\uADF8\uB808\uD154"
     - "\uADF8\uB808\uD154"
@@ -595,11 +592,7 @@ MonoBehaviour:
     - "\uADF8\uB808\uD154"
     - "\uB9C8\uB140"
     - "\uADF8\uB808\uD154"
-    - "\uB9C8\uB140"
-    - "\uD5E8\uC824"
     sprites_R:
-    - {fileID: 21300000, guid: 501a6e416be1b8740941d0d0409f9ad1, type: 3}
-    - {fileID: 21300000, guid: 501a6e416be1b8740941d0d0409f9ad1, type: 3}
     - {fileID: 21300000, guid: 501a6e416be1b8740941d0d0409f9ad1, type: 3}
     - {fileID: 21300000, guid: 501a6e416be1b8740941d0d0409f9ad1, type: 3}
     - {fileID: 21300000, guid: 501a6e416be1b8740941d0d0409f9ad1, type: 3}
@@ -615,13 +608,9 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 0632ec1d3e782db4f9186c41232cd226, type: 3}
     - {fileID: 21300000, guid: d773117d2b2a1be4f9cb2bd28f8710fd, type: 3}
     - {fileID: 0}
-    - {fileID: 21300000, guid: d773117d2b2a1be4f9cb2bd28f8710fd, type: 3}
-    - {fileID: 21300000, guid: 0632ec1d3e782db4f9186c41232cd226, type: 3}
     background:
     - {fileID: 21300000, guid: 638e600f79cf0704ca8193365b4e90dd, type: 3}
     - {fileID: 21300000, guid: 638e600f79cf0704ca8193365b4e90dd, type: 3}
-    - {fileID: 0}
-    - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
@@ -635,8 +624,6 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 1ceb8614f1aa1574498f183cc1c89fd4, type: 3}
     - {fileID: 8300000, guid: fef883ba78eef7d44a66512898126735, type: 3}
     - {fileID: 8300000, guid: cc86cec020bc1d241841ae09468b370d, type: 3}
-    - {fileID: 8300000, guid: 497e893912899834496a6c11e343b42f, type: 3}
-    - {fileID: 8300000, guid: e32189ab76a866b438b9771195b8be88, type: 3}
   text: {fileID: 2136038214}
   Name: {fileID: 1176413438}
   rendererSprite_L: {fileID: 1244865848}

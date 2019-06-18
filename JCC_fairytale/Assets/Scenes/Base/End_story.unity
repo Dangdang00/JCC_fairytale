@@ -670,10 +670,7 @@ MonoBehaviour:
     - "\uC124\uB9C8, \uAFC8\uC774 \uC544\uB2C8\uB77C \uC9C4\uC9DC\uC600\uB358\uAC70\uC57C!?!?
       \uD5D0. \uB300\uBC15. \uB0B4\uAC00 \uB3D9\uD654 \uC18D\uC73C\uB85C \uB4E4\uC5B4\uAC00\uB2E4\uB2C8!!"
     - "\uBBF8\uB9BC\uC544 \uC5EC\uAE30\uC11C \uBB50\uD574?"
-    - "\uC5B4, \uB9C8\uCE68 \uC798\uB410\uB2E4. \uB0B4\uAC00 \uC9C0\uAE08 \uBB34\uC2A8
-      \uC77C\uC744 \uACAA\uC5C8\uB0D0\uBA74.."
-    - "\uB610 \uC774\uC0C1\uD55C \uC18C\uB9AC \uD558\uC9C0\uB9D0\uACE0. \uC9C0\uAE08
-      \uB108\uD76C \uBC18 \uC2DC\uAC04\uD45C \uBC14\uB00C\uC5B4\uC11C\n\uC560\uB4E4
+    - "\uC9C0\uAE08 \uB108\uD76C \uBC18 \uC2DC\uAC04\uD45C \uBC14\uB00C\uC5B4\uC11C\n\uC560\uB4E4
       \uB2E4 \uAC14\uC5B4."
     - "\uC544 \uBBF8\uCCE4\uB098\uBD10! \uB2A6\uC5C8\uC796\uC544!!!"
     - "[\uB3D9\uD654 \uC18D\uC5D0\uC11C \uC8FC\uC778\uACF5\uB4E4\uC744 \uB3C4\uC640\uC900
@@ -684,7 +681,6 @@ MonoBehaviour:
     - "\uBBF8\uB9BC\uC774"
     - "\uBBF8\uB9BC\uC774"
     - "\uCE5C\uAD6C"
-    - "\uBBF8\uB9BC\uC774"
     - "\uCE5C\uAD6C"
     - "\uBBF8\uB9BC\uC774"
     - 
@@ -695,10 +691,8 @@ MonoBehaviour:
     - {fileID: 21300000, guid: ab80fbb3f334b48b68bc6ce50226edd8, type: 3}
     - {fileID: 21300000, guid: 4fbbeb737b62943828399d69ec69cf3a, type: 3}
     - {fileID: 21300000, guid: 4fbbeb737b62943828399d69ec69cf3a, type: 3}
-    - {fileID: 21300000, guid: 35449ee10a34a41c58f6cd1b2874657f, type: 3}
     - {fileID: 0}
     background:
-    - {fileID: 21300000, guid: d30c32feebc6241cd98d9a83abb29a79, type: 3}
     - {fileID: 21300000, guid: d30c32feebc6241cd98d9a83abb29a79, type: 3}
     - {fileID: 21300000, guid: d30c32feebc6241cd98d9a83abb29a79, type: 3}
     - {fileID: 21300000, guid: d30c32feebc6241cd98d9a83abb29a79, type: 3}
@@ -711,10 +705,9 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 5688711abe3f88840b4da24e05b23011, type: 3}
     - {fileID: 8300000, guid: 779e0af1c9c586f438a21e343dd703e5, type: 3}
     - {fileID: 8300000, guid: ec00bd3b010684e47a033861b02a12ae, type: 3}
-    - {fileID: 8300000, guid: 66945c997599f71408f6dc5ea614acda, type: 3}
-    - {fileID: 8300000, guid: 9cb4ff27e0e5c57439cd99ce747ed6ed, type: 3}
+    - {fileID: 8300000, guid: 81ccd9ad423b782438fdf19916740ea9, type: 3}
     - {fileID: 8300000, guid: f6248b6cd6d4a734fae00ced8c3bc573, type: 3}
-    - {fileID: 8300000, guid: b21463cd3a946064abb4552147c50c2b, type: 3}
+    - {fileID: 8300000, guid: 9f95d4c4e6f42244bbc3b60c9eb11665, type: 3}
   text: {fileID: 371541222}
   Name: {fileID: 1837675817}
   rendererSprite: {fileID: 444045149}

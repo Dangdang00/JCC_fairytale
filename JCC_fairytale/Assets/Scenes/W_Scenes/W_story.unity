@@ -418,8 +418,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - "\uC640.. \uC0AC\uACFC \uB9DB\uC788\uACA0\uB2E4.. \uADF8\uB7F0\uB370 \uB3C8\uC774
-      \uC5C6\uB124.."
     - "\uAC70\uAE30 \uC608\uC05C \uACF5\uC8FC\uB2D8, \uC0AC\uACFC \uD558\uB098 \uB4DC\uC154\uBCF4\uC2DC\uC9C0
       \uC54A\uACA0\uC5B4\uC694? \uD2B9\uBCC4\uD788 \uD560\uC778\uD574\uB4DC\uB9AC\uC9C0\uC694!"
     - "\uD5C9 \uACF5\uC9DC\uB85C \uC8FC\uC2DC\uB294 \uAC70\uC5D0\uC694? \uB300\uBC15,
@@ -432,7 +430,6 @@ MonoBehaviour:
       \uB358\uC9C0\uB294 \uC0AC\uACFC\uB97C \uBAA8\uB450 \uD53C\uD558\uBA74 \uC0DD\uAC01\uD574\uBCF4\uC9C0."
     - "\uC73C\uC545!"
     names:
-    - "\uBC31\uC124\uACF5\uC8FC"
     - "\uB9C8\uB140"
     - "\uBC31\uC124\uACF5\uC8FC"
     - "\uB9C8\uB140"
@@ -446,9 +443,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: f5e612d781876a0469c8e5b7f7133456, type: 3}
     - {fileID: 21300000, guid: f5e612d781876a0469c8e5b7f7133456, type: 3}
     - {fileID: 21300000, guid: f5e612d781876a0469c8e5b7f7133456, type: 3}
-    - {fileID: 21300000, guid: f5e612d781876a0469c8e5b7f7133456, type: 3}
     sprites_L:
-    - {fileID: 0}
     - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
     - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
     - {fileID: 21300000, guid: c4ead4459fb716e4886767f7ddf93fa5, type: 3}
@@ -462,12 +457,10 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
-    - {fileID: 0}
     audioClips:
-    - {fileID: 8300000, guid: 363d9016a0778e447819ae090d28a29e, type: 3}
     - {fileID: 8300000, guid: d07dcbd107d63ee49b56dea011d0badc, type: 3}
     - {fileID: 8300000, guid: 95a243f9379fa8040bbcf52897b9af56, type: 3}
-    - {fileID: 0}
+    - {fileID: 8300000, guid: 5e0aa3b6e62d8184987efc3f958a32f5, type: 3}
     - {fileID: 8300000, guid: 3f98a11ed830c7e44b63cf00675ba4db, type: 3}
     - {fileID: 8300000, guid: f4ff84e9a05e6ea4cb5434f9b25a7397, type: 3}
     - {fileID: 8300000, guid: f8258b7e98505154d8cbd61ac48e0411, type: 3}
