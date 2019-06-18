@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class REndScore : MonoBehaviour
 {   
-    int result_Score;
+    public static int result_Score;
     public Text scoreText;
 
     void Update()

@@ -5,9 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class Go_Rank : MonoBehaviour
 {
+    public GameObject R_RankPanel;
+
     public void RRank()
     {
-        SceneManager.LoadScene("R_Rank");
+        R_RankPanel.gameObject.SetActive(true);
+    }
+
+    public void RDB()
+    {
+        R_RankPanel.gameObject.SetActive(false);
     }
 
     public void WRank()
