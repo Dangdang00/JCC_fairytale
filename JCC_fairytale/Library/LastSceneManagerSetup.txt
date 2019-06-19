@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/H_Scenes/H_Play.unity
+- path: Assets/Scenes/R_Scenes/R_Ending.unity
   isLoaded: 1
   isActive: 1
