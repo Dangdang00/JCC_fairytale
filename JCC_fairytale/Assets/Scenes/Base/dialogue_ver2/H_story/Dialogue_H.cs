@@ -144,7 +144,7 @@ public class Dialogue_H : MonoBehaviour
                 text.text = " ";
                 Name.text = " ";
                 
-                if (count >= 9)
+                if (count >= 7)
                 {
                     StopAllCoroutines();
                     ExitDialogue();

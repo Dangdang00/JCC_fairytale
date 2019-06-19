@@ -129,7 +129,7 @@ public class DialogueManager_W : MonoBehaviour
                 text.text = " ";
                 Name.text = " ";
                 
-                if (count >= 7)
+                if (count >= 6)
                 {
                     StopAllCoroutines();
                     ExitDialogue();
