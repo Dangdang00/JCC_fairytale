@@ -24,28 +24,37 @@ public class PlayerScores : MonoBehaviour
     public static int playerScore = 0;
     public static string playerName = null;
 
-    //string url;
+    string url;
 
     void Start()
     {
-        playerScore = REndScore.result_Score;
-
-        /*if (Go_Rank.R_Rank)
+        //playerScore = REndScore.result_Score;
+        if (Go_RDB.R_Rank == true)
         {
+            Debug.Log("start() 진입");
             playerScore = REndScore.result_Score;
             Debug.Log("점수: " + playerScore);
+            url = "RedHood";
         }
 
-        else if (Go_Rank.W_Rank)
+        else if (Go_WDB.W_Rank == true)
+        {
             playerScore = WEndScore.Wscore;
+            url = "SnowWhite";
+        }
 
-        else if (Go_Rank.H_Rank)
-            playerScore = HEndScore.Hscore;*/
+        else if (Go_HDB.H_Rank == true)
+        {
+            playerScore = HEndScore.Hscore;
+            url = "HanselandGretel";
+        }
     }
 
     public void OnSubmit()
     {
         playerName = nameText.text;
+        Debug.Log(Go_RDB.R_Rank);
+
         PostToDatabase();
     }
 
@@ -58,6 +67,18 @@ public class PlayerScores : MonoBehaviour
     private void UpdateScore()
     {
         Debug.Log("출력");
+
+        Debug.Log(gameScore.UserID1);
+        Debug.Log(gameScore.UserScore1);
+        Debug.Log(gameScore.UserID2);
+        Debug.Log(gameScore.UserScore2);
+        Debug.Log(gameScore.UserID3);
+        Debug.Log(gameScore.UserScore3);
+        Debug.Log(gameScore.UserID4);
+        Debug.Log(gameScore.UserScore4);
+        Debug.Log(gameScore.UserID5);
+        Debug.Log(gameScore.UserScore5);
+
         scoreText1.text = gameScore.UserScore1.ToString();
         scoreText2.text = gameScore.UserScore2.ToString();
         scoreText3.text = gameScore.UserScore3.ToString();
@@ -69,12 +90,14 @@ public class PlayerScores : MonoBehaviour
         nameText4.text = gameScore.UserID4;
         nameText5.text = gameScore.UserID5;
 
-        if (Go_Rank.R_Rank)
-            Go_Rank.R_Rank = false;
-        else if (Go_Rank.W_Rank)
-            Go_Rank.W_Rank = false;
-        else if (Go_Rank.H_Rank)
-            Go_Rank.H_Rank = false;
+        if (Go_RDB.R_Rank)
+            Go_RDB.R_Rank = false;
+
+        else if (Go_WDB.W_Rank)
+            Go_WDB.W_Rank = false;
+
+        else if (Go_HDB.H_Rank)
+            Go_HDB.H_Rank = false;
     }
 
     private void PostToDatabase()
@@ -84,14 +107,7 @@ public class PlayerScores : MonoBehaviour
         Debug.Log("점수: " + playerScore);
         Debug.Log("이름: " + playerName);
 
-        /*if (Go_Rank.R_Rank)
-            url = "https://jcc-fairytale.firebaseio.com/RedHood.json";
-        else if (Go_Rank.W_Rank)
-            url = "https://jcc-fairytale.firebaseio.com/SnowWhite.json";
-        else if (Go_Rank.H_Rank)
-            url = "https://jcc-fairytale.firebaseio.com/HanselandGretel.json";*/
-
-        RestClient.Get<GameScore>("https://jcc-fairytale.firebaseio.com/RedHood.json").Then(response =>
+        RestClient.Get<GameScore>("https://jcc-fairytale.firebaseio.com/"+ url +".json").Then(response =>
         {
             gameScore = response;
             int[] score = new int[6];
@@ -152,14 +168,13 @@ public class PlayerScores : MonoBehaviour
             gameScore.UserID4 = id[3];
             gameScore.UserID5 = id[4];
 
-            RestClient.Put("https://jcc-fairytale.firebaseio.com/RedHood.json", gameScore);
-
+            RestClient.Put("https://jcc-fairytale.firebaseio.com/" + url + ".json", gameScore);
         });
     }
 
     private void RetrieveFromDatabase()
     {
-        RestClient.Get<GameScore>("https://jcc-fairytale.firebaseio.com/RedHood.json").Then(response =>
+        RestClient.Get<GameScore>("https://jcc-fairytale.firebaseio.com/" + url + ".json").Then(response =>
         {
             gameScore = response;
             UpdateScore();

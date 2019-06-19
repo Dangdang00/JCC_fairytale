@@ -182,7 +182,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 500
+  m_Text: 0
 --- !u!222 &179960453
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -419,7 +419,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uAE40\uC218\uACBD"
+  m_Text: null
 --- !u!222 &377789518
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -714,7 +714,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 600
+  m_Text: 0
 --- !u!222 &466258702
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -859,7 +859,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 700
+  m_Text: 0
 --- !u!222 &631230786
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1213,7 +1213,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC591\uC544\uB984"
+  m_Text: null
 --- !u!222 &1132146728
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1292,7 +1292,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 400
+  m_Text: 0
 --- !u!222 &1185407784
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1453,7 +1453,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 300
+  m_Text: 0
 --- !u!222 &1395762810
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1917,7 +1917,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uAE40\uC218\uC9C4\n"
+  m_Text: null
 --- !u!222 &1722140916
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1996,7 +1996,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC591\uC218\uBE48"
+  m_Text: null
 --- !u!222 &1742199590
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2228,7 +2228,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC6D0\uCC44\uC5F0\n"
+  m_Text: null
 --- !u!222 &1908529071
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -182,7 +182,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 500
+  m_Text: 0
 --- !u!222 &178511217
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -921,7 +921,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uAE40\uC218\uACBD"
+  m_Text: null
 --- !u!222 &607119434
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1074,7 +1074,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC591\uC218\uBE48"
+  m_Text: null
 --- !u!222 &742770822
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1165,6 +1165,17 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 777527896}
         m_MethodName: WRank
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2126189141}
+        m_MethodName: OnGetScore
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1372,7 +1383,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 700
+  m_Text: 0
 --- !u!222 &787042071
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1833,7 +1844,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC6D0\uCC44\uC5F0\n"
+  m_Text: null
 --- !u!222 &944734038
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1912,7 +1923,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 400
+  m_Text: 0
 --- !u!222 &1053042950
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2763,7 +2774,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 600
+  m_Text: 0
 --- !u!222 &1259289562
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3237,7 +3248,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uAE40\uC218\uC9C4\n"
+  m_Text: null
 --- !u!222 &1610537016
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3513,7 +3524,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC591\uC544\uB984"
+  m_Text: null
 --- !u!222 &2008671023
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3671,7 +3682,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 300
+  m_Text: 0
 --- !u!222 &2077773136
 CanvasRenderer:
   m_ObjectHideFlags: 0

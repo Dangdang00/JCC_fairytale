@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/R_Scenes/R_Game.unity
-=======
-- path: Assets/Scenes/R_Scenes/R_Story.unity
->>>>>>> 0fa976294ff268e705b70b32dce4649210025c98
+- path: Assets/Scenes/H_Scenes/H_Play.unity
   isLoaded: 1
   isActive: 1
