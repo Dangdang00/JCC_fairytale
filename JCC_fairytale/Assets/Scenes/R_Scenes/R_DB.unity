@@ -2060,6 +2060,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   R_RankPanel: {fileID: 1861511835}
+  W_RankPanel: {fileID: 0}
+  H_RankPanel: {fileID: 0}
 --- !u!1 &1374967897
 GameObject:
   m_ObjectHideFlags: 0
@@ -2556,7 +2558,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1589807710}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d79bca0e156849bc9a30bf9d448a5e2, type: 3}
+  m_Script: {fileID: 11500000, guid: d560d72acf41e476fa92c3cc5f4701cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText1: {fileID: 638157314}
@@ -2623,6 +2625,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   R_RankPanel: {fileID: 1861511835}
+  W_RankPanel: {fileID: 0}
+  H_RankPanel: {fileID: 0}
 --- !u!114 &1649224464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3246,7 +3250,7 @@ GameObject:
   - component: {fileID: 1861511837}
   - component: {fileID: 1861511836}
   m_Layer: 5
-  m_Name: Rank
+  m_Name: R_Rank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3557,11 +3561,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: cd37a0b3fd005fe4b89013953cd1478e, type: 3}
-    m_FontSize: 60
+    m_FontSize: 75
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 80
+    m_MaxSize: 90
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 0

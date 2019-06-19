@@ -9,20 +9,20 @@ public class GameScore
     public string UserID;
     public int UserScore;
 
-    public string R_UserID1;
-    public int R_UserScore1;
+    public string UserID1;
+    public int UserScore1;
 
-    public string R_UserID2;
-    public int R_UserScore2;
+    public string UserID2;
+    public int UserScore2;
 
-    public string R_UserID3;
-    public int R_UserScore3;
+    public string UserID3;
+    public int UserScore3;
 
-    public string R_UserID4;
-    public int R_UserScore4;
+    public string UserID4;
+    public int UserScore4;
 
-    public string R_UserID5;
-    public int R_UserScore5;
+    public string UserID5;
+    public int UserScore5;
     // 멤버변수 5
 
     public GameScore()

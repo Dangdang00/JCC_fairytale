@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class HEndScore : MonoBehaviour
 {
-    int Hscore = 0;
+    public static int Hscore = 0;
     public Text HscoreText;
 
     void Update()

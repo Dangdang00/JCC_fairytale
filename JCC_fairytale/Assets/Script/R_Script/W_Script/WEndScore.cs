@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class WEndScore : MonoBehaviour
 {
-    int Wscore = 0;
+    public static int Wscore = 0;
     public Text WScoreText;
 
     void Update()
