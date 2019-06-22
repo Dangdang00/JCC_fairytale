@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameTimer : MonoBehaviour {
     public static float time;
     void Start(){
-        time = 40f;
+        time = 30f;
     }
 
     void Update(){
