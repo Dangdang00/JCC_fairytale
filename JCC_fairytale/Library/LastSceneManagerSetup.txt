@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Base/End_story.unity
+- path: Assets/Scenes/R_Scenes/R_Rule.unity
   isLoaded: 1
   isActive: 1
