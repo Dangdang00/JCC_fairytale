@@ -137,7 +137,7 @@ public class DialogueManager_R : MonoBehaviour
     {
         if (talking)
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
             {
                 audioSource.Stop();
                 ShowDialogue();

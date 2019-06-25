@@ -1,10 +1,19 @@
 ﻿<Properties StartupConfiguration="{16CC3DD8-BF8C-F6BF-0DC1-CD0981AC0A70}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/FireBase/PlayerScores.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Base/dialogue_ver2/W_story/DialogueManager_afterW.cs">
     <Files>
       <File FileName="Assets/Script/FireBase/PlayerScores.cs" Line="43" Column="29" />
       <File FileName="Assets/Script/H_Script/GoEnd.cs" Line="1" Column="1" />
       <File FileName="Assets/Script/R_Script/W_Script/Go_ending.cs" Line="1" Column="1" />
       <File FileName="Assets/Script/R_Script/Go_Ending.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/R_Script/Jump.cs" Line="17" Column="75" />
+      <File FileName="Assets/Scenes/Base/dialogue_ver2/B_story/DialogueManager.cs" Line="109" Column="77" />
+      <File FileName="Assets/Scenes/Base/End_Dialogue.cs" Line="104" Column="79" />
+      <File FileName="Assets/Scenes/Base/dialogue_ver2/H_story/Dialogue_H.cs" Line="139" Column="79" />
+      <File FileName="Assets/Scenes/Base/dialogue_ver2/H_story/Dialogue_H_Ending.cs" Line="124" Column="79" />
+      <File FileName="Assets/Scenes/Base/dialogue_ver2/R_story/DialogueManager_R.cs" Line="140" Column="79" />
+      <File FileName="Assets/Scenes/Base/dialogue_ver2/R_story/DialogueManager_afterR.cs" Line="121" Column="79" />
+      <File FileName="Assets/Scenes/Base/dialogue_ver2/W_story/DialogueManager_W.cs" Line="139" Column="18" />
+      <File FileName="Assets/Scenes/Base/dialogue_ver2/W_story/DialogueManager_afterW.cs" Line="124" Column="79" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>

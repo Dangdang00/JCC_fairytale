@@ -121,7 +121,7 @@ public class DialogueManager_afterW : MonoBehaviour
         if (talking)
         {
 
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
             {
                 audioSource.Stop();
                 ShowDialogue();
