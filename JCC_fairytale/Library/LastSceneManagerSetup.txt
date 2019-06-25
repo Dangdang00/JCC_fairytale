@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Title.unity
+=======
+- path: Assets/Scenes/R_Scenes/R_Rule.unity
+>>>>>>> e64d158344961a8814f49c35eaf4e32e814bfe6f
   isLoaded: 1
   isActive: 1
