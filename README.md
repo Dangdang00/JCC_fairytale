@@ -13,7 +13,7 @@
 ----------|---------|---------
 백설공주|독사과가 독독독|하늘에서 떨어지는 독사과를 피하세요
 헨젤과 그레텔|헨젤이 쏘아올린 과자|마녀와 부하들을 공격해 헨젤을 구해주세요
-빨간망토|오버점프|돌멩이를 주워 할머니를 구해주세요
+빨간모자|오버점프|돌멩이를 주워 할머니를 구해주세요
 
 ## 03. 실행 화면
 
@@ -32,3 +32,65 @@
 김수진 [@KimSujin02](https://github.com/KimSujin02)  
 양수빈 [@susuuBin](https://github.com/susuuBin)  
 원채연 [@Wonchaeyeon](https://github.com/Wonchaeyeon)  
+
+## 목소리 출연
+
+<table>
+  <tr>
+    <th>제목</th>
+    <th>역할</th>
+    <th>이름</th>
+  </tr>
+    <tr>
+    <td rowspan="3">동화 속으로</td>
+    <td>미림이</td>
+    <td>강은별</td>
+  </tr>
+  <tr>
+    <td>친구</td>
+    <td>황윤아</td>
+  </tr>
+  <tr>
+    <td>나레이션</td>
+    <td>김영철선생님,김윤환선생님</td>
+  </tr>
+  <tr>
+    <td rowspan="2">백설공주</td>
+    <td>백설공주</td>
+    <td>양수빈</td>
+  </tr>
+  <tr>
+    <td>마녀</td>
+    <td>정혜선선생님</td>
+  </tr>
+  <tr>
+    <td rowspan="3">헨젤과 그레텔</td>
+    <td>헨젤</td>
+    <td>최영진선생님</td>
+  </tr>
+  <tr>
+    <td>그레텔</td>
+    <td>강은별</td>
+  </tr>
+  <tr>
+    <td>마녀</td>
+    <td>정혜선선생님</td>
+  </tr>
+  <tr>
+    <td rowspan="4">빨간모자</td>
+    <td>빨간모자</td>
+    <td>양수빈</td>
+  </tr>
+  <tr>
+    <td>사냥꾼</td>
+    <td>최영진선생님</td>
+  </tr>
+  <tr>
+    <td>늑대</td>
+    <td>최영진선생님</td>
+  </tr>
+  <tr>
+    <td>할머니</td>
+    <td>이은주선생님</td>
+  </tr>
+ </table>
