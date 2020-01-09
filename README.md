@@ -2,6 +2,7 @@
 2019 JCC IT show 전시작  
 
 ## 01. 스토리 설명
+<img width="500" alt="사진" src="https://user-images.githubusercontent.com/47407495/71982634-468f3780-3268-11ea-8d1b-791a0869da8b.png">
 
 >학교 도서관에서 우연히 책을 펼치게 된 주인공!  
 동화 속으로 빨려 들어가게 되는데...  
