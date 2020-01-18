@@ -1,5 +1,5 @@
 # 동화 속으로 :cherry_blossom:
-2019 JCC IT show 전시작  
+2019 IT show 전시작  
 
 ## 01. 스토리 설명
 <img width="500" alt="사진" src="https://user-images.githubusercontent.com/47407495/71982634-468f3780-3268-11ea-8d1b-791a0869da8b.png">
