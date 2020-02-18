@@ -25,7 +25,6 @@
 
 ## 05. 사용 에셋
 * [Rest Client for Unity](https://assetstore.unity.com/packages/tools/network/rest-client-for-unity-102501)
-> 각 미니게임의 랭킹기능 구현을 위해 사용
 
 ## 06. 실행 방법
 
